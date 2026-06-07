@@ -1,0 +1,3 @@
+/Users/paul/Documents/wordFinder/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate.dir
+/Users/paul/Documents/wordFinder/build/_deps/sfml-subbuild/CMakeFiles/edit_cache.dir
+/Users/paul/Documents/wordFinder/build/_deps/sfml-subbuild/CMakeFiles/rebuild_cache.dir
