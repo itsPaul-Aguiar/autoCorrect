@@ -1,6 +1,6 @@
 CMakeFiles/NameSearch.dir/Scoring.cpp.o: \
-  /Users/paul/Documents/wordFinder/Scoring.cpp \
-  /Users/paul/Documents/wordFinder/Scoring.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/Scoring.cpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/Scoring.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h \

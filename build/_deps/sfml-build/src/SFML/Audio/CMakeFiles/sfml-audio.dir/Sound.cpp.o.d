@@ -1,12 +1,12 @@
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.o: \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/src/SFML/Audio/Sound.cpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/src/SFML/Audio/AudioDevice.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Audio/Listener.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Audio/Export.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Config.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/src/SFML/Audio/Sound.cpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/src/SFML/Audio/AudioDevice.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Audio/Listener.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Audio/Export.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Config.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Angle.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Angle.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Angle.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Angle.inl \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -23,10 +23,10 @@ _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Vector3.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Export.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Vector3.inl \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/extlibs/headers/miniaudio/miniaudio.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Vector3.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Export.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Vector3.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/extlibs/headers/miniaudio/miniaudio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stddef.h \
@@ -791,17 +791,17 @@ _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/src/SFML/Audio/MiniaudioUtils.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Audio/SoundChannel.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Audio/SoundSource.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Audio/AudioResource.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Audio/Sound.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Audio/SoundBuffer.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Time.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/src/SFML/Audio/MiniaudioUtils.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Audio/SoundChannel.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Audio/SoundSource.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Audio/AudioResource.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Audio/Sound.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Audio/SoundBuffer.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Time.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Time.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Time.inl \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
@@ -836,4 +836,4 @@ _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_set \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Err.hpp
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Err.hpp

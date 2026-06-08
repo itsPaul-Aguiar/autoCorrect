@@ -1,11 +1,11 @@
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.o: \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/src/SFML/Audio/InputSoundFile.cpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Audio/InputSoundFile.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Audio/Export.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Config.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/src/SFML/Audio/InputSoundFile.cpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Audio/InputSoundFile.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Audio/Export.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Config.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Audio/SoundFileReader.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Audio/SoundChannel.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Audio/SoundFileReader.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Audio/SoundChannel.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/optional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__assertion_handler \
@@ -815,20 +815,20 @@ _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.o: 
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Audio/SoundFileFactory.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Audio/SoundFileFactory.inl \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Err.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Export.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Exception.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/FileInputStream.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/InputStream.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/MemoryInputStream.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Time.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Audio/SoundFileFactory.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Audio/SoundFileFactory.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Err.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Export.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Exception.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/FileInputStream.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/InputStream.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/MemoryInputStream.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Time.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Time.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Time.inl \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/src/SFML/System/Utils.hpp
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/src/SFML/System/Utils.hpp

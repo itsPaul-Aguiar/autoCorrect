@@ -28,8 +28,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(ixwebsocket-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/machinezone/IXWebSocket.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "v11.4.5" "GIT_SHALLOW" "ON"
-                    SOURCE_DIR          "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src"
-                    BINARY_DIR          "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-build"
+                    SOURCE_DIR          "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src"
+                    BINARY_DIR          "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

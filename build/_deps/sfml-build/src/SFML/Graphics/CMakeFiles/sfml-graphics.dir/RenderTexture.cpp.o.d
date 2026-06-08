@@ -1,12 +1,12 @@
 _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.o: \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/src/SFML/Graphics/RenderTexture.cpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/RenderTexture.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Export.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Config.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/src/SFML/Graphics/RenderTexture.cpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/RenderTexture.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Export.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Config.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/RenderTarget.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/BlendMode.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Color.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/RenderTarget.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/BlendMode.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Color.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdint \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -38,20 +38,20 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cp
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_intmax_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uintmax_t.h \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Color.inl \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/CoordinateType.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/PrimitiveType.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Rect.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Vector2.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Export.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Angle.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Angle.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Color.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/CoordinateType.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/PrimitiveType.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Rect.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Vector2.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Export.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Angle.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Angle.inl \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Vector2.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Vector2.inl \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/optional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__assertion_handler \
@@ -565,10 +565,10 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cp
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/temporary_buffer.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/unique_temporary_buffer.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdexcept \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Rect.inl \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/RenderStates.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/StencilMode.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Transform.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Rect.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/RenderStates.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/StencilMode.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Transform.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/array \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/equal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/lexicographical_compare.h \
@@ -673,12 +673,12 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cp
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sample.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bit \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Transform.inl \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Vertex.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/View.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Texture.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Window/GlResource.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Window/Export.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Transform.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Vertex.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/View.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Texture.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Window/GlResource.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Window/Export.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
@@ -839,9 +839,9 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cp
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Window/ContextSettings.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/src/SFML/Graphics/RenderTextureImplDefault.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/src/SFML/Graphics/RenderTextureImpl.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/src/SFML/Graphics/RenderTextureImplFBO.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Err.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Exception.hpp
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Window/ContextSettings.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/src/SFML/Graphics/RenderTextureImplDefault.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/src/SFML/Graphics/RenderTextureImpl.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/src/SFML/Graphics/RenderTextureImplFBO.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Err.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Exception.hpp

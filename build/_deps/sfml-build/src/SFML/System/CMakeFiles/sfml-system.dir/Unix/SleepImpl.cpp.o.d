@@ -1,6 +1,6 @@
 _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.o: \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/src/SFML/System/Unix/SleepImpl.cpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Time.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/src/SFML/System/Unix/SleepImpl.cpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Time.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -779,11 +779,11 @@ _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.o
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Time.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Time.inl \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/src/SFML/System/Unix/SleepImpl.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Config.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/src/SFML/System/Unix/SleepImpl.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Config.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h

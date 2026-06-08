@@ -1,11 +1,11 @@
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.o: \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/src/SFML/Audio/SoundFileWriterOgg.cpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/src/SFML/Audio/SoundFileWriterOgg.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Audio/SoundFileWriter.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Audio/Export.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Config.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/src/SFML/Audio/SoundFileWriterOgg.cpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/src/SFML/Audio/SoundFileWriterOgg.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Audio/SoundFileWriter.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Audio/Export.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Config.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Audio/SoundChannel.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Audio/SoundChannel.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -815,14 +815,14 @@ _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/include/vorbis/vorbisenc.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/include/vorbis/codec.h \
-  /Users/paul/Documents/wordFinder/build/_deps/ogg-src/include/ogg/ogg.h \
-  /Users/paul/Documents/wordFinder/build/_deps/ogg-src/include/ogg/os_types.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/include/vorbis/vorbisenc.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/include/vorbis/codec.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ogg-src/include/ogg/ogg.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ogg-src/include/ogg/os_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Err.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Export.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/src/SFML/System/Utils.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Err.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Export.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/src/SFML/System/Utils.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/random \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/bernoulli_distribution.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/uniform_real_distribution.h \

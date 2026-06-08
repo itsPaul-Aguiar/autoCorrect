@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/paul/Documents/wordFinder
+CMAKE_SOURCE_DIR = /Users/paul/Documents/programming/cpp/autoCorrect
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/paul/Documents/wordFinder/build
+CMAKE_BINARY_DIR = /Users/paul/Documents/programming/cpp/autoCorrect/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /Users/paul/Documents/wordFinder/build
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool..."
-	cd /Users/paul/Documents/wordFinder/build && /opt/homebrew/bin/cpack --config ./CPackConfig.cmake
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && /opt/homebrew/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	cd /Users/paul/Documents/wordFinder/build && /opt/homebrew/bin/cpack --config ./CPackSourceConfig.cmake
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && /opt/homebrew/bin/cpack --config ./CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -152,14 +152,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/paul/Documents/wordFinder/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/paul/Documents/wordFinder/build/CMakeFiles /Users/paul/Documents/wordFinder/build/_deps/malena-build/examples/BasicExample//CMakeFiles/progress.marks
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/examples/BasicExample/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/paul/Documents/wordFinder/build/CMakeFiles 0
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/paul/Documents/programming/cpp/autoCorrect/build/CMakeFiles /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/examples/BasicExample//CMakeFiles/progress.marks
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/examples/BasicExample/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/paul/Documents/programming/cpp/autoCorrect/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/examples/BasicExample/clean
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/examples/BasicExample/clean
 .PHONY : clean
 
 # The main clean target
@@ -168,22 +168,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/examples/BasicExample/preinstall
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/examples/BasicExample/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/examples/BasicExample/preinstall
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/examples/BasicExample/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/paul/Documents/wordFinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/rule:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/rule
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/rule
 .PHONY : _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/rule
 
 # Convenience name for target.
@@ -192,7 +192,7 @@ BasicExample: _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.d
 
 # fast build rule for target.
 BasicExample/fast:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/build.make _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/build
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/build.make _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/build
 .PHONY : BasicExample/fast
 
 BasicExample.o: BasicExample.cpp.o
@@ -200,7 +200,7 @@ BasicExample.o: BasicExample.cpp.o
 
 # target to build an object file
 BasicExample.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/build.make _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/BasicExample.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/build.make _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/BasicExample.cpp.o
 .PHONY : BasicExample.cpp.o
 
 BasicExample.i: BasicExample.cpp.i
@@ -208,7 +208,7 @@ BasicExample.i: BasicExample.cpp.i
 
 # target to preprocess a source file
 BasicExample.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/build.make _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/BasicExample.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/build.make _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/BasicExample.cpp.i
 .PHONY : BasicExample.cpp.i
 
 BasicExample.s: BasicExample.cpp.s
@@ -216,7 +216,7 @@ BasicExample.s: BasicExample.cpp.s
 
 # target to generate assembly for a file
 BasicExample.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/build.make _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/BasicExample.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/build.make _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/BasicExample.cpp.s
 .PHONY : BasicExample.cpp.s
 
 main.o: main.cpp.o
@@ -224,7 +224,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/build.make _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/main.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/build.make _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -232,7 +232,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/build.make _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/main.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/build.make _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -240,7 +240,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/build.make _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/main.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/build.make _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -275,6 +275,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/paul/Documents/wordFinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

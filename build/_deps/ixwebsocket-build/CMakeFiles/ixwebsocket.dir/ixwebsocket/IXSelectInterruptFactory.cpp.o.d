@@ -1,6 +1,6 @@
 _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSelectInterruptFactory.cpp.o: \
-  /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXSelectInterruptFactory.cpp \
-  /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXSelectInterruptFactory.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXSelectInterruptFactory.cpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXSelectInterruptFactory.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/memory \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -533,9 +533,9 @@ _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSelectInterrupt
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/in_place.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__variant/monostate.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdexcept \
-  /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXUniquePtr.h \
-  /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXSelectInterruptPipe.h \
-  /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXSelectInterrupt.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXUniquePtr.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXSelectInterruptPipe.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXSelectInterrupt.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max_element.h \

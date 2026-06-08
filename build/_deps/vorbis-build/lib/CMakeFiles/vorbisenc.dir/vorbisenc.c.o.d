@@ -1,5 +1,5 @@
 _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.o: \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/vorbisenc.c \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/vorbisenc.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -84,8 +84,8 @@ _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_common.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/math.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/include/vorbis/codec.h \
-  /Users/paul/Documents/wordFinder/build/_deps/ogg-src/include/ogg/ogg.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/include/vorbis/codec.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ogg-src/include/ogg/ogg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_header_macro.h \
@@ -96,7 +96,7 @@ _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.o: \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_null.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_max_align_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_offsetof.h \
-  /Users/paul/Documents/wordFinder/build/_deps/ogg-src/include/ogg/os_types.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ogg-src/include/ogg/os_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_char.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_short.h \
@@ -134,38 +134,38 @@ _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_key_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/include/vorbis/vorbisenc.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/codec_internal.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/envelope.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/mdct.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/codebook.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/psy.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/smallft.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/backends.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/bitrate.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/os.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/misc.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/highlevel.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/modes/setup_44.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/modes/floor_all.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/books/floor/floor_books.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/modes/residue_44.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/books/coupled/res_books_stereo.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/modes/psych_44.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/modes/setup_44u.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/modes/residue_44u.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/books/uncoupled/res_books_uncoupled.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/modes/setup_44p51.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/modes/residue_44p51.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/books/coupled/res_books_51.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/modes/setup_32.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/modes/setup_8.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/modes/psych_8.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/modes/residue_8.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/modes/setup_11.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/modes/psych_11.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/modes/setup_16.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/modes/psych_16.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/modes/residue_16.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/modes/setup_22.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/modes/setup_X.h
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/include/vorbis/vorbisenc.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/codec_internal.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/envelope.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/mdct.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/codebook.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/psy.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/smallft.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/backends.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/bitrate.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/os.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/misc.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/highlevel.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/modes/setup_44.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/modes/floor_all.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/books/floor/floor_books.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/modes/residue_44.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/books/coupled/res_books_stereo.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/modes/psych_44.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/modes/setup_44u.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/modes/residue_44u.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/books/uncoupled/res_books_uncoupled.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/modes/setup_44p51.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/modes/residue_44p51.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/books/coupled/res_books_51.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/modes/setup_32.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/modes/setup_8.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/modes/psych_8.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/modes/residue_8.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/modes/setup_11.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/modes/psych_11.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/modes/setup_16.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/modes/psych_16.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/modes/residue_16.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/modes/setup_22.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/modes/setup_X.h

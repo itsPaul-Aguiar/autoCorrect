@@ -1,5 +1,5 @@
 _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Spatial/Positionable.cpp.o: \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/src/Traits/Spatial/Positionable.cpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/src/Traits/Spatial/Positionable.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -791,44 +791,44 @@ _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Spatial/Positionable.cpp.o: 
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Traits/Spatial/Positionable.h \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Core/malena_export.h \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/BlendMode.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Export.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Config.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Traits/Spatial/Positionable.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Core/malena_export.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/BlendMode.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Export.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Config.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/CircleShape.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Shape.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Color.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Color.inl \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Drawable.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/PrimitiveType.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Rect.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Vector2.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Export.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Angle.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Angle.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/CircleShape.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Shape.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Color.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Color.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Drawable.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/PrimitiveType.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Rect.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Vector2.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Export.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Angle.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Angle.inl \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Vector2.inl \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Rect.inl \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/RenderStates.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/CoordinateType.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/StencilMode.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Transform.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Transform.inl \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Transformable.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/VertexArray.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Vertex.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/ConvexShape.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Font.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Glyph.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Texture.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Window/GlResource.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Window/Export.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Vector2.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Rect.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/RenderStates.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/CoordinateType.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/StencilMode.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Transform.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Transform.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Transformable.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/VertexArray.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Vertex.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/ConvexShape.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Font.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Glyph.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Texture.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Window/GlResource.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Window/Export.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
@@ -848,66 +848,66 @@ _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Spatial/Positionable.cpp.o: 
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Image.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/RectangleShape.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/RenderTarget.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/View.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/RenderTexture.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Window/ContextSettings.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/RenderWindow.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Window/VideoMode.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Window/Window.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Window/WindowBase.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Window/Vulkan.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Window/WindowEnums.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Window/WindowHandle.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Time.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Image.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/RectangleShape.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/RenderTarget.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/View.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/RenderTexture.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Window/ContextSettings.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/RenderWindow.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Window/VideoMode.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Window/Window.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Window/WindowBase.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Window/Vulkan.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Window/WindowEnums.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Window/WindowHandle.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Time.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Time.inl \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Window/WindowBase.inl \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Window/Event.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Window/Joystick.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/String.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Utf.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Utf.inl \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/String.inl \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Window/Keyboard.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Window/Mouse.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Window/Sensor.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Vector3.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Vector3.inl \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Window/Event.inl \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Clock.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Shader.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Glsl.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Glsl.inl \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Sprite.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Text.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/VertexBuffer.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Window.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Window/Clipboard.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Window/Context.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Window/Cursor.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Window/Touch.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Err.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Exception.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/FileInputStream.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/InputStream.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/MemoryInputStream.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Sleep.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Time.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Window/WindowBase.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Window/Event.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Window/Joystick.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/String.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Utf.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Utf.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/String.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Window/Keyboard.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Window/Mouse.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Window/Sensor.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Vector3.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Vector3.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Window/Event.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Clock.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Shader.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Glsl.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Glsl.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Sprite.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Text.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/VertexBuffer.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Window.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Window/Clipboard.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Window/Context.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Window/Cursor.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Window/Touch.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Err.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Exception.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/FileInputStream.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/InputStream.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/MemoryInputStream.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Sleep.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Traits/Base/Trait.h \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Traits/Base/Customizable.h \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Resources/StateManager.h \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Resources/../../../src/Resources/StateManager.tpp \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Utilities/TypeExtraction.h \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Utilities/Tween.h \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Traits/Spatial/../../../../src/Traits/Spatial/Positionable.tpp \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Utilities/Align.h \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Utilities/../Utilities/Helper.h \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Utilities/../Utilities/Tween.h \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Utilities/../../../src/Utilities/Align.tpp
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Traits/Base/Trait.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Traits/Base/Customizable.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Resources/StateManager.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Resources/../../../src/Resources/StateManager.tpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Utilities/TypeExtraction.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Utilities/Tween.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Traits/Spatial/../../../../src/Traits/Spatial/Positionable.tpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Utilities/Align.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Utilities/../Utilities/Helper.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Utilities/../Utilities/Tween.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Utilities/../../../src/Utilities/Align.tpp

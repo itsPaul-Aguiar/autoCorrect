@@ -1,6 +1,6 @@
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_decoder_aspect.c.o: \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/src/libFLAC/ogg_decoder_aspect.c \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-build/config.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/src/libFLAC/ogg_decoder_aspect.c \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-build/config.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
@@ -38,9 +38,9 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_decoder_aspect.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_common.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_string.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/include/FLAC/assert.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/src/libFLAC/include/private/ogg_decoder_aspect.h \
-  /Users/paul/Documents/wordFinder/build/_deps/ogg-src/include/ogg/ogg.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/include/FLAC/assert.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/src/libFLAC/include/private/ogg_decoder_aspect.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ogg-src/include/ogg/ogg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_header_macro.h \
@@ -51,7 +51,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_decoder_aspect.c.o: \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_null.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_max_align_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_offsetof.h \
-  /Users/paul/Documents/wordFinder/build/_deps/ogg-src/include/ogg/os_types.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ogg-src/include/ogg/os_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/appleapiopts.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/endian.h \
@@ -104,7 +104,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_decoder_aspect.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_key_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/include/FLAC/ordinals.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/include/FLAC/ordinals.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint8_t.h \
@@ -114,7 +114,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_decoder_aspect.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_intmax_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uintmax_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/include/FLAC/stream_decoder.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/include/FLAC/stream_decoder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_va_list.h \
@@ -123,10 +123,10 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_decoder_aspect.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_seek_set.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_stdio.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/include/FLAC/export.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/include/FLAC/format.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/src/libFLAC/include/private/ogg_mapping.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/src/libFLAC/include/private/macros.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/include/FLAC/export.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/include/FLAC/format.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/src/libFLAC/include/private/ogg_mapping.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/src/libFLAC/include/private/macros.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/param.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/param.h \

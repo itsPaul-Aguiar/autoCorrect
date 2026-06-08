@@ -1,7 +1,7 @@
 _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketHttpHeaders.cpp.o: \
-  /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketHttpHeaders.cpp \
-  /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketHttpHeaders.h \
-  /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXCancellationRequest.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketHttpHeaders.cpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketHttpHeaders.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXCancellationRequest.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/atomic \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -763,9 +763,9 @@ _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketHttpHe
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
-  /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXStrCaseCompare.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXStrCaseCompare.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree \
-  /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXSocket.h \
-  /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXProgressCallback.h \
-  /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXSelectInterrupt.h
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXSocket.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXProgressCallback.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXSelectInterrupt.h

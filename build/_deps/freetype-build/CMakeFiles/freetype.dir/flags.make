@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DFT2_BUILD_LIBRARY
 
-C_INCLUDES = -I/Users/paul/Documents/wordFinder/build/_deps/freetype-build/include -I/Users/paul/Documents/wordFinder/build/_deps/freetype-src/include -I/Users/paul/Documents/wordFinder/build/_deps/freetype-build/include/freetype/config
+C_INCLUDES = -I/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-build/include -I/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include -I/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-build/include/freetype/config
 
 C_FLAGSarm64 =  -arch arm64 -fvisibility=hidden
 

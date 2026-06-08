@@ -1,6 +1,6 @@
 _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXGzipCodec.cpp.o: \
-  /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXGzipCodec.cpp \
-  /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXGzipCodec.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXGzipCodec.cpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXGzipCodec.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -650,7 +650,7 @@ _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXGzipCodec.cpp.o
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/unique.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/unique_copy.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bit \
-  /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXBench.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXBench.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \

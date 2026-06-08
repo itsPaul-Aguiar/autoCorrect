@@ -1,6 +1,6 @@
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/md5.c.o: \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/src/libFLAC/md5.c \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-build/config.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/src/libFLAC/md5.c \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-build/config.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -84,17 +84,17 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/md5.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_common.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_string.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/src/libFLAC/include/private/md5.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/include/FLAC/ordinals.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/src/libFLAC/include/private/md5.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/include/FLAC/ordinals.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/include/share/alloc.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/include/share/alloc.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/_limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/include/share/compat.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/include/share/compat.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_header_macro.h \
@@ -163,4 +163,4 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/md5.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/utime.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/include/share/endswap.h
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/include/share/endswap.h

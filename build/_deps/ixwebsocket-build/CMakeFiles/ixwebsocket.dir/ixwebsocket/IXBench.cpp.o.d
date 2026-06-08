@@ -1,6 +1,6 @@
 _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXBench.cpp.o: \
-  /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXBench.cpp \
-  /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXBench.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXBench.cpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXBench.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \

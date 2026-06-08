@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/paul/Documents/wordFinder/App.cpp" "CMakeFiles/NameSearch.dir/App.cpp.o" "gcc" "CMakeFiles/NameSearch.dir/App.cpp.o.d"
-  "/Users/paul/Documents/wordFinder/Scoring.cpp" "CMakeFiles/NameSearch.dir/Scoring.cpp.o" "gcc" "CMakeFiles/NameSearch.dir/Scoring.cpp.o.d"
-  "/Users/paul/Documents/wordFinder/main.cpp" "CMakeFiles/NameSearch.dir/main.cpp.o" "gcc" "CMakeFiles/NameSearch.dir/main.cpp.o.d"
+  "/Users/paul/Documents/programming/cpp/autoCorrect/App.cpp" "CMakeFiles/NameSearch.dir/App.cpp.o" "gcc" "CMakeFiles/NameSearch.dir/App.cpp.o.d"
+  "/Users/paul/Documents/programming/cpp/autoCorrect/Scoring.cpp" "CMakeFiles/NameSearch.dir/Scoring.cpp.o" "gcc" "CMakeFiles/NameSearch.dir/Scoring.cpp.o.d"
+  "/Users/paul/Documents/programming/cpp/autoCorrect/main.cpp" "CMakeFiles/NameSearch.dir/main.cpp.o" "gcc" "CMakeFiles/NameSearch.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

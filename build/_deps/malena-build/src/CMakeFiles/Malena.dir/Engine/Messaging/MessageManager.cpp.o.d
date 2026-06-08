@@ -1,8 +1,8 @@
 _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Messaging/MessageManager.cpp.o: \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/src/Engine/Messaging/MessageManager.cpp \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Engine/Messaging/MessageManager.h \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Core/malena_export.h \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Core/DeferredOperationsManager.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/src/Engine/Messaging/MessageManager.cpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Engine/Messaging/MessageManager.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Core/malena_export.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Core/DeferredOperationsManager.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -778,6 +778,6 @@ _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Messaging/MessageManager.cpp
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Core/../../../src/Core/DeferredOperationsManager.tpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Core/../../../src/Core/DeferredOperationsManager.tpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/typeindex \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Engine/Messaging/../../../../src/Engine/Messaging/MessageManager.tpp
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Engine/Messaging/../../../../src/Engine/Messaging/MessageManager.tpp

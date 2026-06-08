@@ -28,8 +28,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(malena-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/daversmith/Malena.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "master"
-                    SOURCE_DIR          "/Users/paul/Documents/wordFinder/build/_deps/malena-src"
-                    BINARY_DIR          "/Users/paul/Documents/wordFinder/build/_deps/malena-build"
+                    SOURCE_DIR          "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src"
+                    BINARY_DIR          "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

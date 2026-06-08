@@ -1,6 +1,6 @@
 _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXUserAgent.cpp.o: \
-  /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXUserAgent.cpp \
-  /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXUserAgent.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXUserAgent.cpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXUserAgent.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -650,7 +650,7 @@ _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXUserAgent.cpp.o
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/unique.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/unique_copy.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bit \
-  /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketVersion.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketVersion.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ostream/basic_ostream.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ostream/put_character_sequence.h \

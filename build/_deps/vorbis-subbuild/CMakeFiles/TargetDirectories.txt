@@ -1,3 +1,3 @@
-/Users/paul/Documents/wordFinder/build/_deps/vorbis-subbuild/CMakeFiles/vorbis-populate.dir
-/Users/paul/Documents/wordFinder/build/_deps/vorbis-subbuild/CMakeFiles/edit_cache.dir
-/Users/paul/Documents/wordFinder/build/_deps/vorbis-subbuild/CMakeFiles/rebuild_cache.dir
+/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-subbuild/CMakeFiles/vorbis-populate.dir
+/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-subbuild/CMakeFiles/edit_cache.dir
+/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-subbuild/CMakeFiles/rebuild_cache.dir

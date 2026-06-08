@@ -1,6 +1,6 @@
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/metadata_iterators.c.o: \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/src/libFLAC/metadata_iterators.c \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-build/config.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/src/libFLAC/metadata_iterators.c \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-build/config.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h \
@@ -113,8 +113,8 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/metadata_iterators.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_time_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_s_ifmt.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_filesec_t.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/src/libFLAC/include/private/metadata.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/include/FLAC/metadata.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/src/libFLAC/include/private/metadata.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/include/FLAC/metadata.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_char.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_short.h \
@@ -144,21 +144,21 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/metadata_iterators.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_key_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/include/FLAC/export.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/include/FLAC/callback.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/include/FLAC/ordinals.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/include/FLAC/export.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/include/FLAC/callback.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/include/FLAC/ordinals.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/include/FLAC/format.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/include/FLAC/assert.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/include/FLAC/stream_decoder.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/include/share/alloc.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/include/FLAC/format.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/include/FLAC/assert.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/include/FLAC/stream_decoder.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/include/share/alloc.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/_limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/include/share/compat.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/include/share/compat.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_header_macro.h \
@@ -180,11 +180,11 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/metadata_iterators.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/utime.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/include/share/macros.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/src/libFLAC/include/private/macros.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/include/share/macros.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/src/libFLAC/include/private/macros.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/param.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/param.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/param.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/_param.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/src/libFLAC/include/private/memory.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/src/libFLAC/include/private/float.h
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/src/libFLAC/include/private/memory.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/src/libFLAC/include/private/float.h

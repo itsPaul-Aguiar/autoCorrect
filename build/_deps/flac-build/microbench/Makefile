@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/paul/Documents/wordFinder
+CMAKE_SOURCE_DIR = /Users/paul/Documents/programming/cpp/autoCorrect
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/paul/Documents/wordFinder/build
+CMAKE_BINARY_DIR = /Users/paul/Documents/programming/cpp/autoCorrect/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /Users/paul/Documents/wordFinder/build
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool..."
-	cd /Users/paul/Documents/wordFinder/build && /opt/homebrew/bin/cpack --config ./CPackConfig.cmake
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && /opt/homebrew/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	cd /Users/paul/Documents/wordFinder/build && /opt/homebrew/bin/cpack --config ./CPackSourceConfig.cmake
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && /opt/homebrew/bin/cpack --config ./CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -152,14 +152,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/paul/Documents/wordFinder/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/paul/Documents/wordFinder/build/CMakeFiles /Users/paul/Documents/wordFinder/build/_deps/flac-build/microbench//CMakeFiles/progress.marks
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/flac-build/microbench/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/paul/Documents/wordFinder/build/CMakeFiles 0
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/paul/Documents/programming/cpp/autoCorrect/build/CMakeFiles /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-build/microbench//CMakeFiles/progress.marks
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/flac-build/microbench/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/paul/Documents/programming/cpp/autoCorrect/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/flac-build/microbench/clean
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/flac-build/microbench/clean
 .PHONY : clean
 
 # The main clean target
@@ -168,22 +168,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/flac-build/microbench/preinstall
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/flac-build/microbench/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/flac-build/microbench/preinstall
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/flac-build/microbench/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/paul/Documents/wordFinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/rule:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/rule
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/rule
 .PHONY : _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/rule
 
 # Convenience name for target.
@@ -192,7 +192,7 @@ benchmark_residual: _deps/flac-build/microbench/CMakeFiles/benchmark_residual.di
 
 # fast build rule for target.
 benchmark_residual/fast:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/build.make _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/build
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/build.make _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/build
 .PHONY : benchmark_residual/fast
 
 benchmark_residual.o: benchmark_residual.c.o
@@ -200,7 +200,7 @@ benchmark_residual.o: benchmark_residual.c.o
 
 # target to build an object file
 benchmark_residual.c.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/build.make _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/benchmark_residual.c.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/build.make _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/benchmark_residual.c.o
 .PHONY : benchmark_residual.c.o
 
 benchmark_residual.i: benchmark_residual.c.i
@@ -208,7 +208,7 @@ benchmark_residual.i: benchmark_residual.c.i
 
 # target to preprocess a source file
 benchmark_residual.c.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/build.make _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/benchmark_residual.c.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/build.make _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/benchmark_residual.c.i
 .PHONY : benchmark_residual.c.i
 
 benchmark_residual.s: benchmark_residual.c.s
@@ -216,7 +216,7 @@ benchmark_residual.s: benchmark_residual.c.s
 
 # target to generate assembly for a file
 benchmark_residual.c.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/build.make _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/benchmark_residual.c.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/build.make _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/benchmark_residual.c.s
 .PHONY : benchmark_residual.c.s
 
 util.o: util.c.o
@@ -224,7 +224,7 @@ util.o: util.c.o
 
 # target to build an object file
 util.c.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/build.make _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/util.c.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/build.make _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/util.c.o
 .PHONY : util.c.o
 
 util.i: util.c.i
@@ -232,7 +232,7 @@ util.i: util.c.i
 
 # target to preprocess a source file
 util.c.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/build.make _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/util.c.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/build.make _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/util.c.i
 .PHONY : util.c.i
 
 util.s: util.c.s
@@ -240,7 +240,7 @@ util.s: util.c.s
 
 # target to generate assembly for a file
 util.c.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/build.make _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/util.c.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/build.make _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/util.c.s
 .PHONY : util.c.s
 
 # Help Target
@@ -275,6 +275,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/paul/Documents/wordFinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

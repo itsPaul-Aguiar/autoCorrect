@@ -1,4 +1,4 @@
-# Install script for directory: /Users/paul/Documents/wordFinder/build/_deps/malena-src/src
+# Install script for directory: /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/paul/Documents/wordFinder/build/_deps/malena-build/src/libMalena.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/src/libMalena.a")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libMalena.a" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libMalena.a")
     execute_process(COMMAND "/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libMalena.a")
@@ -49,7 +49,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Malena/Malena-targets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Malena/Malena-targets.cmake"
-         "/Users/paul/Documents/wordFinder/build/_deps/malena-build/src/CMakeFiles/Export/f749d188d23be1453117f36dda201f65/Malena-targets.cmake")
+         "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/src/CMakeFiles/Export/f749d188d23be1453117f36dda201f65/Malena-targets.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Malena/Malena-targets-*.cmake")
       if(_cmake_old_config_files)
@@ -62,15 +62,15 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Malena" TYPE FILE FILES "/Users/paul/Documents/wordFinder/build/_deps/malena-build/src/CMakeFiles/Export/f749d188d23be1453117f36dda201f65/Malena-targets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Malena" TYPE FILE FILES "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/src/CMakeFiles/Export/f749d188d23be1453117f36dda201f65/Malena-targets.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Malena" TYPE FILE FILES "/Users/paul/Documents/wordFinder/build/_deps/malena-build/src/CMakeFiles/Export/f749d188d23be1453117f36dda201f65/Malena-targets-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Malena" TYPE FILE FILES "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/src/CMakeFiles/Export/f749d188d23be1453117f36dda201f65/Malena-targets-noconfig.cmake")
   endif()
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/paul/Documents/wordFinder/build/_deps/malena-build/src/install_local_manifest.txt"
+  file(WRITE "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/src/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

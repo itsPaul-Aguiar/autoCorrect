@@ -1,8 +1,8 @@
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/ogg_mapping.c.o: \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/src/libFLAC/ogg_mapping.c \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-build/config.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/src/libFLAC/include/private/ogg_mapping.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/include/FLAC/ordinals.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/src/libFLAC/ogg_mapping.c \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-build/config.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/src/libFLAC/include/private/ogg_mapping.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/include/FLAC/ordinals.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int8_t.h \

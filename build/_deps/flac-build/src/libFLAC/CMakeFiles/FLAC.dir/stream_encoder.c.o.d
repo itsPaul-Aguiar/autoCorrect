@@ -1,6 +1,6 @@
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder.c.o: \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/src/libFLAC/stream_encoder.c \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-build/config.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/src/libFLAC/stream_encoder.c \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-build/config.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h \
@@ -135,7 +135,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_key_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/include/share/compat.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/include/share/compat.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_header_macro.h \
@@ -165,36 +165,36 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/stream_encoder.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/utime.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/include/FLAC/assert.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/include/FLAC/stream_decoder.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/include/FLAC/export.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/include/FLAC/format.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/include/FLAC/ordinals.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/include/FLAC/assert.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/include/FLAC/stream_decoder.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/include/FLAC/export.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/include/FLAC/format.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/include/FLAC/ordinals.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/src/libFLAC/include/protected/stream_encoder.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/include/FLAC/stream_encoder.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/src/libFLAC/include/private/ogg_encoder_aspect.h \
-  /Users/paul/Documents/wordFinder/build/_deps/ogg-src/include/ogg/ogg.h \
-  /Users/paul/Documents/wordFinder/build/_deps/ogg-src/include/ogg/os_types.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/src/libFLAC/include/private/float.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/src/libFLAC/include/private/bitwriter.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/src/libFLAC/include/private/bitmath.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/src/libFLAC/include/private/crc.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/src/libFLAC/include/private/cpu.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/src/libFLAC/include/private/fixed.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/src/libFLAC/include/private/format.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/src/libFLAC/include/private/lpc.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/src/libFLAC/include/private/md5.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/src/libFLAC/include/private/memory.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/src/libFLAC/include/private/macros.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/src/libFLAC/include/protected/stream_encoder.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/include/FLAC/stream_encoder.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/src/libFLAC/include/private/ogg_encoder_aspect.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ogg-src/include/ogg/ogg.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ogg-src/include/ogg/os_types.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/src/libFLAC/include/private/float.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/src/libFLAC/include/private/bitwriter.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/src/libFLAC/include/private/bitmath.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/src/libFLAC/include/private/crc.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/src/libFLAC/include/private/cpu.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/src/libFLAC/include/private/fixed.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/src/libFLAC/include/private/format.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/src/libFLAC/include/private/lpc.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/src/libFLAC/include/private/md5.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/src/libFLAC/include/private/memory.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/src/libFLAC/include/private/macros.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/param.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/param.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/param.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/_param.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/src/libFLAC/include/private/ogg_helper.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/src/libFLAC/include/private/ogg_mapping.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/src/libFLAC/include/private/stream_encoder.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/src/libFLAC/include/private/stream_encoder_framing.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/src/libFLAC/include/private/window.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/include/share/alloc.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/include/share/private.h
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/src/libFLAC/include/private/ogg_helper.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/src/libFLAC/include/private/ogg_mapping.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/src/libFLAC/include/private/stream_encoder.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/src/libFLAC/include/private/stream_encoder_framing.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/src/libFLAC/include/private/window.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/include/share/alloc.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/include/share/private.h

@@ -1,8 +1,8 @@
 _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Events/EventReceiver.cpp.o: \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/src/Engine/Events/EventReceiver.cpp \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Engine/Events/EventReceiver.h \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Core/malena_export.h \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Engine/Events/Callback.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/src/Engine/Events/EventReceiver.cpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Engine/Events/EventReceiver.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Core/malena_export.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Engine/Events/Callback.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -778,35 +778,35 @@ _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Events/EventReceiver.cpp.o: 
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Window/Event.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Window/Joystick.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Window/Export.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Config.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Window/Event.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Window/Joystick.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Window/Export.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Config.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/String.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Export.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Utf.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Utf.inl \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/String.inl \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Window/Keyboard.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Window/Mouse.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Vector2.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Angle.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Angle.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/String.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Export.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Utf.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Utf.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/String.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Window/Keyboard.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Window/Mouse.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Vector2.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Angle.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Angle.inl \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Vector2.inl \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Window/Sensor.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Vector3.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Vector3.inl \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Window/Event.inl \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Engine/Events/Event.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Vector2.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Window/Sensor.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Vector3.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Vector3.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Window/Event.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Engine/Events/Event.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Engine/Events/../../../../src/Engine/Events/EventReceiver.tpp \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Utilities/EnumKey.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Engine/Events/../../../../src/Engine/Events/EventReceiver.tpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Utilities/EnumKey.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ostream/basic_ostream.h \

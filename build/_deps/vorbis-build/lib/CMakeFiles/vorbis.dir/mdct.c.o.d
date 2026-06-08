@@ -1,5 +1,5 @@
 _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/mdct.c.o: \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/mdct.c \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/mdct.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
@@ -93,8 +93,8 @@ _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/mdct.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/math.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/include/vorbis/codec.h \
-  /Users/paul/Documents/wordFinder/build/_deps/ogg-src/include/ogg/ogg.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/include/vorbis/codec.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ogg-src/include/ogg/ogg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_header_macro.h \
@@ -105,7 +105,7 @@ _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/mdct.c.o: \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_null.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_max_align_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_offsetof.h \
-  /Users/paul/Documents/wordFinder/build/_deps/ogg-src/include/ogg/os_types.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ogg-src/include/ogg/os_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_char.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_short.h \
@@ -142,6 +142,6 @@ _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/mdct.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_key_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/mdct.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/os.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib/misc.h
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/mdct.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/os.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib/misc.h

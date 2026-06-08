@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/paul/Documents/wordFinder
+CMAKE_SOURCE_DIR = /Users/paul/Documents/programming/cpp/autoCorrect
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/paul/Documents/wordFinder/build
+CMAKE_BINARY_DIR = /Users/paul/Documents/programming/cpp/autoCorrect/build
 
 # Include any dependencies generated for this target.
 include _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/depend.make
@@ -75,30 +75,30 @@ _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/codegen:
 _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/SignalBoard.cpp.o: _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/flags.make
 _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/SignalBoard.cpp.o: _deps/malena-src/examples/SignalBoard/src/SignalBoard.cpp
 _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/SignalBoard.cpp.o: _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/paul/Documents/wordFinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/SignalBoard.cpp.o"
-	cd /Users/paul/Documents/wordFinder/build/_deps/malena-build/examples/SignalBoard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/SignalBoard.cpp.o -MF CMakeFiles/SignalBoard.dir/src/SignalBoard.cpp.o.d -o CMakeFiles/SignalBoard.dir/src/SignalBoard.cpp.o -c /Users/paul/Documents/wordFinder/build/_deps/malena-src/examples/SignalBoard/src/SignalBoard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/paul/Documents/programming/cpp/autoCorrect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/SignalBoard.cpp.o"
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/examples/SignalBoard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/SignalBoard.cpp.o -MF CMakeFiles/SignalBoard.dir/src/SignalBoard.cpp.o.d -o CMakeFiles/SignalBoard.dir/src/SignalBoard.cpp.o -c /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/examples/SignalBoard/src/SignalBoard.cpp
 
 _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/SignalBoard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SignalBoard.dir/src/SignalBoard.cpp.i"
-	cd /Users/paul/Documents/wordFinder/build/_deps/malena-build/examples/SignalBoard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/paul/Documents/wordFinder/build/_deps/malena-src/examples/SignalBoard/src/SignalBoard.cpp > CMakeFiles/SignalBoard.dir/src/SignalBoard.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/examples/SignalBoard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/examples/SignalBoard/src/SignalBoard.cpp > CMakeFiles/SignalBoard.dir/src/SignalBoard.cpp.i
 
 _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/SignalBoard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SignalBoard.dir/src/SignalBoard.cpp.s"
-	cd /Users/paul/Documents/wordFinder/build/_deps/malena-build/examples/SignalBoard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/paul/Documents/wordFinder/build/_deps/malena-src/examples/SignalBoard/src/SignalBoard.cpp -o CMakeFiles/SignalBoard.dir/src/SignalBoard.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/examples/SignalBoard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/examples/SignalBoard/src/SignalBoard.cpp -o CMakeFiles/SignalBoard.dir/src/SignalBoard.cpp.s
 
 _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/main.cpp.o: _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/flags.make
 _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/main.cpp.o: _deps/malena-src/examples/SignalBoard/src/main.cpp
 _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/main.cpp.o: _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/paul/Documents/wordFinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/main.cpp.o"
-	cd /Users/paul/Documents/wordFinder/build/_deps/malena-build/examples/SignalBoard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/main.cpp.o -MF CMakeFiles/SignalBoard.dir/src/main.cpp.o.d -o CMakeFiles/SignalBoard.dir/src/main.cpp.o -c /Users/paul/Documents/wordFinder/build/_deps/malena-src/examples/SignalBoard/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/paul/Documents/programming/cpp/autoCorrect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/main.cpp.o"
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/examples/SignalBoard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/main.cpp.o -MF CMakeFiles/SignalBoard.dir/src/main.cpp.o.d -o CMakeFiles/SignalBoard.dir/src/main.cpp.o -c /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/examples/SignalBoard/src/main.cpp
 
 _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SignalBoard.dir/src/main.cpp.i"
-	cd /Users/paul/Documents/wordFinder/build/_deps/malena-build/examples/SignalBoard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/paul/Documents/wordFinder/build/_deps/malena-src/examples/SignalBoard/src/main.cpp > CMakeFiles/SignalBoard.dir/src/main.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/examples/SignalBoard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/examples/SignalBoard/src/main.cpp > CMakeFiles/SignalBoard.dir/src/main.cpp.i
 
 _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SignalBoard.dir/src/main.cpp.s"
-	cd /Users/paul/Documents/wordFinder/build/_deps/malena-build/examples/SignalBoard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/paul/Documents/wordFinder/build/_deps/malena-src/examples/SignalBoard/src/main.cpp -o CMakeFiles/SignalBoard.dir/src/main.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/examples/SignalBoard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/examples/SignalBoard/src/main.cpp -o CMakeFiles/SignalBoard.dir/src/main.cpp.s
 
 # Object files for target SignalBoard
 SignalBoard_OBJECTS = \
@@ -132,19 +132,19 @@ _deps/malena-build/examples/SignalBoard/SignalBoard: /opt/homebrew/Cellar/openss
 _deps/malena-build/examples/SignalBoard/SignalBoard: _deps/ixwebsocket-build/libixwebsocket.a
 _deps/malena-build/examples/SignalBoard/SignalBoard: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libz.tbd
 _deps/malena-build/examples/SignalBoard/SignalBoard: _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/paul/Documents/wordFinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable SignalBoard"
-	cd /Users/paul/Documents/wordFinder/build/_deps/malena-build/examples/SignalBoard && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SignalBoard.dir/link.txt --verbose=$(VERBOSE)
-	cd /Users/paul/Documents/wordFinder/build/_deps/malena-build/examples/SignalBoard && /opt/homebrew/bin/cmake -E copy_directory /Users/paul/Documents/wordFinder/build/_deps/malena-src/examples/SignalBoard/assets /Users/paul/Documents/wordFinder/build/_deps/malena-build/examples/SignalBoard/assets
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/paul/Documents/programming/cpp/autoCorrect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable SignalBoard"
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/examples/SignalBoard && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SignalBoard.dir/link.txt --verbose=$(VERBOSE)
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/examples/SignalBoard && /opt/homebrew/bin/cmake -E copy_directory /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/examples/SignalBoard/assets /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/examples/SignalBoard/assets
 
 # Rule to build all files generated by this target.
 _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/build: _deps/malena-build/examples/SignalBoard/SignalBoard
 .PHONY : _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/build
 
 _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/clean:
-	cd /Users/paul/Documents/wordFinder/build/_deps/malena-build/examples/SignalBoard && $(CMAKE_COMMAND) -P CMakeFiles/SignalBoard.dir/cmake_clean.cmake
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/examples/SignalBoard && $(CMAKE_COMMAND) -P CMakeFiles/SignalBoard.dir/cmake_clean.cmake
 .PHONY : _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/clean
 
 _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/depend:
-	cd /Users/paul/Documents/wordFinder/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/paul/Documents/wordFinder /Users/paul/Documents/wordFinder/build/_deps/malena-src/examples/SignalBoard /Users/paul/Documents/wordFinder/build /Users/paul/Documents/wordFinder/build/_deps/malena-build/examples/SignalBoard /Users/paul/Documents/wordFinder/build/_deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/DependInfo.cmake "--color=$(COLOR)" SignalBoard
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/paul/Documents/programming/cpp/autoCorrect /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/examples/SignalBoard /Users/paul/Documents/programming/cpp/autoCorrect/build /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/examples/SignalBoard /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/DependInfo.cmake "--color=$(COLOR)" SignalBoard
 .PHONY : _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/depend
 

@@ -4,18 +4,18 @@
 #include <fstream>
 #include <iostream>
 
-#define WIN_W 640
-#define WIN_H 560
-#define TOP_RESULTS 10
-#define PADDING 32.f
-#define INPUT_H 44.f
-#define ROW_H 38.f
-#define LABEL_FONT_SZ 14.f
-#define RESULT_FONT_SZ 18.f
-#define TITLE_FONT_SZ 22.f
+#define winW 640
+#define winH 560
+#define topResults 10
+#define padding 32.f
+#define inputH 44.f
+#define rowH 38.f
+#define labelFont 14.f
+#define resultFont 18.f
+#define titleFont 22.f
 
 nameSearch::nameSearch(const std::string& namesFile)
-    : ml::Application(sf::VideoMode({WIN_W, WIN_H}), "Name Search")
+    : ml::Application(sf::VideoMode({winW, winH}), "Name Search")
 {
     std::ifstream file(namesFile);
 
@@ -34,9 +34,7 @@ nameSearch::nameSearch(const std::string& namesFile)
 		}
 
         if (!line.empty())
-		{
 			m_names.push_back(line);
-		}
     }
 
     std::cout << "Loaded " << m_names.size() << " names.\n";
@@ -66,57 +64,65 @@ void nameSearch::onInit()
         std::cerr << "font error";
 	}
 
+    setBackgroundColor(sf::Color(40, 40, 38)); // gruvbox dark1
+
     m_title.setFont(m_font);
-    m_title.setCharacterSize(static_cast<unsigned>(TITLE_FONT_SZ));
-    m_title.setFillColor(sf::Color(240, 240, 255));
+    m_title.setCharacterSize(static_cast<unsigned>(titleFont));
+    m_title.setFillColor(sf::Color(215, 223, 229)); // gruvbox fg
     m_title.setString("Name Search");
-    m_title.setPosition({PADDING, PADDING - 4.f});
+    m_title.setPosition({padding, padding - 4.f});
     addComponent(m_title);
 
     m_label.setFont(m_font);
-    m_label.setCharacterSize(static_cast<unsigned>(LABEL_FONT_SZ));
-    m_label.setFillColor(sf::Color(160, 200, 255));
+    m_label.setCharacterSize(static_cast<unsigned>(labelFont));
+    m_label.setFillColor(sf::Color(168, 154, 136)); // gruvbox gray
     m_label.setString("Start typing a name...");
-    m_label.setPosition({PADDING, PADDING + TITLE_FONT_SZ + 12.f});
+    m_label.setPosition({padding, padding + titleFont + 12.f});
     addComponent(m_label);
 
-    float inputY = m_label.getPosition().y + LABEL_FONT_SZ + 6.f;
-    m_input.setPosition({PADDING, inputY});
-    m_input.setSize({static_cast<float>(WIN_W) - PADDING * 2.f, INPUT_H});
+    float inputY = m_label.getPosition().y + labelFont + 6.f;
+    m_input.setFont(m_font);
+    m_input.setPosition({padding, inputY});
+    m_input.setSize({static_cast<float>(winW) - padding * 2.f, inputH});
+    m_input.setBorderFocused(sf::Color(250, 149, 70)); // gruvbox orange
+    m_input.setBorderIdle(sf::Color(142, 149, 161)); // gruvbox gray
+    m_input.setPlaceholderColor(sf::Color(142, 149, 161)); // gruvbox gray
+    m_input.setBgIdle(sf::Color(60, 56, 54)); // gruvbox dark0
+    m_input.setBgFocused(sf::Color(60, 56, 54)); // gruvbox dark0
     addComponent(m_input);
 
-    float rowsStartY = inputY + INPUT_H + 16.f;
-    m_rowBg.resize(TOP_RESULTS);
-    m_rowText.resize(TOP_RESULTS);
+    float rowsStartY = inputY + inputH + 16.f;
+    m_rowBg.resize(topResults);
+    m_rowText.resize(topResults);
 
-    for (int i = 0; i < TOP_RESULTS; ++i) 
+    for (int i = 0; i < topResults; ++i) 
 	{
-        float y = rowsStartY + i * (ROW_H + 4.f);
+        float y = rowsStartY + i * (rowH + 4.f);
 
         ml::Rectangle& bg = m_rowBg[static_cast<std::size_t>(i)];
 
-        bg.setSize({static_cast<float>(WIN_W) - PADDING * 2.f, ROW_H});
-        bg.setPosition({PADDING, y});
-        sf::Color bgCol = (i % 2 == 0) ? sf::Color(40, 44, 68) : sf::Color(30, 34, 56);
+        bg.setSize({static_cast<float>(winW) - padding * 2.f, rowH});
+        bg.setPosition({padding, y});
+        sf::Color bgCol = (i % 2 == 0) ? sf::Color(60, 56, 54) : sf::Color(40, 40, 38); // gruvbox dark0/dark1
         bg.setFillColor(bgCol);
         bg.disableFlag(ml::Flag::HIDDEN);
         addComponent(bg);
 
         ml::Text& txt = m_rowText[static_cast<std::size_t>(i)];
         txt.setFont(m_font);
-        txt.setCharacterSize(static_cast<unsigned>(RESULT_FONT_SZ));
-        txt.setFillColor(sf::Color(220, 230, 255));
+        txt.setCharacterSize(static_cast<unsigned>(resultFont));
+        txt.setFillColor(sf::Color(235, 239, 244)); // gruvbox fg
         txt.setString("");
-        txt.setPosition({PADDING + 12.f, y + (ROW_H - RESULT_FONT_SZ) / 2.f});
+        txt.setPosition({padding + 12.f, y + (rowH - resultFont) / 2.f});
         addComponent(txt);
 
     }
 
     m_hint.setFont(m_font);
-    m_hint.setCharacterSize(static_cast<unsigned>(RESULT_FONT_SZ));
-    m_hint.setFillColor(sf::Color(120, 120, 160));
+    m_hint.setCharacterSize(static_cast<unsigned>(resultFont));
+    m_hint.setFillColor(sf::Color(142, 149, 161)); // gruvbox gray
     m_hint.setString("No matches found.");
-    m_hint.setPosition({PADDING + 12.f, rowsStartY + 8.f});
+    m_hint.setPosition({padding + 12.f, rowsStartY + 8.f});
     m_hint.enableFlag(ml::Flag::HIDDEN);
     addComponent(m_hint);
 
@@ -137,10 +143,10 @@ void nameSearch::refreshQuery()
     if (current == m_query) 
 	{
 		return;
-	}
+    }
 
     m_query = current;
-    m_results = topK(m_names, m_query, TOP_RESULTS);
+    m_results = topK(m_names, m_query, topResults);
     updateRows();
 }
 
@@ -162,7 +168,7 @@ void nameSearch::updateRows()
 
     m_hint.enableFlag(ml::Flag::HIDDEN);
 
-    for (int i = 0; i < TOP_RESULTS; ++i) 
+    for (int i = 0; i < topResults; ++i) 
 	{
         std::size_t sz = static_cast<std::size_t>(i);
         if (i < static_cast<int>(m_results.size())) 
@@ -182,7 +188,7 @@ void nameSearch::updateRows()
 
 void nameSearch::setRowsVisible(bool visible)
 {
-    for (int i = 0; i < TOP_RESULTS; ++i) 
+    for (int i = 0; i < topResults; ++i) 
 	{
         std::size_t sz = static_cast<std::size_t>(i);
 

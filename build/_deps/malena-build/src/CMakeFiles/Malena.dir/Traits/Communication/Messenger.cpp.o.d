@@ -1,9 +1,9 @@
 _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Communication/Messenger.cpp.o: \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/src/Traits/Communication/Messenger.cpp \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Traits/Communication/Messenger.h \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Core/malena_export.h \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Engine/Messaging/MessageManager.h \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Core/DeferredOperationsManager.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/src/Traits/Communication/Messenger.cpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Traits/Communication/Messenger.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Core/malena_export.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Engine/Messaging/MessageManager.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Core/DeferredOperationsManager.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -779,12 +779,12 @@ _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Communication/Messenger.cpp.
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Core/../../../src/Core/DeferredOperationsManager.tpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Core/../../../src/Core/DeferredOperationsManager.tpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/typeindex \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Engine/Messaging/../../../../src/Engine/Messaging/MessageManager.tpp \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Traits/Base/Trait.h \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Traits/Base/Customizable.h \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Resources/StateManager.h \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Resources/../../../src/Resources/StateManager.tpp \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Utilities/TypeExtraction.h \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Traits/Communication/../../../../src/Traits/Communication/Messenger.tpp
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Engine/Messaging/../../../../src/Engine/Messaging/MessageManager.tpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Traits/Base/Trait.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Traits/Base/Customizable.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Resources/StateManager.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Resources/../../../src/Resources/StateManager.tpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Utilities/TypeExtraction.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Traits/Communication/../../../../src/Traits/Communication/Messenger.tpp

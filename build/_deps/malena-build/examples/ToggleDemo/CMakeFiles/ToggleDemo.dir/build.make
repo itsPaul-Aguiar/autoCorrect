@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/paul/Documents/wordFinder
+CMAKE_SOURCE_DIR = /Users/paul/Documents/programming/cpp/autoCorrect
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/paul/Documents/wordFinder/build
+CMAKE_BINARY_DIR = /Users/paul/Documents/programming/cpp/autoCorrect/build
 
 # Include any dependencies generated for this target.
 include _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/depend.make
@@ -75,16 +75,16 @@ _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/codegen:
 _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/ToggleDemoApp.cpp.o: _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/flags.make
 _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/ToggleDemoApp.cpp.o: _deps/malena-src/examples/ToggleDemo/ToggleDemoApp.cpp
 _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/ToggleDemoApp.cpp.o: _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/paul/Documents/wordFinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/ToggleDemoApp.cpp.o"
-	cd /Users/paul/Documents/wordFinder/build/_deps/malena-build/examples/ToggleDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/ToggleDemoApp.cpp.o -MF CMakeFiles/ToggleDemo.dir/ToggleDemoApp.cpp.o.d -o CMakeFiles/ToggleDemo.dir/ToggleDemoApp.cpp.o -c /Users/paul/Documents/wordFinder/build/_deps/malena-src/examples/ToggleDemo/ToggleDemoApp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/paul/Documents/programming/cpp/autoCorrect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/ToggleDemoApp.cpp.o"
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/examples/ToggleDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/ToggleDemoApp.cpp.o -MF CMakeFiles/ToggleDemo.dir/ToggleDemoApp.cpp.o.d -o CMakeFiles/ToggleDemo.dir/ToggleDemoApp.cpp.o -c /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/examples/ToggleDemo/ToggleDemoApp.cpp
 
 _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/ToggleDemoApp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ToggleDemo.dir/ToggleDemoApp.cpp.i"
-	cd /Users/paul/Documents/wordFinder/build/_deps/malena-build/examples/ToggleDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/paul/Documents/wordFinder/build/_deps/malena-src/examples/ToggleDemo/ToggleDemoApp.cpp > CMakeFiles/ToggleDemo.dir/ToggleDemoApp.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/examples/ToggleDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/examples/ToggleDemo/ToggleDemoApp.cpp > CMakeFiles/ToggleDemo.dir/ToggleDemoApp.cpp.i
 
 _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/ToggleDemoApp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ToggleDemo.dir/ToggleDemoApp.cpp.s"
-	cd /Users/paul/Documents/wordFinder/build/_deps/malena-build/examples/ToggleDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/paul/Documents/wordFinder/build/_deps/malena-src/examples/ToggleDemo/ToggleDemoApp.cpp -o CMakeFiles/ToggleDemo.dir/ToggleDemoApp.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/examples/ToggleDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/examples/ToggleDemo/ToggleDemoApp.cpp -o CMakeFiles/ToggleDemo.dir/ToggleDemoApp.cpp.s
 
 # Object files for target ToggleDemo
 ToggleDemo_OBJECTS = \
@@ -116,18 +116,18 @@ _deps/malena-build/examples/ToggleDemo/ToggleDemo: /opt/homebrew/Cellar/openssl@
 _deps/malena-build/examples/ToggleDemo/ToggleDemo: _deps/ixwebsocket-build/libixwebsocket.a
 _deps/malena-build/examples/ToggleDemo/ToggleDemo: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libz.tbd
 _deps/malena-build/examples/ToggleDemo/ToggleDemo: _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/paul/Documents/wordFinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ToggleDemo"
-	cd /Users/paul/Documents/wordFinder/build/_deps/malena-build/examples/ToggleDemo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ToggleDemo.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/paul/Documents/programming/cpp/autoCorrect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ToggleDemo"
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/examples/ToggleDemo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ToggleDemo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/build: _deps/malena-build/examples/ToggleDemo/ToggleDemo
 .PHONY : _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/build
 
 _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/clean:
-	cd /Users/paul/Documents/wordFinder/build/_deps/malena-build/examples/ToggleDemo && $(CMAKE_COMMAND) -P CMakeFiles/ToggleDemo.dir/cmake_clean.cmake
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/examples/ToggleDemo && $(CMAKE_COMMAND) -P CMakeFiles/ToggleDemo.dir/cmake_clean.cmake
 .PHONY : _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/clean
 
 _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/depend:
-	cd /Users/paul/Documents/wordFinder/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/paul/Documents/wordFinder /Users/paul/Documents/wordFinder/build/_deps/malena-src/examples/ToggleDemo /Users/paul/Documents/wordFinder/build /Users/paul/Documents/wordFinder/build/_deps/malena-build/examples/ToggleDemo /Users/paul/Documents/wordFinder/build/_deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/DependInfo.cmake "--color=$(COLOR)" ToggleDemo
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/paul/Documents/programming/cpp/autoCorrect /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/examples/ToggleDemo /Users/paul/Documents/programming/cpp/autoCorrect/build /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/examples/ToggleDemo /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/DependInfo.cmake "--color=$(COLOR)" ToggleDemo
 .PHONY : _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/depend
 

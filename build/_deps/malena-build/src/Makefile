@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/paul/Documents/wordFinder
+CMAKE_SOURCE_DIR = /Users/paul/Documents/programming/cpp/autoCorrect
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/paul/Documents/wordFinder/build
+CMAKE_BINARY_DIR = /Users/paul/Documents/programming/cpp/autoCorrect/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /Users/paul/Documents/wordFinder/build
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool..."
-	cd /Users/paul/Documents/wordFinder/build && /opt/homebrew/bin/cpack --config ./CPackConfig.cmake
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && /opt/homebrew/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	cd /Users/paul/Documents/wordFinder/build && /opt/homebrew/bin/cpack --config ./CPackSourceConfig.cmake
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && /opt/homebrew/bin/cpack --config ./CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -152,14 +152,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/paul/Documents/wordFinder/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/paul/Documents/wordFinder/build/CMakeFiles /Users/paul/Documents/wordFinder/build/_deps/malena-build/src//CMakeFiles/progress.marks
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/paul/Documents/wordFinder/build/CMakeFiles 0
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/paul/Documents/programming/cpp/autoCorrect/build/CMakeFiles /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/src//CMakeFiles/progress.marks
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/paul/Documents/programming/cpp/autoCorrect/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/src/clean
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -168,22 +168,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/src/preinstall
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/src/preinstall
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/paul/Documents/wordFinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 _deps/malena-build/src/CMakeFiles/Malena.dir/rule:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/src/CMakeFiles/Malena.dir/rule
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/src/CMakeFiles/Malena.dir/rule
 .PHONY : _deps/malena-build/src/CMakeFiles/Malena.dir/rule
 
 # Convenience name for target.
@@ -192,7 +192,7 @@ Malena: _deps/malena-build/src/CMakeFiles/Malena.dir/rule
 
 # fast build rule for target.
 Malena/fast:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/build
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/build
 .PHONY : Malena/fast
 
 Core/Core.o: Core/Core.cpp.o
@@ -200,7 +200,7 @@ Core/Core.o: Core/Core.cpp.o
 
 # target to build an object file
 Core/Core.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Core/Core.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Core/Core.cpp.o
 .PHONY : Core/Core.cpp.o
 
 Core/Core.i: Core/Core.cpp.i
@@ -208,7 +208,7 @@ Core/Core.i: Core/Core.cpp.i
 
 # target to preprocess a source file
 Core/Core.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Core/Core.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Core/Core.cpp.i
 .PHONY : Core/Core.cpp.i
 
 Core/Core.s: Core/Core.cpp.s
@@ -216,7 +216,7 @@ Core/Core.s: Core/Core.cpp.s
 
 # target to generate assembly for a file
 Core/Core.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Core/Core.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Core/Core.cpp.s
 .PHONY : Core/Core.cpp.s
 
 Core/CoreAdapter.o: Core/CoreAdapter.cpp.o
@@ -224,7 +224,7 @@ Core/CoreAdapter.o: Core/CoreAdapter.cpp.o
 
 # target to build an object file
 Core/CoreAdapter.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Core/CoreAdapter.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Core/CoreAdapter.cpp.o
 .PHONY : Core/CoreAdapter.cpp.o
 
 Core/CoreAdapter.i: Core/CoreAdapter.cpp.i
@@ -232,7 +232,7 @@ Core/CoreAdapter.i: Core/CoreAdapter.cpp.i
 
 # target to preprocess a source file
 Core/CoreAdapter.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Core/CoreAdapter.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Core/CoreAdapter.cpp.i
 .PHONY : Core/CoreAdapter.cpp.i
 
 Core/CoreAdapter.s: Core/CoreAdapter.cpp.s
@@ -240,7 +240,7 @@ Core/CoreAdapter.s: Core/CoreAdapter.cpp.s
 
 # target to generate assembly for a file
 Core/CoreAdapter.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Core/CoreAdapter.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Core/CoreAdapter.cpp.s
 .PHONY : Core/CoreAdapter.cpp.s
 
 Core/CoreManager.o: Core/CoreManager.cpp.o
@@ -248,7 +248,7 @@ Core/CoreManager.o: Core/CoreManager.cpp.o
 
 # target to build an object file
 Core/CoreManager.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Core/CoreManager.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Core/CoreManager.cpp.o
 .PHONY : Core/CoreManager.cpp.o
 
 Core/CoreManager.i: Core/CoreManager.cpp.i
@@ -256,7 +256,7 @@ Core/CoreManager.i: Core/CoreManager.cpp.i
 
 # target to preprocess a source file
 Core/CoreManager.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Core/CoreManager.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Core/CoreManager.cpp.i
 .PHONY : Core/CoreManager.cpp.i
 
 Core/CoreManager.s: Core/CoreManager.cpp.s
@@ -264,7 +264,7 @@ Core/CoreManager.s: Core/CoreManager.cpp.s
 
 # target to generate assembly for a file
 Core/CoreManager.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Core/CoreManager.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Core/CoreManager.cpp.s
 .PHONY : Core/CoreManager.cpp.s
 
 Engine/App/AppManager.o: Engine/App/AppManager.cpp.o
@@ -272,7 +272,7 @@ Engine/App/AppManager.o: Engine/App/AppManager.cpp.o
 
 # target to build an object file
 Engine/App/AppManager.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/App/AppManager.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/App/AppManager.cpp.o
 .PHONY : Engine/App/AppManager.cpp.o
 
 Engine/App/AppManager.i: Engine/App/AppManager.cpp.i
@@ -280,7 +280,7 @@ Engine/App/AppManager.i: Engine/App/AppManager.cpp.i
 
 # target to preprocess a source file
 Engine/App/AppManager.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/App/AppManager.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/App/AppManager.cpp.i
 .PHONY : Engine/App/AppManager.cpp.i
 
 Engine/App/AppManager.s: Engine/App/AppManager.cpp.s
@@ -288,7 +288,7 @@ Engine/App/AppManager.s: Engine/App/AppManager.cpp.s
 
 # target to generate assembly for a file
 Engine/App/AppManager.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/App/AppManager.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/App/AppManager.cpp.s
 .PHONY : Engine/App/AppManager.cpp.s
 
 Engine/App/Application.o: Engine/App/Application.cpp.o
@@ -296,7 +296,7 @@ Engine/App/Application.o: Engine/App/Application.cpp.o
 
 # target to build an object file
 Engine/App/Application.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/App/Application.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/App/Application.cpp.o
 .PHONY : Engine/App/Application.cpp.o
 
 Engine/App/Application.i: Engine/App/Application.cpp.i
@@ -304,7 +304,7 @@ Engine/App/Application.i: Engine/App/Application.cpp.i
 
 # target to preprocess a source file
 Engine/App/Application.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/App/Application.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/App/Application.cpp.i
 .PHONY : Engine/App/Application.cpp.i
 
 Engine/App/Application.s: Engine/App/Application.cpp.s
@@ -312,7 +312,7 @@ Engine/App/Application.s: Engine/App/Application.cpp.s
 
 # target to generate assembly for a file
 Engine/App/Application.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/App/Application.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/App/Application.cpp.s
 .PHONY : Engine/App/Application.cpp.s
 
 Engine/Events/EventManager.o: Engine/Events/EventManager.cpp.o
@@ -320,7 +320,7 @@ Engine/Events/EventManager.o: Engine/Events/EventManager.cpp.o
 
 # target to build an object file
 Engine/Events/EventManager.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Events/EventManager.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Events/EventManager.cpp.o
 .PHONY : Engine/Events/EventManager.cpp.o
 
 Engine/Events/EventManager.i: Engine/Events/EventManager.cpp.i
@@ -328,7 +328,7 @@ Engine/Events/EventManager.i: Engine/Events/EventManager.cpp.i
 
 # target to preprocess a source file
 Engine/Events/EventManager.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Events/EventManager.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Events/EventManager.cpp.i
 .PHONY : Engine/Events/EventManager.cpp.i
 
 Engine/Events/EventManager.s: Engine/Events/EventManager.cpp.s
@@ -336,7 +336,7 @@ Engine/Events/EventManager.s: Engine/Events/EventManager.cpp.s
 
 # target to generate assembly for a file
 Engine/Events/EventManager.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Events/EventManager.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Events/EventManager.cpp.s
 .PHONY : Engine/Events/EventManager.cpp.s
 
 Engine/Events/EventReceiver.o: Engine/Events/EventReceiver.cpp.o
@@ -344,7 +344,7 @@ Engine/Events/EventReceiver.o: Engine/Events/EventReceiver.cpp.o
 
 # target to build an object file
 Engine/Events/EventReceiver.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Events/EventReceiver.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Events/EventReceiver.cpp.o
 .PHONY : Engine/Events/EventReceiver.cpp.o
 
 Engine/Events/EventReceiver.i: Engine/Events/EventReceiver.cpp.i
@@ -352,7 +352,7 @@ Engine/Events/EventReceiver.i: Engine/Events/EventReceiver.cpp.i
 
 # target to preprocess a source file
 Engine/Events/EventReceiver.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Events/EventReceiver.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Events/EventReceiver.cpp.i
 .PHONY : Engine/Events/EventReceiver.cpp.i
 
 Engine/Events/EventReceiver.s: Engine/Events/EventReceiver.cpp.s
@@ -360,7 +360,7 @@ Engine/Events/EventReceiver.s: Engine/Events/EventReceiver.cpp.s
 
 # target to generate assembly for a file
 Engine/Events/EventReceiver.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Events/EventReceiver.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Events/EventReceiver.cpp.s
 .PHONY : Engine/Events/EventReceiver.cpp.s
 
 Engine/Events/Fireable.o: Engine/Events/Fireable.cpp.o
@@ -368,7 +368,7 @@ Engine/Events/Fireable.o: Engine/Events/Fireable.cpp.o
 
 # target to build an object file
 Engine/Events/Fireable.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Events/Fireable.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Events/Fireable.cpp.o
 .PHONY : Engine/Events/Fireable.cpp.o
 
 Engine/Events/Fireable.i: Engine/Events/Fireable.cpp.i
@@ -376,7 +376,7 @@ Engine/Events/Fireable.i: Engine/Events/Fireable.cpp.i
 
 # target to preprocess a source file
 Engine/Events/Fireable.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Events/Fireable.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Events/Fireable.cpp.i
 .PHONY : Engine/Events/Fireable.cpp.i
 
 Engine/Events/Fireable.s: Engine/Events/Fireable.cpp.s
@@ -384,7 +384,7 @@ Engine/Events/Fireable.s: Engine/Events/Fireable.cpp.s
 
 # target to generate assembly for a file
 Engine/Events/Fireable.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Events/Fireable.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Events/Fireable.cpp.s
 .PHONY : Engine/Events/Fireable.cpp.s
 
 Engine/Messaging/MessageManager.o: Engine/Messaging/MessageManager.cpp.o
@@ -392,7 +392,7 @@ Engine/Messaging/MessageManager.o: Engine/Messaging/MessageManager.cpp.o
 
 # target to build an object file
 Engine/Messaging/MessageManager.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Messaging/MessageManager.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Messaging/MessageManager.cpp.o
 .PHONY : Engine/Messaging/MessageManager.cpp.o
 
 Engine/Messaging/MessageManager.i: Engine/Messaging/MessageManager.cpp.i
@@ -400,7 +400,7 @@ Engine/Messaging/MessageManager.i: Engine/Messaging/MessageManager.cpp.i
 
 # target to preprocess a source file
 Engine/Messaging/MessageManager.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Messaging/MessageManager.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Messaging/MessageManager.cpp.i
 .PHONY : Engine/Messaging/MessageManager.cpp.i
 
 Engine/Messaging/MessageManager.s: Engine/Messaging/MessageManager.cpp.s
@@ -408,7 +408,7 @@ Engine/Messaging/MessageManager.s: Engine/Messaging/MessageManager.cpp.s
 
 # target to generate assembly for a file
 Engine/Messaging/MessageManager.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Messaging/MessageManager.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Messaging/MessageManager.cpp.s
 .PHONY : Engine/Messaging/MessageManager.cpp.s
 
 Engine/Networking/HttpClient.o: Engine/Networking/HttpClient.cpp.o
@@ -416,7 +416,7 @@ Engine/Networking/HttpClient.o: Engine/Networking/HttpClient.cpp.o
 
 # target to build an object file
 Engine/Networking/HttpClient.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Networking/HttpClient.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Networking/HttpClient.cpp.o
 .PHONY : Engine/Networking/HttpClient.cpp.o
 
 Engine/Networking/HttpClient.i: Engine/Networking/HttpClient.cpp.i
@@ -424,7 +424,7 @@ Engine/Networking/HttpClient.i: Engine/Networking/HttpClient.cpp.i
 
 # target to preprocess a source file
 Engine/Networking/HttpClient.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Networking/HttpClient.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Networking/HttpClient.cpp.i
 .PHONY : Engine/Networking/HttpClient.cpp.i
 
 Engine/Networking/HttpClient.s: Engine/Networking/HttpClient.cpp.s
@@ -432,7 +432,7 @@ Engine/Networking/HttpClient.s: Engine/Networking/HttpClient.cpp.s
 
 # target to generate assembly for a file
 Engine/Networking/HttpClient.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Networking/HttpClient.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Networking/HttpClient.cpp.s
 .PHONY : Engine/Networking/HttpClient.cpp.s
 
 Engine/Networking/NetworkManager.o: Engine/Networking/NetworkManager.cpp.o
@@ -440,7 +440,7 @@ Engine/Networking/NetworkManager.o: Engine/Networking/NetworkManager.cpp.o
 
 # target to build an object file
 Engine/Networking/NetworkManager.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Networking/NetworkManager.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Networking/NetworkManager.cpp.o
 .PHONY : Engine/Networking/NetworkManager.cpp.o
 
 Engine/Networking/NetworkManager.i: Engine/Networking/NetworkManager.cpp.i
@@ -448,7 +448,7 @@ Engine/Networking/NetworkManager.i: Engine/Networking/NetworkManager.cpp.i
 
 # target to preprocess a source file
 Engine/Networking/NetworkManager.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Networking/NetworkManager.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Networking/NetworkManager.cpp.i
 .PHONY : Engine/Networking/NetworkManager.cpp.i
 
 Engine/Networking/NetworkManager.s: Engine/Networking/NetworkManager.cpp.s
@@ -456,7 +456,7 @@ Engine/Networking/NetworkManager.s: Engine/Networking/NetworkManager.cpp.s
 
 # target to generate assembly for a file
 Engine/Networking/NetworkManager.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Networking/NetworkManager.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Networking/NetworkManager.cpp.s
 .PHONY : Engine/Networking/NetworkManager.cpp.s
 
 Engine/Networking/NetworkRequest.o: Engine/Networking/NetworkRequest.cpp.o
@@ -464,7 +464,7 @@ Engine/Networking/NetworkRequest.o: Engine/Networking/NetworkRequest.cpp.o
 
 # target to build an object file
 Engine/Networking/NetworkRequest.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Networking/NetworkRequest.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Networking/NetworkRequest.cpp.o
 .PHONY : Engine/Networking/NetworkRequest.cpp.o
 
 Engine/Networking/NetworkRequest.i: Engine/Networking/NetworkRequest.cpp.i
@@ -472,7 +472,7 @@ Engine/Networking/NetworkRequest.i: Engine/Networking/NetworkRequest.cpp.i
 
 # target to preprocess a source file
 Engine/Networking/NetworkRequest.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Networking/NetworkRequest.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Networking/NetworkRequest.cpp.i
 .PHONY : Engine/Networking/NetworkRequest.cpp.i
 
 Engine/Networking/NetworkRequest.s: Engine/Networking/NetworkRequest.cpp.s
@@ -480,7 +480,7 @@ Engine/Networking/NetworkRequest.s: Engine/Networking/NetworkRequest.cpp.s
 
 # target to generate assembly for a file
 Engine/Networking/NetworkRequest.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Networking/NetworkRequest.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Networking/NetworkRequest.cpp.s
 .PHONY : Engine/Networking/NetworkRequest.cpp.s
 
 Engine/Networking/NetworkResponse.o: Engine/Networking/NetworkResponse.cpp.o
@@ -488,7 +488,7 @@ Engine/Networking/NetworkResponse.o: Engine/Networking/NetworkResponse.cpp.o
 
 # target to build an object file
 Engine/Networking/NetworkResponse.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Networking/NetworkResponse.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Networking/NetworkResponse.cpp.o
 .PHONY : Engine/Networking/NetworkResponse.cpp.o
 
 Engine/Networking/NetworkResponse.i: Engine/Networking/NetworkResponse.cpp.i
@@ -496,7 +496,7 @@ Engine/Networking/NetworkResponse.i: Engine/Networking/NetworkResponse.cpp.i
 
 # target to preprocess a source file
 Engine/Networking/NetworkResponse.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Networking/NetworkResponse.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Networking/NetworkResponse.cpp.i
 .PHONY : Engine/Networking/NetworkResponse.cpp.i
 
 Engine/Networking/NetworkResponse.s: Engine/Networking/NetworkResponse.cpp.s
@@ -504,7 +504,7 @@ Engine/Networking/NetworkResponse.s: Engine/Networking/NetworkResponse.cpp.s
 
 # target to generate assembly for a file
 Engine/Networking/NetworkResponse.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Networking/NetworkResponse.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Networking/NetworkResponse.cpp.s
 .PHONY : Engine/Networking/NetworkResponse.cpp.s
 
 Engine/Networking/WebSocketClient.o: Engine/Networking/WebSocketClient.cpp.o
@@ -512,7 +512,7 @@ Engine/Networking/WebSocketClient.o: Engine/Networking/WebSocketClient.cpp.o
 
 # target to build an object file
 Engine/Networking/WebSocketClient.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Networking/WebSocketClient.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Networking/WebSocketClient.cpp.o
 .PHONY : Engine/Networking/WebSocketClient.cpp.o
 
 Engine/Networking/WebSocketClient.i: Engine/Networking/WebSocketClient.cpp.i
@@ -520,7 +520,7 @@ Engine/Networking/WebSocketClient.i: Engine/Networking/WebSocketClient.cpp.i
 
 # target to preprocess a source file
 Engine/Networking/WebSocketClient.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Networking/WebSocketClient.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Networking/WebSocketClient.cpp.i
 .PHONY : Engine/Networking/WebSocketClient.cpp.i
 
 Engine/Networking/WebSocketClient.s: Engine/Networking/WebSocketClient.cpp.s
@@ -528,7 +528,7 @@ Engine/Networking/WebSocketClient.s: Engine/Networking/WebSocketClient.cpp.s
 
 # target to generate assembly for a file
 Engine/Networking/WebSocketClient.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Networking/WebSocketClient.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Networking/WebSocketClient.cpp.s
 .PHONY : Engine/Networking/WebSocketClient.cpp.s
 
 Engine/Plugins/PluginManager.o: Engine/Plugins/PluginManager.cpp.o
@@ -536,7 +536,7 @@ Engine/Plugins/PluginManager.o: Engine/Plugins/PluginManager.cpp.o
 
 # target to build an object file
 Engine/Plugins/PluginManager.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Plugins/PluginManager.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Plugins/PluginManager.cpp.o
 .PHONY : Engine/Plugins/PluginManager.cpp.o
 
 Engine/Plugins/PluginManager.i: Engine/Plugins/PluginManager.cpp.i
@@ -544,7 +544,7 @@ Engine/Plugins/PluginManager.i: Engine/Plugins/PluginManager.cpp.i
 
 # target to preprocess a source file
 Engine/Plugins/PluginManager.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Plugins/PluginManager.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Plugins/PluginManager.cpp.i
 .PHONY : Engine/Plugins/PluginManager.cpp.i
 
 Engine/Plugins/PluginManager.s: Engine/Plugins/PluginManager.cpp.s
@@ -552,7 +552,7 @@ Engine/Plugins/PluginManager.s: Engine/Plugins/PluginManager.cpp.s
 
 # target to generate assembly for a file
 Engine/Plugins/PluginManager.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Plugins/PluginManager.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Plugins/PluginManager.cpp.s
 .PHONY : Engine/Plugins/PluginManager.cpp.s
 
 Engine/Theme/ThemeManager.o: Engine/Theme/ThemeManager.cpp.o
@@ -560,7 +560,7 @@ Engine/Theme/ThemeManager.o: Engine/Theme/ThemeManager.cpp.o
 
 # target to build an object file
 Engine/Theme/ThemeManager.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Theme/ThemeManager.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Theme/ThemeManager.cpp.o
 .PHONY : Engine/Theme/ThemeManager.cpp.o
 
 Engine/Theme/ThemeManager.i: Engine/Theme/ThemeManager.cpp.i
@@ -568,7 +568,7 @@ Engine/Theme/ThemeManager.i: Engine/Theme/ThemeManager.cpp.i
 
 # target to preprocess a source file
 Engine/Theme/ThemeManager.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Theme/ThemeManager.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Theme/ThemeManager.cpp.i
 .PHONY : Engine/Theme/ThemeManager.cpp.i
 
 Engine/Theme/ThemeManager.s: Engine/Theme/ThemeManager.cpp.s
@@ -576,7 +576,7 @@ Engine/Theme/ThemeManager.s: Engine/Theme/ThemeManager.cpp.s
 
 # target to generate assembly for a file
 Engine/Theme/ThemeManager.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Theme/ThemeManager.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Theme/ThemeManager.cpp.s
 .PHONY : Engine/Theme/ThemeManager.cpp.s
 
 Graphics/Controls/ButtonToggle.o: Graphics/Controls/ButtonToggle.cpp.o
@@ -584,7 +584,7 @@ Graphics/Controls/ButtonToggle.o: Graphics/Controls/ButtonToggle.cpp.o
 
 # target to build an object file
 Graphics/Controls/ButtonToggle.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ButtonToggle.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ButtonToggle.cpp.o
 .PHONY : Graphics/Controls/ButtonToggle.cpp.o
 
 Graphics/Controls/ButtonToggle.i: Graphics/Controls/ButtonToggle.cpp.i
@@ -592,7 +592,7 @@ Graphics/Controls/ButtonToggle.i: Graphics/Controls/ButtonToggle.cpp.i
 
 # target to preprocess a source file
 Graphics/Controls/ButtonToggle.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ButtonToggle.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ButtonToggle.cpp.i
 .PHONY : Graphics/Controls/ButtonToggle.cpp.i
 
 Graphics/Controls/ButtonToggle.s: Graphics/Controls/ButtonToggle.cpp.s
@@ -600,7 +600,7 @@ Graphics/Controls/ButtonToggle.s: Graphics/Controls/ButtonToggle.cpp.s
 
 # target to generate assembly for a file
 Graphics/Controls/ButtonToggle.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ButtonToggle.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ButtonToggle.cpp.s
 .PHONY : Graphics/Controls/ButtonToggle.cpp.s
 
 Graphics/Controls/Carousel.o: Graphics/Controls/Carousel.cpp.o
@@ -608,7 +608,7 @@ Graphics/Controls/Carousel.o: Graphics/Controls/Carousel.cpp.o
 
 # target to build an object file
 Graphics/Controls/Carousel.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/Carousel.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/Carousel.cpp.o
 .PHONY : Graphics/Controls/Carousel.cpp.o
 
 Graphics/Controls/Carousel.i: Graphics/Controls/Carousel.cpp.i
@@ -616,7 +616,7 @@ Graphics/Controls/Carousel.i: Graphics/Controls/Carousel.cpp.i
 
 # target to preprocess a source file
 Graphics/Controls/Carousel.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/Carousel.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/Carousel.cpp.i
 .PHONY : Graphics/Controls/Carousel.cpp.i
 
 Graphics/Controls/Carousel.s: Graphics/Controls/Carousel.cpp.s
@@ -624,7 +624,7 @@ Graphics/Controls/Carousel.s: Graphics/Controls/Carousel.cpp.s
 
 # target to generate assembly for a file
 Graphics/Controls/Carousel.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/Carousel.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/Carousel.cpp.s
 .PHONY : Graphics/Controls/Carousel.cpp.s
 
 Graphics/Controls/ChatBubble.o: Graphics/Controls/ChatBubble.cpp.o
@@ -632,7 +632,7 @@ Graphics/Controls/ChatBubble.o: Graphics/Controls/ChatBubble.cpp.o
 
 # target to build an object file
 Graphics/Controls/ChatBubble.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ChatBubble.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ChatBubble.cpp.o
 .PHONY : Graphics/Controls/ChatBubble.cpp.o
 
 Graphics/Controls/ChatBubble.i: Graphics/Controls/ChatBubble.cpp.i
@@ -640,7 +640,7 @@ Graphics/Controls/ChatBubble.i: Graphics/Controls/ChatBubble.cpp.i
 
 # target to preprocess a source file
 Graphics/Controls/ChatBubble.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ChatBubble.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ChatBubble.cpp.i
 .PHONY : Graphics/Controls/ChatBubble.cpp.i
 
 Graphics/Controls/ChatBubble.s: Graphics/Controls/ChatBubble.cpp.s
@@ -648,7 +648,7 @@ Graphics/Controls/ChatBubble.s: Graphics/Controls/ChatBubble.cpp.s
 
 # target to generate assembly for a file
 Graphics/Controls/ChatBubble.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ChatBubble.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ChatBubble.cpp.s
 .PHONY : Graphics/Controls/ChatBubble.cpp.s
 
 Graphics/Controls/ChatWindow.o: Graphics/Controls/ChatWindow.cpp.o
@@ -656,7 +656,7 @@ Graphics/Controls/ChatWindow.o: Graphics/Controls/ChatWindow.cpp.o
 
 # target to build an object file
 Graphics/Controls/ChatWindow.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ChatWindow.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ChatWindow.cpp.o
 .PHONY : Graphics/Controls/ChatWindow.cpp.o
 
 Graphics/Controls/ChatWindow.i: Graphics/Controls/ChatWindow.cpp.i
@@ -664,7 +664,7 @@ Graphics/Controls/ChatWindow.i: Graphics/Controls/ChatWindow.cpp.i
 
 # target to preprocess a source file
 Graphics/Controls/ChatWindow.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ChatWindow.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ChatWindow.cpp.i
 .PHONY : Graphics/Controls/ChatWindow.cpp.i
 
 Graphics/Controls/ChatWindow.s: Graphics/Controls/ChatWindow.cpp.s
@@ -672,7 +672,7 @@ Graphics/Controls/ChatWindow.s: Graphics/Controls/ChatWindow.cpp.s
 
 # target to generate assembly for a file
 Graphics/Controls/ChatWindow.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ChatWindow.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ChatWindow.cpp.s
 .PHONY : Graphics/Controls/ChatWindow.cpp.s
 
 Graphics/Controls/Checkbox.o: Graphics/Controls/Checkbox.cpp.o
@@ -680,7 +680,7 @@ Graphics/Controls/Checkbox.o: Graphics/Controls/Checkbox.cpp.o
 
 # target to build an object file
 Graphics/Controls/Checkbox.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/Checkbox.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/Checkbox.cpp.o
 .PHONY : Graphics/Controls/Checkbox.cpp.o
 
 Graphics/Controls/Checkbox.i: Graphics/Controls/Checkbox.cpp.i
@@ -688,7 +688,7 @@ Graphics/Controls/Checkbox.i: Graphics/Controls/Checkbox.cpp.i
 
 # target to preprocess a source file
 Graphics/Controls/Checkbox.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/Checkbox.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/Checkbox.cpp.i
 .PHONY : Graphics/Controls/Checkbox.cpp.i
 
 Graphics/Controls/Checkbox.s: Graphics/Controls/Checkbox.cpp.s
@@ -696,7 +696,7 @@ Graphics/Controls/Checkbox.s: Graphics/Controls/Checkbox.cpp.s
 
 # target to generate assembly for a file
 Graphics/Controls/Checkbox.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/Checkbox.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/Checkbox.cpp.s
 .PHONY : Graphics/Controls/Checkbox.cpp.s
 
 Graphics/Controls/CheckboxGroup.o: Graphics/Controls/CheckboxGroup.cpp.o
@@ -704,7 +704,7 @@ Graphics/Controls/CheckboxGroup.o: Graphics/Controls/CheckboxGroup.cpp.o
 
 # target to build an object file
 Graphics/Controls/CheckboxGroup.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/CheckboxGroup.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/CheckboxGroup.cpp.o
 .PHONY : Graphics/Controls/CheckboxGroup.cpp.o
 
 Graphics/Controls/CheckboxGroup.i: Graphics/Controls/CheckboxGroup.cpp.i
@@ -712,7 +712,7 @@ Graphics/Controls/CheckboxGroup.i: Graphics/Controls/CheckboxGroup.cpp.i
 
 # target to preprocess a source file
 Graphics/Controls/CheckboxGroup.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/CheckboxGroup.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/CheckboxGroup.cpp.i
 .PHONY : Graphics/Controls/CheckboxGroup.cpp.i
 
 Graphics/Controls/CheckboxGroup.s: Graphics/Controls/CheckboxGroup.cpp.s
@@ -720,7 +720,7 @@ Graphics/Controls/CheckboxGroup.s: Graphics/Controls/CheckboxGroup.cpp.s
 
 # target to generate assembly for a file
 Graphics/Controls/CheckboxGroup.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/CheckboxGroup.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/CheckboxGroup.cpp.s
 .PHONY : Graphics/Controls/CheckboxGroup.cpp.s
 
 Graphics/Controls/CircleButton.o: Graphics/Controls/CircleButton.cpp.o
@@ -728,7 +728,7 @@ Graphics/Controls/CircleButton.o: Graphics/Controls/CircleButton.cpp.o
 
 # target to build an object file
 Graphics/Controls/CircleButton.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/CircleButton.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/CircleButton.cpp.o
 .PHONY : Graphics/Controls/CircleButton.cpp.o
 
 Graphics/Controls/CircleButton.i: Graphics/Controls/CircleButton.cpp.i
@@ -736,7 +736,7 @@ Graphics/Controls/CircleButton.i: Graphics/Controls/CircleButton.cpp.i
 
 # target to preprocess a source file
 Graphics/Controls/CircleButton.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/CircleButton.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/CircleButton.cpp.i
 .PHONY : Graphics/Controls/CircleButton.cpp.i
 
 Graphics/Controls/CircleButton.s: Graphics/Controls/CircleButton.cpp.s
@@ -744,7 +744,7 @@ Graphics/Controls/CircleButton.s: Graphics/Controls/CircleButton.cpp.s
 
 # target to generate assembly for a file
 Graphics/Controls/CircleButton.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/CircleButton.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/CircleButton.cpp.s
 .PHONY : Graphics/Controls/CircleButton.cpp.s
 
 Graphics/Controls/ConvexButton.o: Graphics/Controls/ConvexButton.cpp.o
@@ -752,7 +752,7 @@ Graphics/Controls/ConvexButton.o: Graphics/Controls/ConvexButton.cpp.o
 
 # target to build an object file
 Graphics/Controls/ConvexButton.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ConvexButton.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ConvexButton.cpp.o
 .PHONY : Graphics/Controls/ConvexButton.cpp.o
 
 Graphics/Controls/ConvexButton.i: Graphics/Controls/ConvexButton.cpp.i
@@ -760,7 +760,7 @@ Graphics/Controls/ConvexButton.i: Graphics/Controls/ConvexButton.cpp.i
 
 # target to preprocess a source file
 Graphics/Controls/ConvexButton.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ConvexButton.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ConvexButton.cpp.i
 .PHONY : Graphics/Controls/ConvexButton.cpp.i
 
 Graphics/Controls/ConvexButton.s: Graphics/Controls/ConvexButton.cpp.s
@@ -768,7 +768,7 @@ Graphics/Controls/ConvexButton.s: Graphics/Controls/ConvexButton.cpp.s
 
 # target to generate assembly for a file
 Graphics/Controls/ConvexButton.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ConvexButton.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ConvexButton.cpp.s
 .PHONY : Graphics/Controls/ConvexButton.cpp.s
 
 Graphics/Controls/List.o: Graphics/Controls/List.cpp.o
@@ -776,7 +776,7 @@ Graphics/Controls/List.o: Graphics/Controls/List.cpp.o
 
 # target to build an object file
 Graphics/Controls/List.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/List.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/List.cpp.o
 .PHONY : Graphics/Controls/List.cpp.o
 
 Graphics/Controls/List.i: Graphics/Controls/List.cpp.i
@@ -784,7 +784,7 @@ Graphics/Controls/List.i: Graphics/Controls/List.cpp.i
 
 # target to preprocess a source file
 Graphics/Controls/List.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/List.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/List.cpp.i
 .PHONY : Graphics/Controls/List.cpp.i
 
 Graphics/Controls/List.s: Graphics/Controls/List.cpp.s
@@ -792,7 +792,7 @@ Graphics/Controls/List.s: Graphics/Controls/List.cpp.s
 
 # target to generate assembly for a file
 Graphics/Controls/List.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/List.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/List.cpp.s
 .PHONY : Graphics/Controls/List.cpp.s
 
 Graphics/Controls/ListItem.o: Graphics/Controls/ListItem.cpp.o
@@ -800,7 +800,7 @@ Graphics/Controls/ListItem.o: Graphics/Controls/ListItem.cpp.o
 
 # target to build an object file
 Graphics/Controls/ListItem.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ListItem.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ListItem.cpp.o
 .PHONY : Graphics/Controls/ListItem.cpp.o
 
 Graphics/Controls/ListItem.i: Graphics/Controls/ListItem.cpp.i
@@ -808,7 +808,7 @@ Graphics/Controls/ListItem.i: Graphics/Controls/ListItem.cpp.i
 
 # target to preprocess a source file
 Graphics/Controls/ListItem.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ListItem.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ListItem.cpp.i
 .PHONY : Graphics/Controls/ListItem.cpp.i
 
 Graphics/Controls/ListItem.s: Graphics/Controls/ListItem.cpp.s
@@ -816,7 +816,7 @@ Graphics/Controls/ListItem.s: Graphics/Controls/ListItem.cpp.s
 
 # target to generate assembly for a file
 Graphics/Controls/ListItem.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ListItem.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ListItem.cpp.s
 .PHONY : Graphics/Controls/ListItem.cpp.s
 
 Graphics/Controls/MenuBar.o: Graphics/Controls/MenuBar.cpp.o
@@ -824,7 +824,7 @@ Graphics/Controls/MenuBar.o: Graphics/Controls/MenuBar.cpp.o
 
 # target to build an object file
 Graphics/Controls/MenuBar.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/MenuBar.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/MenuBar.cpp.o
 .PHONY : Graphics/Controls/MenuBar.cpp.o
 
 Graphics/Controls/MenuBar.i: Graphics/Controls/MenuBar.cpp.i
@@ -832,7 +832,7 @@ Graphics/Controls/MenuBar.i: Graphics/Controls/MenuBar.cpp.i
 
 # target to preprocess a source file
 Graphics/Controls/MenuBar.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/MenuBar.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/MenuBar.cpp.i
 .PHONY : Graphics/Controls/MenuBar.cpp.i
 
 Graphics/Controls/MenuBar.s: Graphics/Controls/MenuBar.cpp.s
@@ -840,7 +840,7 @@ Graphics/Controls/MenuBar.s: Graphics/Controls/MenuBar.cpp.s
 
 # target to generate assembly for a file
 Graphics/Controls/MenuBar.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/MenuBar.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/MenuBar.cpp.s
 .PHONY : Graphics/Controls/MenuBar.cpp.s
 
 Graphics/Controls/Modal.o: Graphics/Controls/Modal.cpp.o
@@ -848,7 +848,7 @@ Graphics/Controls/Modal.o: Graphics/Controls/Modal.cpp.o
 
 # target to build an object file
 Graphics/Controls/Modal.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/Modal.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/Modal.cpp.o
 .PHONY : Graphics/Controls/Modal.cpp.o
 
 Graphics/Controls/Modal.i: Graphics/Controls/Modal.cpp.i
@@ -856,7 +856,7 @@ Graphics/Controls/Modal.i: Graphics/Controls/Modal.cpp.i
 
 # target to preprocess a source file
 Graphics/Controls/Modal.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/Modal.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/Modal.cpp.i
 .PHONY : Graphics/Controls/Modal.cpp.i
 
 Graphics/Controls/Modal.s: Graphics/Controls/Modal.cpp.s
@@ -864,7 +864,7 @@ Graphics/Controls/Modal.s: Graphics/Controls/Modal.cpp.s
 
 # target to generate assembly for a file
 Graphics/Controls/Modal.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/Modal.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/Modal.cpp.s
 .PHONY : Graphics/Controls/Modal.cpp.s
 
 Graphics/Controls/PillToggle.o: Graphics/Controls/PillToggle.cpp.o
@@ -872,7 +872,7 @@ Graphics/Controls/PillToggle.o: Graphics/Controls/PillToggle.cpp.o
 
 # target to build an object file
 Graphics/Controls/PillToggle.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/PillToggle.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/PillToggle.cpp.o
 .PHONY : Graphics/Controls/PillToggle.cpp.o
 
 Graphics/Controls/PillToggle.i: Graphics/Controls/PillToggle.cpp.i
@@ -880,7 +880,7 @@ Graphics/Controls/PillToggle.i: Graphics/Controls/PillToggle.cpp.i
 
 # target to preprocess a source file
 Graphics/Controls/PillToggle.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/PillToggle.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/PillToggle.cpp.i
 .PHONY : Graphics/Controls/PillToggle.cpp.i
 
 Graphics/Controls/PillToggle.s: Graphics/Controls/PillToggle.cpp.s
@@ -888,7 +888,7 @@ Graphics/Controls/PillToggle.s: Graphics/Controls/PillToggle.cpp.s
 
 # target to generate assembly for a file
 Graphics/Controls/PillToggle.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/PillToggle.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/PillToggle.cpp.s
 .PHONY : Graphics/Controls/PillToggle.cpp.s
 
 Graphics/Controls/RadioButton.o: Graphics/Controls/RadioButton.cpp.o
@@ -896,7 +896,7 @@ Graphics/Controls/RadioButton.o: Graphics/Controls/RadioButton.cpp.o
 
 # target to build an object file
 Graphics/Controls/RadioButton.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/RadioButton.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/RadioButton.cpp.o
 .PHONY : Graphics/Controls/RadioButton.cpp.o
 
 Graphics/Controls/RadioButton.i: Graphics/Controls/RadioButton.cpp.i
@@ -904,7 +904,7 @@ Graphics/Controls/RadioButton.i: Graphics/Controls/RadioButton.cpp.i
 
 # target to preprocess a source file
 Graphics/Controls/RadioButton.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/RadioButton.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/RadioButton.cpp.i
 .PHONY : Graphics/Controls/RadioButton.cpp.i
 
 Graphics/Controls/RadioButton.s: Graphics/Controls/RadioButton.cpp.s
@@ -912,7 +912,7 @@ Graphics/Controls/RadioButton.s: Graphics/Controls/RadioButton.cpp.s
 
 # target to generate assembly for a file
 Graphics/Controls/RadioButton.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/RadioButton.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/RadioButton.cpp.s
 .PHONY : Graphics/Controls/RadioButton.cpp.s
 
 Graphics/Controls/RadioGroup.o: Graphics/Controls/RadioGroup.cpp.o
@@ -920,7 +920,7 @@ Graphics/Controls/RadioGroup.o: Graphics/Controls/RadioGroup.cpp.o
 
 # target to build an object file
 Graphics/Controls/RadioGroup.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/RadioGroup.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/RadioGroup.cpp.o
 .PHONY : Graphics/Controls/RadioGroup.cpp.o
 
 Graphics/Controls/RadioGroup.i: Graphics/Controls/RadioGroup.cpp.i
@@ -928,7 +928,7 @@ Graphics/Controls/RadioGroup.i: Graphics/Controls/RadioGroup.cpp.i
 
 # target to preprocess a source file
 Graphics/Controls/RadioGroup.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/RadioGroup.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/RadioGroup.cpp.i
 .PHONY : Graphics/Controls/RadioGroup.cpp.i
 
 Graphics/Controls/RadioGroup.s: Graphics/Controls/RadioGroup.cpp.s
@@ -936,7 +936,7 @@ Graphics/Controls/RadioGroup.s: Graphics/Controls/RadioGroup.cpp.s
 
 # target to generate assembly for a file
 Graphics/Controls/RadioGroup.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/RadioGroup.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/RadioGroup.cpp.s
 .PHONY : Graphics/Controls/RadioGroup.cpp.s
 
 Graphics/Controls/RectangleButton.o: Graphics/Controls/RectangleButton.cpp.o
@@ -944,7 +944,7 @@ Graphics/Controls/RectangleButton.o: Graphics/Controls/RectangleButton.cpp.o
 
 # target to build an object file
 Graphics/Controls/RectangleButton.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/RectangleButton.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/RectangleButton.cpp.o
 .PHONY : Graphics/Controls/RectangleButton.cpp.o
 
 Graphics/Controls/RectangleButton.i: Graphics/Controls/RectangleButton.cpp.i
@@ -952,7 +952,7 @@ Graphics/Controls/RectangleButton.i: Graphics/Controls/RectangleButton.cpp.i
 
 # target to preprocess a source file
 Graphics/Controls/RectangleButton.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/RectangleButton.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/RectangleButton.cpp.i
 .PHONY : Graphics/Controls/RectangleButton.cpp.i
 
 Graphics/Controls/RectangleButton.s: Graphics/Controls/RectangleButton.cpp.s
@@ -960,7 +960,7 @@ Graphics/Controls/RectangleButton.s: Graphics/Controls/RectangleButton.cpp.s
 
 # target to generate assembly for a file
 Graphics/Controls/RectangleButton.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/RectangleButton.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/RectangleButton.cpp.s
 .PHONY : Graphics/Controls/RectangleButton.cpp.s
 
 Graphics/Controls/ScrollPane.o: Graphics/Controls/ScrollPane.cpp.o
@@ -968,7 +968,7 @@ Graphics/Controls/ScrollPane.o: Graphics/Controls/ScrollPane.cpp.o
 
 # target to build an object file
 Graphics/Controls/ScrollPane.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ScrollPane.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ScrollPane.cpp.o
 .PHONY : Graphics/Controls/ScrollPane.cpp.o
 
 Graphics/Controls/ScrollPane.i: Graphics/Controls/ScrollPane.cpp.i
@@ -976,7 +976,7 @@ Graphics/Controls/ScrollPane.i: Graphics/Controls/ScrollPane.cpp.i
 
 # target to preprocess a source file
 Graphics/Controls/ScrollPane.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ScrollPane.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ScrollPane.cpp.i
 .PHONY : Graphics/Controls/ScrollPane.cpp.i
 
 Graphics/Controls/ScrollPane.s: Graphics/Controls/ScrollPane.cpp.s
@@ -984,7 +984,7 @@ Graphics/Controls/ScrollPane.s: Graphics/Controls/ScrollPane.cpp.s
 
 # target to generate assembly for a file
 Graphics/Controls/ScrollPane.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ScrollPane.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ScrollPane.cpp.s
 .PHONY : Graphics/Controls/ScrollPane.cpp.s
 
 Graphics/Controls/SegmentToggle.o: Graphics/Controls/SegmentToggle.cpp.o
@@ -992,7 +992,7 @@ Graphics/Controls/SegmentToggle.o: Graphics/Controls/SegmentToggle.cpp.o
 
 # target to build an object file
 Graphics/Controls/SegmentToggle.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/SegmentToggle.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/SegmentToggle.cpp.o
 .PHONY : Graphics/Controls/SegmentToggle.cpp.o
 
 Graphics/Controls/SegmentToggle.i: Graphics/Controls/SegmentToggle.cpp.i
@@ -1000,7 +1000,7 @@ Graphics/Controls/SegmentToggle.i: Graphics/Controls/SegmentToggle.cpp.i
 
 # target to preprocess a source file
 Graphics/Controls/SegmentToggle.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/SegmentToggle.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/SegmentToggle.cpp.i
 .PHONY : Graphics/Controls/SegmentToggle.cpp.i
 
 Graphics/Controls/SegmentToggle.s: Graphics/Controls/SegmentToggle.cpp.s
@@ -1008,7 +1008,7 @@ Graphics/Controls/SegmentToggle.s: Graphics/Controls/SegmentToggle.cpp.s
 
 # target to generate assembly for a file
 Graphics/Controls/SegmentToggle.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/SegmentToggle.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/SegmentToggle.cpp.s
 .PHONY : Graphics/Controls/SegmentToggle.cpp.s
 
 Graphics/Controls/Select.o: Graphics/Controls/Select.cpp.o
@@ -1016,7 +1016,7 @@ Graphics/Controls/Select.o: Graphics/Controls/Select.cpp.o
 
 # target to build an object file
 Graphics/Controls/Select.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/Select.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/Select.cpp.o
 .PHONY : Graphics/Controls/Select.cpp.o
 
 Graphics/Controls/Select.i: Graphics/Controls/Select.cpp.i
@@ -1024,7 +1024,7 @@ Graphics/Controls/Select.i: Graphics/Controls/Select.cpp.i
 
 # target to preprocess a source file
 Graphics/Controls/Select.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/Select.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/Select.cpp.i
 .PHONY : Graphics/Controls/Select.cpp.i
 
 Graphics/Controls/Select.s: Graphics/Controls/Select.cpp.s
@@ -1032,7 +1032,7 @@ Graphics/Controls/Select.s: Graphics/Controls/Select.cpp.s
 
 # target to generate assembly for a file
 Graphics/Controls/Select.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/Select.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/Select.cpp.s
 .PHONY : Graphics/Controls/Select.cpp.s
 
 Graphics/Controls/SideMenu.o: Graphics/Controls/SideMenu.cpp.o
@@ -1040,7 +1040,7 @@ Graphics/Controls/SideMenu.o: Graphics/Controls/SideMenu.cpp.o
 
 # target to build an object file
 Graphics/Controls/SideMenu.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/SideMenu.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/SideMenu.cpp.o
 .PHONY : Graphics/Controls/SideMenu.cpp.o
 
 Graphics/Controls/SideMenu.i: Graphics/Controls/SideMenu.cpp.i
@@ -1048,7 +1048,7 @@ Graphics/Controls/SideMenu.i: Graphics/Controls/SideMenu.cpp.i
 
 # target to preprocess a source file
 Graphics/Controls/SideMenu.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/SideMenu.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/SideMenu.cpp.i
 .PHONY : Graphics/Controls/SideMenu.cpp.i
 
 Graphics/Controls/SideMenu.s: Graphics/Controls/SideMenu.cpp.s
@@ -1056,7 +1056,7 @@ Graphics/Controls/SideMenu.s: Graphics/Controls/SideMenu.cpp.s
 
 # target to generate assembly for a file
 Graphics/Controls/SideMenu.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/SideMenu.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/SideMenu.cpp.s
 .PHONY : Graphics/Controls/SideMenu.cpp.s
 
 Graphics/Controls/SplitPanel.o: Graphics/Controls/SplitPanel.cpp.o
@@ -1064,7 +1064,7 @@ Graphics/Controls/SplitPanel.o: Graphics/Controls/SplitPanel.cpp.o
 
 # target to build an object file
 Graphics/Controls/SplitPanel.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/SplitPanel.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/SplitPanel.cpp.o
 .PHONY : Graphics/Controls/SplitPanel.cpp.o
 
 Graphics/Controls/SplitPanel.i: Graphics/Controls/SplitPanel.cpp.i
@@ -1072,7 +1072,7 @@ Graphics/Controls/SplitPanel.i: Graphics/Controls/SplitPanel.cpp.i
 
 # target to preprocess a source file
 Graphics/Controls/SplitPanel.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/SplitPanel.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/SplitPanel.cpp.i
 .PHONY : Graphics/Controls/SplitPanel.cpp.i
 
 Graphics/Controls/SplitPanel.s: Graphics/Controls/SplitPanel.cpp.s
@@ -1080,7 +1080,7 @@ Graphics/Controls/SplitPanel.s: Graphics/Controls/SplitPanel.cpp.s
 
 # target to generate assembly for a file
 Graphics/Controls/SplitPanel.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/SplitPanel.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/SplitPanel.cpp.s
 .PHONY : Graphics/Controls/SplitPanel.cpp.s
 
 Graphics/Controls/Tab.o: Graphics/Controls/Tab.cpp.o
@@ -1088,7 +1088,7 @@ Graphics/Controls/Tab.o: Graphics/Controls/Tab.cpp.o
 
 # target to build an object file
 Graphics/Controls/Tab.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/Tab.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/Tab.cpp.o
 .PHONY : Graphics/Controls/Tab.cpp.o
 
 Graphics/Controls/Tab.i: Graphics/Controls/Tab.cpp.i
@@ -1096,7 +1096,7 @@ Graphics/Controls/Tab.i: Graphics/Controls/Tab.cpp.i
 
 # target to preprocess a source file
 Graphics/Controls/Tab.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/Tab.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/Tab.cpp.i
 .PHONY : Graphics/Controls/Tab.cpp.i
 
 Graphics/Controls/Tab.s: Graphics/Controls/Tab.cpp.s
@@ -1104,7 +1104,7 @@ Graphics/Controls/Tab.s: Graphics/Controls/Tab.cpp.s
 
 # target to generate assembly for a file
 Graphics/Controls/Tab.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/Tab.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/Tab.cpp.s
 .PHONY : Graphics/Controls/Tab.cpp.s
 
 Graphics/Controls/TabbedPanel.o: Graphics/Controls/TabbedPanel.cpp.o
@@ -1112,7 +1112,7 @@ Graphics/Controls/TabbedPanel.o: Graphics/Controls/TabbedPanel.cpp.o
 
 # target to build an object file
 Graphics/Controls/TabbedPanel.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/TabbedPanel.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/TabbedPanel.cpp.o
 .PHONY : Graphics/Controls/TabbedPanel.cpp.o
 
 Graphics/Controls/TabbedPanel.i: Graphics/Controls/TabbedPanel.cpp.i
@@ -1120,7 +1120,7 @@ Graphics/Controls/TabbedPanel.i: Graphics/Controls/TabbedPanel.cpp.i
 
 # target to preprocess a source file
 Graphics/Controls/TabbedPanel.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/TabbedPanel.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/TabbedPanel.cpp.i
 .PHONY : Graphics/Controls/TabbedPanel.cpp.i
 
 Graphics/Controls/TabbedPanel.s: Graphics/Controls/TabbedPanel.cpp.s
@@ -1128,7 +1128,7 @@ Graphics/Controls/TabbedPanel.s: Graphics/Controls/TabbedPanel.cpp.s
 
 # target to generate assembly for a file
 Graphics/Controls/TabbedPanel.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/TabbedPanel.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/TabbedPanel.cpp.s
 .PHONY : Graphics/Controls/TabbedPanel.cpp.s
 
 Graphics/Controls/ToggleGroup.o: Graphics/Controls/ToggleGroup.cpp.o
@@ -1136,7 +1136,7 @@ Graphics/Controls/ToggleGroup.o: Graphics/Controls/ToggleGroup.cpp.o
 
 # target to build an object file
 Graphics/Controls/ToggleGroup.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ToggleGroup.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ToggleGroup.cpp.o
 .PHONY : Graphics/Controls/ToggleGroup.cpp.o
 
 Graphics/Controls/ToggleGroup.i: Graphics/Controls/ToggleGroup.cpp.i
@@ -1144,7 +1144,7 @@ Graphics/Controls/ToggleGroup.i: Graphics/Controls/ToggleGroup.cpp.i
 
 # target to preprocess a source file
 Graphics/Controls/ToggleGroup.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ToggleGroup.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ToggleGroup.cpp.i
 .PHONY : Graphics/Controls/ToggleGroup.cpp.i
 
 Graphics/Controls/ToggleGroup.s: Graphics/Controls/ToggleGroup.cpp.s
@@ -1152,7 +1152,7 @@ Graphics/Controls/ToggleGroup.s: Graphics/Controls/ToggleGroup.cpp.s
 
 # target to generate assembly for a file
 Graphics/Controls/ToggleGroup.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ToggleGroup.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/ToggleGroup.cpp.s
 .PHONY : Graphics/Controls/ToggleGroup.cpp.s
 
 Graphics/Controls/Toolbar.o: Graphics/Controls/Toolbar.cpp.o
@@ -1160,7 +1160,7 @@ Graphics/Controls/Toolbar.o: Graphics/Controls/Toolbar.cpp.o
 
 # target to build an object file
 Graphics/Controls/Toolbar.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/Toolbar.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/Toolbar.cpp.o
 .PHONY : Graphics/Controls/Toolbar.cpp.o
 
 Graphics/Controls/Toolbar.i: Graphics/Controls/Toolbar.cpp.i
@@ -1168,7 +1168,7 @@ Graphics/Controls/Toolbar.i: Graphics/Controls/Toolbar.cpp.i
 
 # target to preprocess a source file
 Graphics/Controls/Toolbar.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/Toolbar.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/Toolbar.cpp.i
 .PHONY : Graphics/Controls/Toolbar.cpp.i
 
 Graphics/Controls/Toolbar.s: Graphics/Controls/Toolbar.cpp.s
@@ -1176,7 +1176,7 @@ Graphics/Controls/Toolbar.s: Graphics/Controls/Toolbar.cpp.s
 
 # target to generate assembly for a file
 Graphics/Controls/Toolbar.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/Toolbar.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Controls/Toolbar.cpp.s
 .PHONY : Graphics/Controls/Toolbar.cpp.s
 
 Graphics/Layouts/Grid.o: Graphics/Layouts/Grid.cpp.o
@@ -1184,7 +1184,7 @@ Graphics/Layouts/Grid.o: Graphics/Layouts/Grid.cpp.o
 
 # target to build an object file
 Graphics/Layouts/Grid.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Layouts/Grid.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Layouts/Grid.cpp.o
 .PHONY : Graphics/Layouts/Grid.cpp.o
 
 Graphics/Layouts/Grid.i: Graphics/Layouts/Grid.cpp.i
@@ -1192,7 +1192,7 @@ Graphics/Layouts/Grid.i: Graphics/Layouts/Grid.cpp.i
 
 # target to preprocess a source file
 Graphics/Layouts/Grid.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Layouts/Grid.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Layouts/Grid.cpp.i
 .PHONY : Graphics/Layouts/Grid.cpp.i
 
 Graphics/Layouts/Grid.s: Graphics/Layouts/Grid.cpp.s
@@ -1200,7 +1200,7 @@ Graphics/Layouts/Grid.s: Graphics/Layouts/Grid.cpp.s
 
 # target to generate assembly for a file
 Graphics/Layouts/Grid.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Layouts/Grid.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Layouts/Grid.cpp.s
 .PHONY : Graphics/Layouts/Grid.cpp.s
 
 Graphics/Layouts/Panel.o: Graphics/Layouts/Panel.cpp.o
@@ -1208,7 +1208,7 @@ Graphics/Layouts/Panel.o: Graphics/Layouts/Panel.cpp.o
 
 # target to build an object file
 Graphics/Layouts/Panel.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Layouts/Panel.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Layouts/Panel.cpp.o
 .PHONY : Graphics/Layouts/Panel.cpp.o
 
 Graphics/Layouts/Panel.i: Graphics/Layouts/Panel.cpp.i
@@ -1216,7 +1216,7 @@ Graphics/Layouts/Panel.i: Graphics/Layouts/Panel.cpp.i
 
 # target to preprocess a source file
 Graphics/Layouts/Panel.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Layouts/Panel.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Layouts/Panel.cpp.i
 .PHONY : Graphics/Layouts/Panel.cpp.i
 
 Graphics/Layouts/Panel.s: Graphics/Layouts/Panel.cpp.s
@@ -1224,7 +1224,7 @@ Graphics/Layouts/Panel.s: Graphics/Layouts/Panel.cpp.s
 
 # target to generate assembly for a file
 Graphics/Layouts/Panel.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Layouts/Panel.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Layouts/Panel.cpp.s
 .PHONY : Graphics/Layouts/Panel.cpp.s
 
 Graphics/Primitives/Circle.o: Graphics/Primitives/Circle.cpp.o
@@ -1232,7 +1232,7 @@ Graphics/Primitives/Circle.o: Graphics/Primitives/Circle.cpp.o
 
 # target to build an object file
 Graphics/Primitives/Circle.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Primitives/Circle.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Primitives/Circle.cpp.o
 .PHONY : Graphics/Primitives/Circle.cpp.o
 
 Graphics/Primitives/Circle.i: Graphics/Primitives/Circle.cpp.i
@@ -1240,7 +1240,7 @@ Graphics/Primitives/Circle.i: Graphics/Primitives/Circle.cpp.i
 
 # target to preprocess a source file
 Graphics/Primitives/Circle.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Primitives/Circle.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Primitives/Circle.cpp.i
 .PHONY : Graphics/Primitives/Circle.cpp.i
 
 Graphics/Primitives/Circle.s: Graphics/Primitives/Circle.cpp.s
@@ -1248,7 +1248,7 @@ Graphics/Primitives/Circle.s: Graphics/Primitives/Circle.cpp.s
 
 # target to generate assembly for a file
 Graphics/Primitives/Circle.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Primitives/Circle.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Primitives/Circle.cpp.s
 .PHONY : Graphics/Primitives/Circle.cpp.s
 
 Graphics/Primitives/Convex.o: Graphics/Primitives/Convex.cpp.o
@@ -1256,7 +1256,7 @@ Graphics/Primitives/Convex.o: Graphics/Primitives/Convex.cpp.o
 
 # target to build an object file
 Graphics/Primitives/Convex.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Primitives/Convex.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Primitives/Convex.cpp.o
 .PHONY : Graphics/Primitives/Convex.cpp.o
 
 Graphics/Primitives/Convex.i: Graphics/Primitives/Convex.cpp.i
@@ -1264,7 +1264,7 @@ Graphics/Primitives/Convex.i: Graphics/Primitives/Convex.cpp.i
 
 # target to preprocess a source file
 Graphics/Primitives/Convex.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Primitives/Convex.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Primitives/Convex.cpp.i
 .PHONY : Graphics/Primitives/Convex.cpp.i
 
 Graphics/Primitives/Convex.s: Graphics/Primitives/Convex.cpp.s
@@ -1272,7 +1272,7 @@ Graphics/Primitives/Convex.s: Graphics/Primitives/Convex.cpp.s
 
 # target to generate assembly for a file
 Graphics/Primitives/Convex.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Primitives/Convex.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Primitives/Convex.cpp.s
 .PHONY : Graphics/Primitives/Convex.cpp.s
 
 Graphics/Primitives/Rectangle.o: Graphics/Primitives/Rectangle.cpp.o
@@ -1280,7 +1280,7 @@ Graphics/Primitives/Rectangle.o: Graphics/Primitives/Rectangle.cpp.o
 
 # target to build an object file
 Graphics/Primitives/Rectangle.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Primitives/Rectangle.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Primitives/Rectangle.cpp.o
 .PHONY : Graphics/Primitives/Rectangle.cpp.o
 
 Graphics/Primitives/Rectangle.i: Graphics/Primitives/Rectangle.cpp.i
@@ -1288,7 +1288,7 @@ Graphics/Primitives/Rectangle.i: Graphics/Primitives/Rectangle.cpp.i
 
 # target to preprocess a source file
 Graphics/Primitives/Rectangle.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Primitives/Rectangle.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Primitives/Rectangle.cpp.i
 .PHONY : Graphics/Primitives/Rectangle.cpp.i
 
 Graphics/Primitives/Rectangle.s: Graphics/Primitives/Rectangle.cpp.s
@@ -1296,7 +1296,7 @@ Graphics/Primitives/Rectangle.s: Graphics/Primitives/Rectangle.cpp.s
 
 # target to generate assembly for a file
 Graphics/Primitives/Rectangle.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Primitives/Rectangle.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Primitives/Rectangle.cpp.s
 .PHONY : Graphics/Primitives/Rectangle.cpp.s
 
 Graphics/Primitives/RoundedRectangle.o: Graphics/Primitives/RoundedRectangle.cpp.o
@@ -1304,7 +1304,7 @@ Graphics/Primitives/RoundedRectangle.o: Graphics/Primitives/RoundedRectangle.cpp
 
 # target to build an object file
 Graphics/Primitives/RoundedRectangle.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Primitives/RoundedRectangle.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Primitives/RoundedRectangle.cpp.o
 .PHONY : Graphics/Primitives/RoundedRectangle.cpp.o
 
 Graphics/Primitives/RoundedRectangle.i: Graphics/Primitives/RoundedRectangle.cpp.i
@@ -1312,7 +1312,7 @@ Graphics/Primitives/RoundedRectangle.i: Graphics/Primitives/RoundedRectangle.cpp
 
 # target to preprocess a source file
 Graphics/Primitives/RoundedRectangle.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Primitives/RoundedRectangle.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Primitives/RoundedRectangle.cpp.i
 .PHONY : Graphics/Primitives/RoundedRectangle.cpp.i
 
 Graphics/Primitives/RoundedRectangle.s: Graphics/Primitives/RoundedRectangle.cpp.s
@@ -1320,7 +1320,7 @@ Graphics/Primitives/RoundedRectangle.s: Graphics/Primitives/RoundedRectangle.cpp
 
 # target to generate assembly for a file
 Graphics/Primitives/RoundedRectangle.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Primitives/RoundedRectangle.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Primitives/RoundedRectangle.cpp.s
 .PHONY : Graphics/Primitives/RoundedRectangle.cpp.s
 
 Graphics/Primitives/VertexArray.o: Graphics/Primitives/VertexArray.cpp.o
@@ -1328,7 +1328,7 @@ Graphics/Primitives/VertexArray.o: Graphics/Primitives/VertexArray.cpp.o
 
 # target to build an object file
 Graphics/Primitives/VertexArray.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Primitives/VertexArray.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Primitives/VertexArray.cpp.o
 .PHONY : Graphics/Primitives/VertexArray.cpp.o
 
 Graphics/Primitives/VertexArray.i: Graphics/Primitives/VertexArray.cpp.i
@@ -1336,7 +1336,7 @@ Graphics/Primitives/VertexArray.i: Graphics/Primitives/VertexArray.cpp.i
 
 # target to preprocess a source file
 Graphics/Primitives/VertexArray.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Primitives/VertexArray.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Primitives/VertexArray.cpp.i
 .PHONY : Graphics/Primitives/VertexArray.cpp.i
 
 Graphics/Primitives/VertexArray.s: Graphics/Primitives/VertexArray.cpp.s
@@ -1344,7 +1344,7 @@ Graphics/Primitives/VertexArray.s: Graphics/Primitives/VertexArray.cpp.s
 
 # target to generate assembly for a file
 Graphics/Primitives/VertexArray.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Primitives/VertexArray.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Primitives/VertexArray.cpp.s
 .PHONY : Graphics/Primitives/VertexArray.cpp.s
 
 Graphics/Sprites/Sprite.o: Graphics/Sprites/Sprite.cpp.o
@@ -1352,7 +1352,7 @@ Graphics/Sprites/Sprite.o: Graphics/Sprites/Sprite.cpp.o
 
 # target to build an object file
 Graphics/Sprites/Sprite.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Sprites/Sprite.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Sprites/Sprite.cpp.o
 .PHONY : Graphics/Sprites/Sprite.cpp.o
 
 Graphics/Sprites/Sprite.i: Graphics/Sprites/Sprite.cpp.i
@@ -1360,7 +1360,7 @@ Graphics/Sprites/Sprite.i: Graphics/Sprites/Sprite.cpp.i
 
 # target to preprocess a source file
 Graphics/Sprites/Sprite.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Sprites/Sprite.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Sprites/Sprite.cpp.i
 .PHONY : Graphics/Sprites/Sprite.cpp.i
 
 Graphics/Sprites/Sprite.s: Graphics/Sprites/Sprite.cpp.s
@@ -1368,7 +1368,7 @@ Graphics/Sprites/Sprite.s: Graphics/Sprites/Sprite.cpp.s
 
 # target to generate assembly for a file
 Graphics/Sprites/Sprite.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Sprites/Sprite.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Sprites/Sprite.cpp.s
 .PHONY : Graphics/Sprites/Sprite.cpp.s
 
 Graphics/Text/Cursor.o: Graphics/Text/Cursor.cpp.o
@@ -1376,7 +1376,7 @@ Graphics/Text/Cursor.o: Graphics/Text/Cursor.cpp.o
 
 # target to build an object file
 Graphics/Text/Cursor.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/Cursor.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/Cursor.cpp.o
 .PHONY : Graphics/Text/Cursor.cpp.o
 
 Graphics/Text/Cursor.i: Graphics/Text/Cursor.cpp.i
@@ -1384,7 +1384,7 @@ Graphics/Text/Cursor.i: Graphics/Text/Cursor.cpp.i
 
 # target to preprocess a source file
 Graphics/Text/Cursor.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/Cursor.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/Cursor.cpp.i
 .PHONY : Graphics/Text/Cursor.cpp.i
 
 Graphics/Text/Cursor.s: Graphics/Text/Cursor.cpp.s
@@ -1392,7 +1392,7 @@ Graphics/Text/Cursor.s: Graphics/Text/Cursor.cpp.s
 
 # target to generate assembly for a file
 Graphics/Text/Cursor.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/Cursor.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/Cursor.cpp.s
 .PHONY : Graphics/Text/Cursor.cpp.s
 
 Graphics/Text/RichTextBuffer.o: Graphics/Text/RichTextBuffer.cpp.o
@@ -1400,7 +1400,7 @@ Graphics/Text/RichTextBuffer.o: Graphics/Text/RichTextBuffer.cpp.o
 
 # target to build an object file
 Graphics/Text/RichTextBuffer.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/RichTextBuffer.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/RichTextBuffer.cpp.o
 .PHONY : Graphics/Text/RichTextBuffer.cpp.o
 
 Graphics/Text/RichTextBuffer.i: Graphics/Text/RichTextBuffer.cpp.i
@@ -1408,7 +1408,7 @@ Graphics/Text/RichTextBuffer.i: Graphics/Text/RichTextBuffer.cpp.i
 
 # target to preprocess a source file
 Graphics/Text/RichTextBuffer.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/RichTextBuffer.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/RichTextBuffer.cpp.i
 .PHONY : Graphics/Text/RichTextBuffer.cpp.i
 
 Graphics/Text/RichTextBuffer.s: Graphics/Text/RichTextBuffer.cpp.s
@@ -1416,7 +1416,7 @@ Graphics/Text/RichTextBuffer.s: Graphics/Text/RichTextBuffer.cpp.s
 
 # target to generate assembly for a file
 Graphics/Text/RichTextBuffer.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/RichTextBuffer.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/RichTextBuffer.cpp.s
 .PHONY : Graphics/Text/RichTextBuffer.cpp.s
 
 Graphics/Text/RichTextRenderer.o: Graphics/Text/RichTextRenderer.cpp.o
@@ -1424,7 +1424,7 @@ Graphics/Text/RichTextRenderer.o: Graphics/Text/RichTextRenderer.cpp.o
 
 # target to build an object file
 Graphics/Text/RichTextRenderer.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/RichTextRenderer.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/RichTextRenderer.cpp.o
 .PHONY : Graphics/Text/RichTextRenderer.cpp.o
 
 Graphics/Text/RichTextRenderer.i: Graphics/Text/RichTextRenderer.cpp.i
@@ -1432,7 +1432,7 @@ Graphics/Text/RichTextRenderer.i: Graphics/Text/RichTextRenderer.cpp.i
 
 # target to preprocess a source file
 Graphics/Text/RichTextRenderer.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/RichTextRenderer.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/RichTextRenderer.cpp.i
 .PHONY : Graphics/Text/RichTextRenderer.cpp.i
 
 Graphics/Text/RichTextRenderer.s: Graphics/Text/RichTextRenderer.cpp.s
@@ -1440,7 +1440,7 @@ Graphics/Text/RichTextRenderer.s: Graphics/Text/RichTextRenderer.cpp.s
 
 # target to generate assembly for a file
 Graphics/Text/RichTextRenderer.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/RichTextRenderer.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/RichTextRenderer.cpp.s
 .PHONY : Graphics/Text/RichTextRenderer.cpp.s
 
 Graphics/Text/Text.o: Graphics/Text/Text.cpp.o
@@ -1448,7 +1448,7 @@ Graphics/Text/Text.o: Graphics/Text/Text.cpp.o
 
 # target to build an object file
 Graphics/Text/Text.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/Text.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/Text.cpp.o
 .PHONY : Graphics/Text/Text.cpp.o
 
 Graphics/Text/Text.i: Graphics/Text/Text.cpp.i
@@ -1456,7 +1456,7 @@ Graphics/Text/Text.i: Graphics/Text/Text.cpp.i
 
 # target to preprocess a source file
 Graphics/Text/Text.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/Text.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/Text.cpp.i
 .PHONY : Graphics/Text/Text.cpp.i
 
 Graphics/Text/Text.s: Graphics/Text/Text.cpp.s
@@ -1464,7 +1464,7 @@ Graphics/Text/Text.s: Graphics/Text/Text.cpp.s
 
 # target to generate assembly for a file
 Graphics/Text/Text.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/Text.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/Text.cpp.s
 .PHONY : Graphics/Text/Text.cpp.s
 
 Graphics/Text/TextArea.o: Graphics/Text/TextArea.cpp.o
@@ -1472,7 +1472,7 @@ Graphics/Text/TextArea.o: Graphics/Text/TextArea.cpp.o
 
 # target to build an object file
 Graphics/Text/TextArea.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/TextArea.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/TextArea.cpp.o
 .PHONY : Graphics/Text/TextArea.cpp.o
 
 Graphics/Text/TextArea.i: Graphics/Text/TextArea.cpp.i
@@ -1480,7 +1480,7 @@ Graphics/Text/TextArea.i: Graphics/Text/TextArea.cpp.i
 
 # target to preprocess a source file
 Graphics/Text/TextArea.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/TextArea.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/TextArea.cpp.i
 .PHONY : Graphics/Text/TextArea.cpp.i
 
 Graphics/Text/TextArea.s: Graphics/Text/TextArea.cpp.s
@@ -1488,7 +1488,7 @@ Graphics/Text/TextArea.s: Graphics/Text/TextArea.cpp.s
 
 # target to generate assembly for a file
 Graphics/Text/TextArea.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/TextArea.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/TextArea.cpp.s
 .PHONY : Graphics/Text/TextArea.cpp.s
 
 Graphics/Text/TextBox.o: Graphics/Text/TextBox.cpp.o
@@ -1496,7 +1496,7 @@ Graphics/Text/TextBox.o: Graphics/Text/TextBox.cpp.o
 
 # target to build an object file
 Graphics/Text/TextBox.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/TextBox.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/TextBox.cpp.o
 .PHONY : Graphics/Text/TextBox.cpp.o
 
 Graphics/Text/TextBox.i: Graphics/Text/TextBox.cpp.i
@@ -1504,7 +1504,7 @@ Graphics/Text/TextBox.i: Graphics/Text/TextBox.cpp.i
 
 # target to preprocess a source file
 Graphics/Text/TextBox.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/TextBox.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/TextBox.cpp.i
 .PHONY : Graphics/Text/TextBox.cpp.i
 
 Graphics/Text/TextBox.s: Graphics/Text/TextBox.cpp.s
@@ -1512,7 +1512,7 @@ Graphics/Text/TextBox.s: Graphics/Text/TextBox.cpp.s
 
 # target to generate assembly for a file
 Graphics/Text/TextBox.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/TextBox.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/TextBox.cpp.s
 .PHONY : Graphics/Text/TextBox.cpp.s
 
 Graphics/Text/TextInput.o: Graphics/Text/TextInput.cpp.o
@@ -1520,7 +1520,7 @@ Graphics/Text/TextInput.o: Graphics/Text/TextInput.cpp.o
 
 # target to build an object file
 Graphics/Text/TextInput.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/TextInput.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/TextInput.cpp.o
 .PHONY : Graphics/Text/TextInput.cpp.o
 
 Graphics/Text/TextInput.i: Graphics/Text/TextInput.cpp.i
@@ -1528,7 +1528,7 @@ Graphics/Text/TextInput.i: Graphics/Text/TextInput.cpp.i
 
 # target to preprocess a source file
 Graphics/Text/TextInput.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/TextInput.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/TextInput.cpp.i
 .PHONY : Graphics/Text/TextInput.cpp.i
 
 Graphics/Text/TextInput.s: Graphics/Text/TextInput.cpp.s
@@ -1536,7 +1536,7 @@ Graphics/Text/TextInput.s: Graphics/Text/TextInput.cpp.s
 
 # target to generate assembly for a file
 Graphics/Text/TextInput.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/TextInput.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/TextInput.cpp.s
 .PHONY : Graphics/Text/TextInput.cpp.s
 
 Graphics/Text/TextInputBase.o: Graphics/Text/TextInputBase.cpp.o
@@ -1544,7 +1544,7 @@ Graphics/Text/TextInputBase.o: Graphics/Text/TextInputBase.cpp.o
 
 # target to build an object file
 Graphics/Text/TextInputBase.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/TextInputBase.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/TextInputBase.cpp.o
 .PHONY : Graphics/Text/TextInputBase.cpp.o
 
 Graphics/Text/TextInputBase.i: Graphics/Text/TextInputBase.cpp.i
@@ -1552,7 +1552,7 @@ Graphics/Text/TextInputBase.i: Graphics/Text/TextInputBase.cpp.i
 
 # target to preprocess a source file
 Graphics/Text/TextInputBase.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/TextInputBase.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/TextInputBase.cpp.i
 .PHONY : Graphics/Text/TextInputBase.cpp.i
 
 Graphics/Text/TextInputBase.s: Graphics/Text/TextInputBase.cpp.s
@@ -1560,7 +1560,7 @@ Graphics/Text/TextInputBase.s: Graphics/Text/TextInputBase.cpp.s
 
 # target to generate assembly for a file
 Graphics/Text/TextInputBase.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/TextInputBase.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/TextInputBase.cpp.s
 .PHONY : Graphics/Text/TextInputBase.cpp.s
 
 Graphics/Text/Typer.o: Graphics/Text/Typer.cpp.o
@@ -1568,7 +1568,7 @@ Graphics/Text/Typer.o: Graphics/Text/Typer.cpp.o
 
 # target to build an object file
 Graphics/Text/Typer.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/Typer.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/Typer.cpp.o
 .PHONY : Graphics/Text/Typer.cpp.o
 
 Graphics/Text/Typer.i: Graphics/Text/Typer.cpp.i
@@ -1576,7 +1576,7 @@ Graphics/Text/Typer.i: Graphics/Text/Typer.cpp.i
 
 # target to preprocess a source file
 Graphics/Text/Typer.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/Typer.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/Typer.cpp.i
 .PHONY : Graphics/Text/Typer.cpp.i
 
 Graphics/Text/Typer.s: Graphics/Text/Typer.cpp.s
@@ -1584,7 +1584,7 @@ Graphics/Text/Typer.s: Graphics/Text/Typer.cpp.s
 
 # target to generate assembly for a file
 Graphics/Text/Typer.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/Typer.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Graphics/Text/Typer.cpp.s
 .PHONY : Graphics/Text/Typer.cpp.s
 
 Providers/NetworkDispatcher.o: Providers/NetworkDispatcher.cpp.o
@@ -1592,7 +1592,7 @@ Providers/NetworkDispatcher.o: Providers/NetworkDispatcher.cpp.o
 
 # target to build an object file
 Providers/NetworkDispatcher.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Providers/NetworkDispatcher.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Providers/NetworkDispatcher.cpp.o
 .PHONY : Providers/NetworkDispatcher.cpp.o
 
 Providers/NetworkDispatcher.i: Providers/NetworkDispatcher.cpp.i
@@ -1600,7 +1600,7 @@ Providers/NetworkDispatcher.i: Providers/NetworkDispatcher.cpp.i
 
 # target to preprocess a source file
 Providers/NetworkDispatcher.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Providers/NetworkDispatcher.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Providers/NetworkDispatcher.cpp.i
 .PHONY : Providers/NetworkDispatcher.cpp.i
 
 Providers/NetworkDispatcher.s: Providers/NetworkDispatcher.cpp.s
@@ -1608,7 +1608,7 @@ Providers/NetworkDispatcher.s: Providers/NetworkDispatcher.cpp.s
 
 # target to generate assembly for a file
 Providers/NetworkDispatcher.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Providers/NetworkDispatcher.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Providers/NetworkDispatcher.cpp.s
 .PHONY : Providers/NetworkDispatcher.cpp.s
 
 Providers/WebSocketProvider.o: Providers/WebSocketProvider.cpp.o
@@ -1616,7 +1616,7 @@ Providers/WebSocketProvider.o: Providers/WebSocketProvider.cpp.o
 
 # target to build an object file
 Providers/WebSocketProvider.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Providers/WebSocketProvider.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Providers/WebSocketProvider.cpp.o
 .PHONY : Providers/WebSocketProvider.cpp.o
 
 Providers/WebSocketProvider.i: Providers/WebSocketProvider.cpp.i
@@ -1624,7 +1624,7 @@ Providers/WebSocketProvider.i: Providers/WebSocketProvider.cpp.i
 
 # target to preprocess a source file
 Providers/WebSocketProvider.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Providers/WebSocketProvider.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Providers/WebSocketProvider.cpp.i
 .PHONY : Providers/WebSocketProvider.cpp.i
 
 Providers/WebSocketProvider.s: Providers/WebSocketProvider.cpp.s
@@ -1632,7 +1632,7 @@ Providers/WebSocketProvider.s: Providers/WebSocketProvider.cpp.s
 
 # target to generate assembly for a file
 Providers/WebSocketProvider.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Providers/WebSocketProvider.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Providers/WebSocketProvider.cpp.s
 .PHONY : Providers/WebSocketProvider.cpp.s
 
 Traits/Communication/Messenger.o: Traits/Communication/Messenger.cpp.o
@@ -1640,7 +1640,7 @@ Traits/Communication/Messenger.o: Traits/Communication/Messenger.cpp.o
 
 # target to build an object file
 Traits/Communication/Messenger.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Communication/Messenger.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Communication/Messenger.cpp.o
 .PHONY : Traits/Communication/Messenger.cpp.o
 
 Traits/Communication/Messenger.i: Traits/Communication/Messenger.cpp.i
@@ -1648,7 +1648,7 @@ Traits/Communication/Messenger.i: Traits/Communication/Messenger.cpp.i
 
 # target to preprocess a source file
 Traits/Communication/Messenger.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Communication/Messenger.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Communication/Messenger.cpp.i
 .PHONY : Traits/Communication/Messenger.cpp.i
 
 Traits/Communication/Messenger.s: Traits/Communication/Messenger.cpp.s
@@ -1656,7 +1656,7 @@ Traits/Communication/Messenger.s: Traits/Communication/Messenger.cpp.s
 
 # target to generate assembly for a file
 Traits/Communication/Messenger.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Communication/Messenger.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Communication/Messenger.cpp.s
 .PHONY : Traits/Communication/Messenger.cpp.s
 
 Traits/Communication/Unsubscribable.o: Traits/Communication/Unsubscribable.cpp.o
@@ -1664,7 +1664,7 @@ Traits/Communication/Unsubscribable.o: Traits/Communication/Unsubscribable.cpp.o
 
 # target to build an object file
 Traits/Communication/Unsubscribable.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Communication/Unsubscribable.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Communication/Unsubscribable.cpp.o
 .PHONY : Traits/Communication/Unsubscribable.cpp.o
 
 Traits/Communication/Unsubscribable.i: Traits/Communication/Unsubscribable.cpp.i
@@ -1672,7 +1672,7 @@ Traits/Communication/Unsubscribable.i: Traits/Communication/Unsubscribable.cpp.i
 
 # target to preprocess a source file
 Traits/Communication/Unsubscribable.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Communication/Unsubscribable.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Communication/Unsubscribable.cpp.i
 .PHONY : Traits/Communication/Unsubscribable.cpp.i
 
 Traits/Communication/Unsubscribable.s: Traits/Communication/Unsubscribable.cpp.s
@@ -1680,7 +1680,7 @@ Traits/Communication/Unsubscribable.s: Traits/Communication/Unsubscribable.cpp.s
 
 # target to generate assembly for a file
 Traits/Communication/Unsubscribable.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Communication/Unsubscribable.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Communication/Unsubscribable.cpp.s
 .PHONY : Traits/Communication/Unsubscribable.cpp.s
 
 Traits/Interaction/Clickable.o: Traits/Interaction/Clickable.cpp.o
@@ -1688,7 +1688,7 @@ Traits/Interaction/Clickable.o: Traits/Interaction/Clickable.cpp.o
 
 # target to build an object file
 Traits/Interaction/Clickable.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Clickable.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Clickable.cpp.o
 .PHONY : Traits/Interaction/Clickable.cpp.o
 
 Traits/Interaction/Clickable.i: Traits/Interaction/Clickable.cpp.i
@@ -1696,7 +1696,7 @@ Traits/Interaction/Clickable.i: Traits/Interaction/Clickable.cpp.i
 
 # target to preprocess a source file
 Traits/Interaction/Clickable.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Clickable.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Clickable.cpp.i
 .PHONY : Traits/Interaction/Clickable.cpp.i
 
 Traits/Interaction/Clickable.s: Traits/Interaction/Clickable.cpp.s
@@ -1704,7 +1704,7 @@ Traits/Interaction/Clickable.s: Traits/Interaction/Clickable.cpp.s
 
 # target to generate assembly for a file
 Traits/Interaction/Clickable.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Clickable.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Clickable.cpp.s
 .PHONY : Traits/Interaction/Clickable.cpp.s
 
 Traits/Interaction/Draggable.o: Traits/Interaction/Draggable.cpp.o
@@ -1712,7 +1712,7 @@ Traits/Interaction/Draggable.o: Traits/Interaction/Draggable.cpp.o
 
 # target to build an object file
 Traits/Interaction/Draggable.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Draggable.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Draggable.cpp.o
 .PHONY : Traits/Interaction/Draggable.cpp.o
 
 Traits/Interaction/Draggable.i: Traits/Interaction/Draggable.cpp.i
@@ -1720,7 +1720,7 @@ Traits/Interaction/Draggable.i: Traits/Interaction/Draggable.cpp.i
 
 # target to preprocess a source file
 Traits/Interaction/Draggable.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Draggable.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Draggable.cpp.i
 .PHONY : Traits/Interaction/Draggable.cpp.i
 
 Traits/Interaction/Draggable.s: Traits/Interaction/Draggable.cpp.s
@@ -1728,7 +1728,7 @@ Traits/Interaction/Draggable.s: Traits/Interaction/Draggable.cpp.s
 
 # target to generate assembly for a file
 Traits/Interaction/Draggable.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Draggable.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Draggable.cpp.s
 .PHONY : Traits/Interaction/Draggable.cpp.s
 
 Traits/Interaction/Focusable.o: Traits/Interaction/Focusable.cpp.o
@@ -1736,7 +1736,7 @@ Traits/Interaction/Focusable.o: Traits/Interaction/Focusable.cpp.o
 
 # target to build an object file
 Traits/Interaction/Focusable.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Focusable.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Focusable.cpp.o
 .PHONY : Traits/Interaction/Focusable.cpp.o
 
 Traits/Interaction/Focusable.i: Traits/Interaction/Focusable.cpp.i
@@ -1744,7 +1744,7 @@ Traits/Interaction/Focusable.i: Traits/Interaction/Focusable.cpp.i
 
 # target to preprocess a source file
 Traits/Interaction/Focusable.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Focusable.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Focusable.cpp.i
 .PHONY : Traits/Interaction/Focusable.cpp.i
 
 Traits/Interaction/Focusable.s: Traits/Interaction/Focusable.cpp.s
@@ -1752,7 +1752,7 @@ Traits/Interaction/Focusable.s: Traits/Interaction/Focusable.cpp.s
 
 # target to generate assembly for a file
 Traits/Interaction/Focusable.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Focusable.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Focusable.cpp.s
 .PHONY : Traits/Interaction/Focusable.cpp.s
 
 Traits/Interaction/Hoverable.o: Traits/Interaction/Hoverable.cpp.o
@@ -1760,7 +1760,7 @@ Traits/Interaction/Hoverable.o: Traits/Interaction/Hoverable.cpp.o
 
 # target to build an object file
 Traits/Interaction/Hoverable.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Hoverable.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Hoverable.cpp.o
 .PHONY : Traits/Interaction/Hoverable.cpp.o
 
 Traits/Interaction/Hoverable.i: Traits/Interaction/Hoverable.cpp.i
@@ -1768,7 +1768,7 @@ Traits/Interaction/Hoverable.i: Traits/Interaction/Hoverable.cpp.i
 
 # target to preprocess a source file
 Traits/Interaction/Hoverable.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Hoverable.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Hoverable.cpp.i
 .PHONY : Traits/Interaction/Hoverable.cpp.i
 
 Traits/Interaction/Hoverable.s: Traits/Interaction/Hoverable.cpp.s
@@ -1776,7 +1776,7 @@ Traits/Interaction/Hoverable.s: Traits/Interaction/Hoverable.cpp.s
 
 # target to generate assembly for a file
 Traits/Interaction/Hoverable.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Hoverable.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Hoverable.cpp.s
 .PHONY : Traits/Interaction/Hoverable.cpp.s
 
 Traits/Interaction/Keyable.o: Traits/Interaction/Keyable.cpp.o
@@ -1784,7 +1784,7 @@ Traits/Interaction/Keyable.o: Traits/Interaction/Keyable.cpp.o
 
 # target to build an object file
 Traits/Interaction/Keyable.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Keyable.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Keyable.cpp.o
 .PHONY : Traits/Interaction/Keyable.cpp.o
 
 Traits/Interaction/Keyable.i: Traits/Interaction/Keyable.cpp.i
@@ -1792,7 +1792,7 @@ Traits/Interaction/Keyable.i: Traits/Interaction/Keyable.cpp.i
 
 # target to preprocess a source file
 Traits/Interaction/Keyable.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Keyable.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Keyable.cpp.i
 .PHONY : Traits/Interaction/Keyable.cpp.i
 
 Traits/Interaction/Keyable.s: Traits/Interaction/Keyable.cpp.s
@@ -1800,7 +1800,7 @@ Traits/Interaction/Keyable.s: Traits/Interaction/Keyable.cpp.s
 
 # target to generate assembly for a file
 Traits/Interaction/Keyable.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Keyable.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Keyable.cpp.s
 .PHONY : Traits/Interaction/Keyable.cpp.s
 
 Traits/Interaction/Scrollable.o: Traits/Interaction/Scrollable.cpp.o
@@ -1808,7 +1808,7 @@ Traits/Interaction/Scrollable.o: Traits/Interaction/Scrollable.cpp.o
 
 # target to build an object file
 Traits/Interaction/Scrollable.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Scrollable.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Scrollable.cpp.o
 .PHONY : Traits/Interaction/Scrollable.cpp.o
 
 Traits/Interaction/Scrollable.i: Traits/Interaction/Scrollable.cpp.i
@@ -1816,7 +1816,7 @@ Traits/Interaction/Scrollable.i: Traits/Interaction/Scrollable.cpp.i
 
 # target to preprocess a source file
 Traits/Interaction/Scrollable.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Scrollable.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Scrollable.cpp.i
 .PHONY : Traits/Interaction/Scrollable.cpp.i
 
 Traits/Interaction/Scrollable.s: Traits/Interaction/Scrollable.cpp.s
@@ -1824,7 +1824,7 @@ Traits/Interaction/Scrollable.s: Traits/Interaction/Scrollable.cpp.s
 
 # target to generate assembly for a file
 Traits/Interaction/Scrollable.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Scrollable.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Scrollable.cpp.s
 .PHONY : Traits/Interaction/Scrollable.cpp.s
 
 Traits/Interaction/Selectable.o: Traits/Interaction/Selectable.cpp.o
@@ -1832,7 +1832,7 @@ Traits/Interaction/Selectable.o: Traits/Interaction/Selectable.cpp.o
 
 # target to build an object file
 Traits/Interaction/Selectable.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Selectable.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Selectable.cpp.o
 .PHONY : Traits/Interaction/Selectable.cpp.o
 
 Traits/Interaction/Selectable.i: Traits/Interaction/Selectable.cpp.i
@@ -1840,7 +1840,7 @@ Traits/Interaction/Selectable.i: Traits/Interaction/Selectable.cpp.i
 
 # target to preprocess a source file
 Traits/Interaction/Selectable.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Selectable.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Selectable.cpp.i
 .PHONY : Traits/Interaction/Selectable.cpp.i
 
 Traits/Interaction/Selectable.s: Traits/Interaction/Selectable.cpp.s
@@ -1848,7 +1848,7 @@ Traits/Interaction/Selectable.s: Traits/Interaction/Selectable.cpp.s
 
 # target to generate assembly for a file
 Traits/Interaction/Selectable.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Selectable.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Interaction/Selectable.cpp.s
 .PHONY : Traits/Interaction/Selectable.cpp.s
 
 Traits/Lifecycle/Updatable.o: Traits/Lifecycle/Updatable.cpp.o
@@ -1856,7 +1856,7 @@ Traits/Lifecycle/Updatable.o: Traits/Lifecycle/Updatable.cpp.o
 
 # target to build an object file
 Traits/Lifecycle/Updatable.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Lifecycle/Updatable.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Lifecycle/Updatable.cpp.o
 .PHONY : Traits/Lifecycle/Updatable.cpp.o
 
 Traits/Lifecycle/Updatable.i: Traits/Lifecycle/Updatable.cpp.i
@@ -1864,7 +1864,7 @@ Traits/Lifecycle/Updatable.i: Traits/Lifecycle/Updatable.cpp.i
 
 # target to preprocess a source file
 Traits/Lifecycle/Updatable.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Lifecycle/Updatable.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Lifecycle/Updatable.cpp.i
 .PHONY : Traits/Lifecycle/Updatable.cpp.i
 
 Traits/Lifecycle/Updatable.s: Traits/Lifecycle/Updatable.cpp.s
@@ -1872,7 +1872,7 @@ Traits/Lifecycle/Updatable.s: Traits/Lifecycle/Updatable.cpp.s
 
 # target to generate assembly for a file
 Traits/Lifecycle/Updatable.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Lifecycle/Updatable.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Lifecycle/Updatable.cpp.s
 .PHONY : Traits/Lifecycle/Updatable.cpp.s
 
 Traits/Spatial/Positionable.o: Traits/Spatial/Positionable.cpp.o
@@ -1880,7 +1880,7 @@ Traits/Spatial/Positionable.o: Traits/Spatial/Positionable.cpp.o
 
 # target to build an object file
 Traits/Spatial/Positionable.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Spatial/Positionable.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Spatial/Positionable.cpp.o
 .PHONY : Traits/Spatial/Positionable.cpp.o
 
 Traits/Spatial/Positionable.i: Traits/Spatial/Positionable.cpp.i
@@ -1888,7 +1888,7 @@ Traits/Spatial/Positionable.i: Traits/Spatial/Positionable.cpp.i
 
 # target to preprocess a source file
 Traits/Spatial/Positionable.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Spatial/Positionable.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Spatial/Positionable.cpp.i
 .PHONY : Traits/Spatial/Positionable.cpp.i
 
 Traits/Spatial/Positionable.s: Traits/Spatial/Positionable.cpp.s
@@ -1896,7 +1896,7 @@ Traits/Spatial/Positionable.s: Traits/Spatial/Positionable.cpp.s
 
 # target to generate assembly for a file
 Traits/Spatial/Positionable.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Spatial/Positionable.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Spatial/Positionable.cpp.s
 .PHONY : Traits/Spatial/Positionable.cpp.s
 
 Traits/Visual/Fadeable.o: Traits/Visual/Fadeable.cpp.o
@@ -1904,7 +1904,7 @@ Traits/Visual/Fadeable.o: Traits/Visual/Fadeable.cpp.o
 
 # target to build an object file
 Traits/Visual/Fadeable.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Visual/Fadeable.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Visual/Fadeable.cpp.o
 .PHONY : Traits/Visual/Fadeable.cpp.o
 
 Traits/Visual/Fadeable.i: Traits/Visual/Fadeable.cpp.i
@@ -1912,7 +1912,7 @@ Traits/Visual/Fadeable.i: Traits/Visual/Fadeable.cpp.i
 
 # target to preprocess a source file
 Traits/Visual/Fadeable.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Visual/Fadeable.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Visual/Fadeable.cpp.i
 .PHONY : Traits/Visual/Fadeable.cpp.i
 
 Traits/Visual/Fadeable.s: Traits/Visual/Fadeable.cpp.s
@@ -1920,7 +1920,7 @@ Traits/Visual/Fadeable.s: Traits/Visual/Fadeable.cpp.s
 
 # target to generate assembly for a file
 Traits/Visual/Fadeable.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Visual/Fadeable.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Traits/Visual/Fadeable.cpp.s
 .PHONY : Traits/Visual/Fadeable.cpp.s
 
 Utilities/Helper.o: Utilities/Helper.cpp.o
@@ -1928,7 +1928,7 @@ Utilities/Helper.o: Utilities/Helper.cpp.o
 
 # target to build an object file
 Utilities/Helper.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/Helper.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/Helper.cpp.o
 .PHONY : Utilities/Helper.cpp.o
 
 Utilities/Helper.i: Utilities/Helper.cpp.i
@@ -1936,7 +1936,7 @@ Utilities/Helper.i: Utilities/Helper.cpp.i
 
 # target to preprocess a source file
 Utilities/Helper.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/Helper.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/Helper.cpp.i
 .PHONY : Utilities/Helper.cpp.i
 
 Utilities/Helper.s: Utilities/Helper.cpp.s
@@ -1944,7 +1944,7 @@ Utilities/Helper.s: Utilities/Helper.cpp.s
 
 # target to generate assembly for a file
 Utilities/Helper.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/Helper.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/Helper.cpp.s
 .PHONY : Utilities/Helper.cpp.s
 
 Utilities/ImageRects.o: Utilities/ImageRects.cpp.o
@@ -1952,7 +1952,7 @@ Utilities/ImageRects.o: Utilities/ImageRects.cpp.o
 
 # target to build an object file
 Utilities/ImageRects.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/ImageRects.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/ImageRects.cpp.o
 .PHONY : Utilities/ImageRects.cpp.o
 
 Utilities/ImageRects.i: Utilities/ImageRects.cpp.i
@@ -1960,7 +1960,7 @@ Utilities/ImageRects.i: Utilities/ImageRects.cpp.i
 
 # target to preprocess a source file
 Utilities/ImageRects.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/ImageRects.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/ImageRects.cpp.i
 .PHONY : Utilities/ImageRects.cpp.i
 
 Utilities/ImageRects.s: Utilities/ImageRects.cpp.s
@@ -1968,7 +1968,7 @@ Utilities/ImageRects.s: Utilities/ImageRects.cpp.s
 
 # target to generate assembly for a file
 Utilities/ImageRects.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/ImageRects.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/ImageRects.cpp.s
 .PHONY : Utilities/ImageRects.cpp.s
 
 Utilities/MouseEvents_nontemplate.o: Utilities/MouseEvents_nontemplate.cpp.o
@@ -1976,7 +1976,7 @@ Utilities/MouseEvents_nontemplate.o: Utilities/MouseEvents_nontemplate.cpp.o
 
 # target to build an object file
 Utilities/MouseEvents_nontemplate.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/MouseEvents_nontemplate.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/MouseEvents_nontemplate.cpp.o
 .PHONY : Utilities/MouseEvents_nontemplate.cpp.o
 
 Utilities/MouseEvents_nontemplate.i: Utilities/MouseEvents_nontemplate.cpp.i
@@ -1984,7 +1984,7 @@ Utilities/MouseEvents_nontemplate.i: Utilities/MouseEvents_nontemplate.cpp.i
 
 # target to preprocess a source file
 Utilities/MouseEvents_nontemplate.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/MouseEvents_nontemplate.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/MouseEvents_nontemplate.cpp.i
 .PHONY : Utilities/MouseEvents_nontemplate.cpp.i
 
 Utilities/MouseEvents_nontemplate.s: Utilities/MouseEvents_nontemplate.cpp.s
@@ -1992,7 +1992,7 @@ Utilities/MouseEvents_nontemplate.s: Utilities/MouseEvents_nontemplate.cpp.s
 
 # target to generate assembly for a file
 Utilities/MouseEvents_nontemplate.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/MouseEvents_nontemplate.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/MouseEvents_nontemplate.cpp.s
 .PHONY : Utilities/MouseEvents_nontemplate.cpp.s
 
 Utilities/ShaderLibrary.o: Utilities/ShaderLibrary.cpp.o
@@ -2000,7 +2000,7 @@ Utilities/ShaderLibrary.o: Utilities/ShaderLibrary.cpp.o
 
 # target to build an object file
 Utilities/ShaderLibrary.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/ShaderLibrary.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/ShaderLibrary.cpp.o
 .PHONY : Utilities/ShaderLibrary.cpp.o
 
 Utilities/ShaderLibrary.i: Utilities/ShaderLibrary.cpp.i
@@ -2008,7 +2008,7 @@ Utilities/ShaderLibrary.i: Utilities/ShaderLibrary.cpp.i
 
 # target to preprocess a source file
 Utilities/ShaderLibrary.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/ShaderLibrary.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/ShaderLibrary.cpp.i
 .PHONY : Utilities/ShaderLibrary.cpp.i
 
 Utilities/ShaderLibrary.s: Utilities/ShaderLibrary.cpp.s
@@ -2016,7 +2016,7 @@ Utilities/ShaderLibrary.s: Utilities/ShaderLibrary.cpp.s
 
 # target to generate assembly for a file
 Utilities/ShaderLibrary.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/ShaderLibrary.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/ShaderLibrary.cpp.s
 .PHONY : Utilities/ShaderLibrary.cpp.s
 
 Utilities/TextManipulators.o: Utilities/TextManipulators.cpp.o
@@ -2024,7 +2024,7 @@ Utilities/TextManipulators.o: Utilities/TextManipulators.cpp.o
 
 # target to build an object file
 Utilities/TextManipulators.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/TextManipulators.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/TextManipulators.cpp.o
 .PHONY : Utilities/TextManipulators.cpp.o
 
 Utilities/TextManipulators.i: Utilities/TextManipulators.cpp.i
@@ -2032,7 +2032,7 @@ Utilities/TextManipulators.i: Utilities/TextManipulators.cpp.i
 
 # target to preprocess a source file
 Utilities/TextManipulators.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/TextManipulators.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/TextManipulators.cpp.i
 .PHONY : Utilities/TextManipulators.cpp.i
 
 Utilities/TextManipulators.s: Utilities/TextManipulators.cpp.s
@@ -2040,7 +2040,7 @@ Utilities/TextManipulators.s: Utilities/TextManipulators.cpp.s
 
 # target to generate assembly for a file
 Utilities/TextManipulators.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/TextManipulators.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/TextManipulators.cpp.s
 .PHONY : Utilities/TextManipulators.cpp.s
 
 Utilities/TextureSlicer.o: Utilities/TextureSlicer.cpp.o
@@ -2048,7 +2048,7 @@ Utilities/TextureSlicer.o: Utilities/TextureSlicer.cpp.o
 
 # target to build an object file
 Utilities/TextureSlicer.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/TextureSlicer.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/TextureSlicer.cpp.o
 .PHONY : Utilities/TextureSlicer.cpp.o
 
 Utilities/TextureSlicer.i: Utilities/TextureSlicer.cpp.i
@@ -2056,7 +2056,7 @@ Utilities/TextureSlicer.i: Utilities/TextureSlicer.cpp.i
 
 # target to preprocess a source file
 Utilities/TextureSlicer.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/TextureSlicer.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/TextureSlicer.cpp.i
 .PHONY : Utilities/TextureSlicer.cpp.i
 
 Utilities/TextureSlicer.s: Utilities/TextureSlicer.cpp.s
@@ -2064,7 +2064,7 @@ Utilities/TextureSlicer.s: Utilities/TextureSlicer.cpp.s
 
 # target to generate assembly for a file
 Utilities/TextureSlicer.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/TextureSlicer.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/src/CMakeFiles/Malena.dir/build.make _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/TextureSlicer.cpp.s
 .PHONY : Utilities/TextureSlicer.cpp.s
 
 # Help Target
@@ -2327,6 +2327,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/paul/Documents/wordFinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

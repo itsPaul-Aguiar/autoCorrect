@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DSFML_STATIC
 
-CXX_INCLUDES = -I/Users/paul/Documents/wordFinder/build/_deps/malena-src/include -isystem /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include -isystem /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include
+CXX_INCLUDES = -I/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include -isystem /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include -isystem /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include
 
 CXX_FLAGSarm64 = -std=gnu++17 -arch arm64 -x objective-c++
 

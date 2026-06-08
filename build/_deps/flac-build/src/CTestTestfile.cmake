@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /Users/paul/Documents/wordFinder/build/_deps/flac-src/src
-# Build directory: /Users/paul/Documents/wordFinder/build/_deps/flac-build/src
+# Source directory: /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/src
+# Build directory: /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-build/src
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

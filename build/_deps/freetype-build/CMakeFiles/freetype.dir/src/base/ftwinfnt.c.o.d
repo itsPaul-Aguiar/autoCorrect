@@ -1,11 +1,11 @@
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftwinfnt.c.o: \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/src/base/ftwinfnt.c \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/internal/ftdebug.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/ft2build.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/config/ftheader.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-build/include/freetype/config/ftconfig.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-build/include/freetype/config/ftoption.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/config/ftstdlib.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/src/base/ftwinfnt.c \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/internal/ftdebug.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/ft2build.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/config/ftheader.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-build/include/freetype/config/ftconfig.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-build/include/freetype/config/ftoption.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/config/ftstdlib.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_header_macro.h \
@@ -121,35 +121,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftwinfnt.c.o: \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg_va_arg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg___va_copy.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg_va_copy.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/config/integer-types.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/config/public-macros.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/config/mac-support.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/config/integer-types.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/config/public-macros.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/config/mac-support.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/freetype.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/fttypes.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/ftsystem.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/ftimage.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/freetype.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/fttypes.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/ftsystem.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/ftimage.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_rsize_t.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/fterrors.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/ftmoderr.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/fterrdef.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/internal/compiler-macros.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/ftwinfnt.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/internal/ftobjs.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/ftrender.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/ftmodapi.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/ftglyph.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/ftsizes.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/ftlcdfil.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/ftparams.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/internal/ftmemory.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/internal/ftgloadr.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/internal/ftdrv.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/internal/autohint.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/internal/ftserv.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/internal/ftcalc.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/ftincrem.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/internal/services/svwinfnt.h
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/fterrors.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/ftmoderr.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/fterrdef.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/internal/compiler-macros.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/ftwinfnt.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/internal/ftobjs.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/ftrender.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/ftmodapi.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/ftglyph.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/ftsizes.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/ftlcdfil.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/ftparams.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/internal/ftmemory.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/internal/ftgloadr.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/internal/ftdrv.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/internal/autohint.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/internal/ftserv.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/internal/ftcalc.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/ftincrem.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/internal/services/svwinfnt.h

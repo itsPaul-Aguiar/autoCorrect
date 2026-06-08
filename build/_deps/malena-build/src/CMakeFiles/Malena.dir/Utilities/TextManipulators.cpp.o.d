@@ -1,7 +1,7 @@
 _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/TextManipulators.cpp.o: \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/src/Utilities/TextManipulators.cpp \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Utilities/TextManipulators.h \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Core/malena_export.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/src/Utilities/TextManipulators.cpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Utilities/TextManipulators.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Core/malena_export.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -794,35 +794,35 @@ _deps/malena-build/src/CMakeFiles/Malena.dir/Utilities/TextManipulators.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Text.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Export.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Config.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Text.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Export.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Config.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Color.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Color.inl \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Drawable.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/PrimitiveType.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Rect.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Vector2.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Export.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Angle.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Angle.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Color.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Color.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Drawable.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/PrimitiveType.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Rect.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Vector2.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Export.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Angle.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Angle.inl \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Vector2.inl \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Rect.inl \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/RenderStates.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/BlendMode.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/CoordinateType.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/StencilMode.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Transform.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Transform.inl \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Transformable.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/VertexArray.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Vertex.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/String.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Utf.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Utf.inl \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/String.inl
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Vector2.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Rect.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/RenderStates.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/BlendMode.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/CoordinateType.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/StencilMode.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Transform.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Transform.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Transformable.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/VertexArray.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Vertex.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/String.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Utf.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Utf.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/String.inl

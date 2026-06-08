@@ -1,8 +1,8 @@
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.o: \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/src/SFML/Audio/SoundFileFactory.cpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Audio/SoundFileFactory.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Audio/Export.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Config.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/src/SFML/Audio/SoundFileFactory.cpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Audio/SoundFileFactory.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Audio/Export.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Config.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
@@ -813,36 +813,36 @@ _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.o
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Audio/SoundFileFactory.inl \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/src/SFML/Audio/SoundFileReaderFlac.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Audio/SoundFileReader.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Audio/SoundChannel.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/include/FLAC/stream_decoder.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/include/FLAC/export.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/include/FLAC/format.h \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/include/FLAC/ordinals.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Audio/SoundFileFactory.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/src/SFML/Audio/SoundFileReaderFlac.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Audio/SoundFileReader.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Audio/SoundChannel.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/include/FLAC/stream_decoder.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/include/FLAC/export.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/include/FLAC/format.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/include/FLAC/ordinals.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/src/SFML/Audio/SoundFileReaderMp3.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/extlibs/headers/minimp3/minimp3_ex.h \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/extlibs/headers/minimp3/minimp3.h \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/src/SFML/Audio/SoundFileReaderOgg.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/include/vorbis/vorbisfile.h \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/include/vorbis/codec.h \
-  /Users/paul/Documents/wordFinder/build/_deps/ogg-src/include/ogg/ogg.h \
-  /Users/paul/Documents/wordFinder/build/_deps/ogg-src/include/ogg/os_types.h \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/src/SFML/Audio/SoundFileReaderWav.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/extlibs/headers/miniaudio/miniaudio.h \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/src/SFML/Audio/SoundFileWriterFlac.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Audio/SoundFileWriter.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/flac-src/include/FLAC/stream_encoder.h \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/src/SFML/Audio/SoundFileWriterOgg.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/include/vorbis/vorbisenc.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/src/SFML/Audio/SoundFileReaderMp3.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/extlibs/headers/minimp3/minimp3_ex.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/extlibs/headers/minimp3/minimp3.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/src/SFML/Audio/SoundFileReaderOgg.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/include/vorbis/vorbisfile.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/include/vorbis/codec.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ogg-src/include/ogg/ogg.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ogg-src/include/ogg/os_types.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/src/SFML/Audio/SoundFileReaderWav.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/extlibs/headers/miniaudio/miniaudio.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/src/SFML/Audio/SoundFileWriterFlac.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Audio/SoundFileWriter.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/flac-src/include/FLAC/stream_encoder.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/src/SFML/Audio/SoundFileWriterOgg.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/include/vorbis/vorbisenc.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/src/SFML/Audio/SoundFileWriterWav.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Err.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Export.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/FileInputStream.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/InputStream.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/MemoryInputStream.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/src/SFML/System/Utils.hpp
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/src/SFML/Audio/SoundFileWriterWav.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Err.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Export.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/FileInputStream.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/InputStream.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/MemoryInputStream.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/src/SFML/System/Utils.hpp

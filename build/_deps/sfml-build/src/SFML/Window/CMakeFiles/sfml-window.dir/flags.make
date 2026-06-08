@@ -6,7 +6,7 @@
 # compile OBJCXX with /usr/bin/c++
 C_DEFINES = -DSFML_STATIC
 
-C_INCLUDES = -I/Users/paul/Documents/wordFinder/build/_deps/sfml-src/src -isystem /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include -isystem /Users/paul/Documents/wordFinder/build/_deps/sfml-src/extlibs/headers/glad/include -isystem /Users/paul/Documents/wordFinder/build/_deps/sfml-src/extlibs/headers/vulkan -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
+C_INCLUDES = -I/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/src -isystem /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include -isystem /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/extlibs/headers/glad/include -isystem /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/extlibs/headers/vulkan -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
 
 C_FLAGSarm64 =  -arch arm64 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option
 
@@ -14,7 +14,7 @@ C_FLAGS =  -arch arm64 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -W
 
 CXX_DEFINES = -DSFML_STATIC
 
-CXX_INCLUDES = -I/Users/paul/Documents/wordFinder/build/_deps/sfml-src/src -isystem /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include -isystem /Users/paul/Documents/wordFinder/build/_deps/sfml-src/extlibs/headers/glad/include -isystem /Users/paul/Documents/wordFinder/build/_deps/sfml-src/extlibs/headers/vulkan -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
+CXX_INCLUDES = -I/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/src -isystem /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include -isystem /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/extlibs/headers/glad/include -isystem /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/extlibs/headers/vulkan -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
 
 CXX_FLAGSarm64 = -std=gnu++17 -arch arm64 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option
 
@@ -22,7 +22,7 @@ CXX_FLAGS = -std=gnu++17 -arch arm64 -fvisibility=hidden -fvisibility-inlines-hi
 
 OBJCXX_DEFINES = -DSFML_STATIC
 
-OBJCXX_INCLUDES = -I/Users/paul/Documents/wordFinder/build/_deps/sfml-src/src -isystem /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include -isystem /Users/paul/Documents/wordFinder/build/_deps/sfml-src/extlibs/headers/glad/include -isystem /Users/paul/Documents/wordFinder/build/_deps/sfml-src/extlibs/headers/vulkan -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
+OBJCXX_INCLUDES = -I/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/src -isystem /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include -isystem /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/extlibs/headers/glad/include -isystem /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/extlibs/headers/vulkan -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
 
 OBJCXX_FLAGSarm64 = -std=gnu++17 -arch arm64 -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option
 

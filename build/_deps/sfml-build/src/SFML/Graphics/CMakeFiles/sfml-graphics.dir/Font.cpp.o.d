@@ -1,15 +1,15 @@
 _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.o: \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/src/SFML/Graphics/Font.cpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Font.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Export.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Config.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/src/SFML/Graphics/Font.cpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Font.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Export.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Config.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Glyph.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Rect.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Vector2.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Export.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Angle.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Angle.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Glyph.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Rect.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Vector2.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Export.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Angle.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Angle.inl \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -26,7 +26,7 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Vector2.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Vector2.inl \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/optional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__assertion_handler \
@@ -560,11 +560,11 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/temporary_buffer.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/unique_temporary_buffer.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdexcept \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Rect.inl \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Texture.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/CoordinateType.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Window/GlResource.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Window/Export.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Rect.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Texture.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/CoordinateType.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Window/GlResource.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Window/Export.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
@@ -829,34 +829,34 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Image.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Color.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/Graphics/Color.inl \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Err.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/Exception.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/FileInputStream.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/InputStream.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/include/SFML/System/MemoryInputStream.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/sfml-src/src/SFML/System/Utils.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/ft2build.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/config/ftheader.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/freetype.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-build/include/freetype/config/ftconfig.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-build/include/freetype/config/ftoption.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/config/ftstdlib.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Image.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Color.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/Graphics/Color.inl \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Err.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/Exception.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/FileInputStream.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/InputStream.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/include/SFML/System/MemoryInputStream.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/sfml-src/src/SFML/System/Utils.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/ft2build.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/config/ftheader.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/freetype.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-build/include/freetype/config/ftconfig.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-build/include/freetype/config/ftoption.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/config/ftstdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/setjmp.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/config/integer-types.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/config/public-macros.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/config/mac-support.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/config/integer-types.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/config/public-macros.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/config/mac-support.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/fttypes.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/ftsystem.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/ftimage.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/fterrors.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/ftmoderr.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/fterrdef.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/ftglyph.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/ftoutln.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/ftbitmap.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/ftcolor.h \
-  /Users/paul/Documents/wordFinder/build/_deps/freetype-src/include/freetype/ftstroke.h
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/fttypes.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/ftsystem.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/ftimage.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/fterrors.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/ftmoderr.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/fterrdef.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/ftglyph.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/ftoutln.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/ftbitmap.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/ftcolor.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/freetype-src/include/freetype/ftstroke.h

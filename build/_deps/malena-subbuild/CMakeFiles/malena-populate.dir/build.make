@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/paul/Documents/wordFinder/build/_deps/malena-subbuild
+CMAKE_SOURCE_DIR = /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-subbuild
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/paul/Documents/wordFinder/build/_deps/malena-subbuild
+CMAKE_BINARY_DIR = /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-subbuild
 
 # Utility rule file for malena-populate.
 
@@ -77,60 +77,60 @@ CMakeFiles/malena-populate-complete: malena-populate-prefix/src/malena-populate-
 CMakeFiles/malena-populate-complete: malena-populate-prefix/src/malena-populate-stamp/malena-populate-build
 CMakeFiles/malena-populate-complete: malena-populate-prefix/src/malena-populate-stamp/malena-populate-install
 CMakeFiles/malena-populate-complete: malena-populate-prefix/src/malena-populate-stamp/malena-populate-test
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/paul/Documents/wordFinder/build/_deps/malena-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'malena-populate'"
-	/opt/homebrew/bin/cmake -E make_directory /Users/paul/Documents/wordFinder/build/_deps/malena-subbuild/CMakeFiles
-	/opt/homebrew/bin/cmake -E touch /Users/paul/Documents/wordFinder/build/_deps/malena-subbuild/CMakeFiles/malena-populate-complete
-	/opt/homebrew/bin/cmake -E touch /Users/paul/Documents/wordFinder/build/_deps/malena-subbuild/malena-populate-prefix/src/malena-populate-stamp/malena-populate-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'malena-populate'"
+	/opt/homebrew/bin/cmake -E make_directory /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-subbuild/CMakeFiles
+	/opt/homebrew/bin/cmake -E touch /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-subbuild/CMakeFiles/malena-populate-complete
+	/opt/homebrew/bin/cmake -E touch /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-subbuild/malena-populate-prefix/src/malena-populate-stamp/malena-populate-done
 
 malena-populate-prefix/src/malena-populate-stamp/malena-populate-update:
 .PHONY : malena-populate-prefix/src/malena-populate-stamp/malena-populate-update
 
 malena-populate-prefix/src/malena-populate-stamp/malena-populate-build: malena-populate-prefix/src/malena-populate-stamp/malena-populate-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/paul/Documents/wordFinder/build/_deps/malena-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'malena-populate'"
-	cd /Users/paul/Documents/wordFinder/build/_deps/malena-build && /opt/homebrew/bin/cmake -E echo_append
-	cd /Users/paul/Documents/wordFinder/build/_deps/malena-build && /opt/homebrew/bin/cmake -E touch /Users/paul/Documents/wordFinder/build/_deps/malena-subbuild/malena-populate-prefix/src/malena-populate-stamp/malena-populate-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'malena-populate'"
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build && /opt/homebrew/bin/cmake -E echo_append
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build && /opt/homebrew/bin/cmake -E touch /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-subbuild/malena-populate-prefix/src/malena-populate-stamp/malena-populate-build
 
 malena-populate-prefix/src/malena-populate-stamp/malena-populate-configure: malena-populate-prefix/tmp/malena-populate-cfgcmd.txt
 malena-populate-prefix/src/malena-populate-stamp/malena-populate-configure: malena-populate-prefix/src/malena-populate-stamp/malena-populate-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/paul/Documents/wordFinder/build/_deps/malena-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'malena-populate'"
-	cd /Users/paul/Documents/wordFinder/build/_deps/malena-build && /opt/homebrew/bin/cmake -E echo_append
-	cd /Users/paul/Documents/wordFinder/build/_deps/malena-build && /opt/homebrew/bin/cmake -E touch /Users/paul/Documents/wordFinder/build/_deps/malena-subbuild/malena-populate-prefix/src/malena-populate-stamp/malena-populate-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'malena-populate'"
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build && /opt/homebrew/bin/cmake -E echo_append
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build && /opt/homebrew/bin/cmake -E touch /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-subbuild/malena-populate-prefix/src/malena-populate-stamp/malena-populate-configure
 
 malena-populate-prefix/src/malena-populate-stamp/malena-populate-download: malena-populate-prefix/src/malena-populate-stamp/malena-populate-gitinfo.txt
 malena-populate-prefix/src/malena-populate-stamp/malena-populate-download: malena-populate-prefix/src/malena-populate-stamp/malena-populate-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/paul/Documents/wordFinder/build/_deps/malena-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'malena-populate'"
-	cd /Users/paul/Documents/wordFinder/build/_deps && /opt/homebrew/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/paul/Documents/wordFinder/build/_deps/malena-subbuild/malena-populate-prefix/tmp/malena-populate-gitclone.cmake
-	cd /Users/paul/Documents/wordFinder/build/_deps && /opt/homebrew/bin/cmake -E touch /Users/paul/Documents/wordFinder/build/_deps/malena-subbuild/malena-populate-prefix/src/malena-populate-stamp/malena-populate-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'malena-populate'"
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps && /opt/homebrew/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-subbuild/malena-populate-prefix/tmp/malena-populate-gitclone.cmake
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps && /opt/homebrew/bin/cmake -E touch /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-subbuild/malena-populate-prefix/src/malena-populate-stamp/malena-populate-download
 
 malena-populate-prefix/src/malena-populate-stamp/malena-populate-install: malena-populate-prefix/src/malena-populate-stamp/malena-populate-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/paul/Documents/wordFinder/build/_deps/malena-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'malena-populate'"
-	cd /Users/paul/Documents/wordFinder/build/_deps/malena-build && /opt/homebrew/bin/cmake -E echo_append
-	cd /Users/paul/Documents/wordFinder/build/_deps/malena-build && /opt/homebrew/bin/cmake -E touch /Users/paul/Documents/wordFinder/build/_deps/malena-subbuild/malena-populate-prefix/src/malena-populate-stamp/malena-populate-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'malena-populate'"
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build && /opt/homebrew/bin/cmake -E echo_append
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build && /opt/homebrew/bin/cmake -E touch /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-subbuild/malena-populate-prefix/src/malena-populate-stamp/malena-populate-install
 
 malena-populate-prefix/src/malena-populate-stamp/malena-populate-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/paul/Documents/wordFinder/build/_deps/malena-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'malena-populate'"
-	/opt/homebrew/bin/cmake -Dcfgdir= -P /Users/paul/Documents/wordFinder/build/_deps/malena-subbuild/malena-populate-prefix/tmp/malena-populate-mkdirs.cmake
-	/opt/homebrew/bin/cmake -E touch /Users/paul/Documents/wordFinder/build/_deps/malena-subbuild/malena-populate-prefix/src/malena-populate-stamp/malena-populate-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'malena-populate'"
+	/opt/homebrew/bin/cmake -Dcfgdir= -P /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-subbuild/malena-populate-prefix/tmp/malena-populate-mkdirs.cmake
+	/opt/homebrew/bin/cmake -E touch /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-subbuild/malena-populate-prefix/src/malena-populate-stamp/malena-populate-mkdir
 
 malena-populate-prefix/src/malena-populate-stamp/malena-populate-patch: malena-populate-prefix/src/malena-populate-stamp/malena-populate-patch-info.txt
 malena-populate-prefix/src/malena-populate-stamp/malena-populate-patch: malena-populate-prefix/src/malena-populate-stamp/malena-populate-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/paul/Documents/wordFinder/build/_deps/malena-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'malena-populate'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'malena-populate'"
 	/opt/homebrew/bin/cmake -E echo_append
-	/opt/homebrew/bin/cmake -E touch /Users/paul/Documents/wordFinder/build/_deps/malena-subbuild/malena-populate-prefix/src/malena-populate-stamp/malena-populate-patch
+	/opt/homebrew/bin/cmake -E touch /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-subbuild/malena-populate-prefix/src/malena-populate-stamp/malena-populate-patch
 
 malena-populate-prefix/src/malena-populate-stamp/malena-populate-update:
 .PHONY : malena-populate-prefix/src/malena-populate-stamp/malena-populate-update
 
 malena-populate-prefix/src/malena-populate-stamp/malena-populate-test: malena-populate-prefix/src/malena-populate-stamp/malena-populate-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/paul/Documents/wordFinder/build/_deps/malena-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'malena-populate'"
-	cd /Users/paul/Documents/wordFinder/build/_deps/malena-build && /opt/homebrew/bin/cmake -E echo_append
-	cd /Users/paul/Documents/wordFinder/build/_deps/malena-build && /opt/homebrew/bin/cmake -E touch /Users/paul/Documents/wordFinder/build/_deps/malena-subbuild/malena-populate-prefix/src/malena-populate-stamp/malena-populate-test
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'malena-populate'"
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build && /opt/homebrew/bin/cmake -E echo_append
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build && /opt/homebrew/bin/cmake -E touch /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-subbuild/malena-populate-prefix/src/malena-populate-stamp/malena-populate-test
 
 malena-populate-prefix/src/malena-populate-stamp/malena-populate-update: malena-populate-prefix/tmp/malena-populate-gitupdate.cmake
 malena-populate-prefix/src/malena-populate-stamp/malena-populate-update: malena-populate-prefix/src/malena-populate-stamp/malena-populate-update-info.txt
 malena-populate-prefix/src/malena-populate-stamp/malena-populate-update: malena-populate-prefix/src/malena-populate-stamp/malena-populate-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/paul/Documents/wordFinder/build/_deps/malena-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Performing update step for 'malena-populate'"
-	cd /Users/paul/Documents/wordFinder/build/_deps/malena-src && /opt/homebrew/bin/cmake -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/paul/Documents/wordFinder/build/_deps/malena-subbuild/malena-populate-prefix/tmp/malena-populate-gitupdate.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Performing update step for 'malena-populate'"
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src && /opt/homebrew/bin/cmake -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-subbuild/malena-populate-prefix/tmp/malena-populate-gitupdate.cmake
 
 CMakeFiles/malena-populate.dir/codegen:
 .PHONY : CMakeFiles/malena-populate.dir/codegen
@@ -157,6 +157,6 @@ CMakeFiles/malena-populate.dir/clean:
 .PHONY : CMakeFiles/malena-populate.dir/clean
 
 CMakeFiles/malena-populate.dir/depend:
-	cd /Users/paul/Documents/wordFinder/build/_deps/malena-subbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/paul/Documents/wordFinder/build/_deps/malena-subbuild /Users/paul/Documents/wordFinder/build/_deps/malena-subbuild /Users/paul/Documents/wordFinder/build/_deps/malena-subbuild /Users/paul/Documents/wordFinder/build/_deps/malena-subbuild /Users/paul/Documents/wordFinder/build/_deps/malena-subbuild/CMakeFiles/malena-populate.dir/DependInfo.cmake "--color=$(COLOR)" malena-populate
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-subbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-subbuild /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-subbuild /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-subbuild /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-subbuild /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-subbuild/CMakeFiles/malena-populate.dir/DependInfo.cmake "--color=$(COLOR)" malena-populate
 .PHONY : CMakeFiles/malena-populate.dir/depend
 

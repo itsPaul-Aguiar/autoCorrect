@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/paul/Documents/wordFinder
+CMAKE_SOURCE_DIR = /Users/paul/Documents/programming/cpp/autoCorrect
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/paul/Documents/wordFinder/build
+CMAKE_BINARY_DIR = /Users/paul/Documents/programming/cpp/autoCorrect/build
 
 # Include any dependencies generated for this target.
 include _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/depend.make
@@ -75,30 +75,30 @@ _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/codegen:
 _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/BasicExample.cpp.o: _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/flags.make
 _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/BasicExample.cpp.o: _deps/malena-src/examples/BasicExample/BasicExample.cpp
 _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/BasicExample.cpp.o: _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/paul/Documents/wordFinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/BasicExample.cpp.o"
-	cd /Users/paul/Documents/wordFinder/build/_deps/malena-build/examples/BasicExample && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/BasicExample.cpp.o -MF CMakeFiles/BasicExample.dir/BasicExample.cpp.o.d -o CMakeFiles/BasicExample.dir/BasicExample.cpp.o -c /Users/paul/Documents/wordFinder/build/_deps/malena-src/examples/BasicExample/BasicExample.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/paul/Documents/programming/cpp/autoCorrect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/BasicExample.cpp.o"
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/examples/BasicExample && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/BasicExample.cpp.o -MF CMakeFiles/BasicExample.dir/BasicExample.cpp.o.d -o CMakeFiles/BasicExample.dir/BasicExample.cpp.o -c /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/examples/BasicExample/BasicExample.cpp
 
 _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/BasicExample.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BasicExample.dir/BasicExample.cpp.i"
-	cd /Users/paul/Documents/wordFinder/build/_deps/malena-build/examples/BasicExample && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/paul/Documents/wordFinder/build/_deps/malena-src/examples/BasicExample/BasicExample.cpp > CMakeFiles/BasicExample.dir/BasicExample.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/examples/BasicExample && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/examples/BasicExample/BasicExample.cpp > CMakeFiles/BasicExample.dir/BasicExample.cpp.i
 
 _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/BasicExample.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BasicExample.dir/BasicExample.cpp.s"
-	cd /Users/paul/Documents/wordFinder/build/_deps/malena-build/examples/BasicExample && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/paul/Documents/wordFinder/build/_deps/malena-src/examples/BasicExample/BasicExample.cpp -o CMakeFiles/BasicExample.dir/BasicExample.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/examples/BasicExample && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/examples/BasicExample/BasicExample.cpp -o CMakeFiles/BasicExample.dir/BasicExample.cpp.s
 
 _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/main.cpp.o: _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/flags.make
 _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/main.cpp.o: _deps/malena-src/examples/BasicExample/main.cpp
 _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/main.cpp.o: _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/paul/Documents/wordFinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/main.cpp.o"
-	cd /Users/paul/Documents/wordFinder/build/_deps/malena-build/examples/BasicExample && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/main.cpp.o -MF CMakeFiles/BasicExample.dir/main.cpp.o.d -o CMakeFiles/BasicExample.dir/main.cpp.o -c /Users/paul/Documents/wordFinder/build/_deps/malena-src/examples/BasicExample/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/paul/Documents/programming/cpp/autoCorrect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/main.cpp.o"
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/examples/BasicExample && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/main.cpp.o -MF CMakeFiles/BasicExample.dir/main.cpp.o.d -o CMakeFiles/BasicExample.dir/main.cpp.o -c /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/examples/BasicExample/main.cpp
 
 _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BasicExample.dir/main.cpp.i"
-	cd /Users/paul/Documents/wordFinder/build/_deps/malena-build/examples/BasicExample && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/paul/Documents/wordFinder/build/_deps/malena-src/examples/BasicExample/main.cpp > CMakeFiles/BasicExample.dir/main.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/examples/BasicExample && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/examples/BasicExample/main.cpp > CMakeFiles/BasicExample.dir/main.cpp.i
 
 _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BasicExample.dir/main.cpp.s"
-	cd /Users/paul/Documents/wordFinder/build/_deps/malena-build/examples/BasicExample && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/paul/Documents/wordFinder/build/_deps/malena-src/examples/BasicExample/main.cpp -o CMakeFiles/BasicExample.dir/main.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/examples/BasicExample && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/examples/BasicExample/main.cpp -o CMakeFiles/BasicExample.dir/main.cpp.s
 
 # Object files for target BasicExample
 BasicExample_OBJECTS = \
@@ -132,18 +132,18 @@ _deps/malena-build/examples/BasicExample/BasicExample: /opt/homebrew/Cellar/open
 _deps/malena-build/examples/BasicExample/BasicExample: _deps/ixwebsocket-build/libixwebsocket.a
 _deps/malena-build/examples/BasicExample/BasicExample: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libz.tbd
 _deps/malena-build/examples/BasicExample/BasicExample: _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/paul/Documents/wordFinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable BasicExample"
-	cd /Users/paul/Documents/wordFinder/build/_deps/malena-build/examples/BasicExample && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BasicExample.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/paul/Documents/programming/cpp/autoCorrect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable BasicExample"
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/examples/BasicExample && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BasicExample.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/build: _deps/malena-build/examples/BasicExample/BasicExample
 .PHONY : _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/build
 
 _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/clean:
-	cd /Users/paul/Documents/wordFinder/build/_deps/malena-build/examples/BasicExample && $(CMAKE_COMMAND) -P CMakeFiles/BasicExample.dir/cmake_clean.cmake
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/examples/BasicExample && $(CMAKE_COMMAND) -P CMakeFiles/BasicExample.dir/cmake_clean.cmake
 .PHONY : _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/clean
 
 _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/depend:
-	cd /Users/paul/Documents/wordFinder/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/paul/Documents/wordFinder /Users/paul/Documents/wordFinder/build/_deps/malena-src/examples/BasicExample /Users/paul/Documents/wordFinder/build /Users/paul/Documents/wordFinder/build/_deps/malena-build/examples/BasicExample /Users/paul/Documents/wordFinder/build/_deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/DependInfo.cmake "--color=$(COLOR)" BasicExample
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/paul/Documents/programming/cpp/autoCorrect /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/examples/BasicExample /Users/paul/Documents/programming/cpp/autoCorrect/build /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/examples/BasicExample /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/DependInfo.cmake "--color=$(COLOR)" BasicExample
 .PHONY : _deps/malena-build/examples/BasicExample/CMakeFiles/BasicExample.dir/depend
 

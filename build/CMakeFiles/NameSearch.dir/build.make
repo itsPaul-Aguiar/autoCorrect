@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/paul/Documents/wordFinder
+CMAKE_SOURCE_DIR = /Users/paul/Documents/programming/cpp/autoCorrect
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/paul/Documents/wordFinder/build
+CMAKE_BINARY_DIR = /Users/paul/Documents/programming/cpp/autoCorrect/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/NameSearch.dir/depend.make
@@ -73,46 +73,46 @@ CMakeFiles/NameSearch.dir/codegen:
 .PHONY : CMakeFiles/NameSearch.dir/codegen
 
 CMakeFiles/NameSearch.dir/main.cpp.o: CMakeFiles/NameSearch.dir/flags.make
-CMakeFiles/NameSearch.dir/main.cpp.o: /Users/paul/Documents/wordFinder/main.cpp
+CMakeFiles/NameSearch.dir/main.cpp.o: /Users/paul/Documents/programming/cpp/autoCorrect/main.cpp
 CMakeFiles/NameSearch.dir/main.cpp.o: CMakeFiles/NameSearch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/paul/Documents/wordFinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/NameSearch.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NameSearch.dir/main.cpp.o -MF CMakeFiles/NameSearch.dir/main.cpp.o.d -o CMakeFiles/NameSearch.dir/main.cpp.o -c /Users/paul/Documents/wordFinder/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/paul/Documents/programming/cpp/autoCorrect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/NameSearch.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NameSearch.dir/main.cpp.o -MF CMakeFiles/NameSearch.dir/main.cpp.o.d -o CMakeFiles/NameSearch.dir/main.cpp.o -c /Users/paul/Documents/programming/cpp/autoCorrect/main.cpp
 
 CMakeFiles/NameSearch.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NameSearch.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/paul/Documents/wordFinder/main.cpp > CMakeFiles/NameSearch.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/paul/Documents/programming/cpp/autoCorrect/main.cpp > CMakeFiles/NameSearch.dir/main.cpp.i
 
 CMakeFiles/NameSearch.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NameSearch.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/paul/Documents/wordFinder/main.cpp -o CMakeFiles/NameSearch.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/paul/Documents/programming/cpp/autoCorrect/main.cpp -o CMakeFiles/NameSearch.dir/main.cpp.s
 
 CMakeFiles/NameSearch.dir/App.cpp.o: CMakeFiles/NameSearch.dir/flags.make
-CMakeFiles/NameSearch.dir/App.cpp.o: /Users/paul/Documents/wordFinder/App.cpp
+CMakeFiles/NameSearch.dir/App.cpp.o: /Users/paul/Documents/programming/cpp/autoCorrect/App.cpp
 CMakeFiles/NameSearch.dir/App.cpp.o: CMakeFiles/NameSearch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/paul/Documents/wordFinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/NameSearch.dir/App.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NameSearch.dir/App.cpp.o -MF CMakeFiles/NameSearch.dir/App.cpp.o.d -o CMakeFiles/NameSearch.dir/App.cpp.o -c /Users/paul/Documents/wordFinder/App.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/paul/Documents/programming/cpp/autoCorrect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/NameSearch.dir/App.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NameSearch.dir/App.cpp.o -MF CMakeFiles/NameSearch.dir/App.cpp.o.d -o CMakeFiles/NameSearch.dir/App.cpp.o -c /Users/paul/Documents/programming/cpp/autoCorrect/App.cpp
 
 CMakeFiles/NameSearch.dir/App.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NameSearch.dir/App.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/paul/Documents/wordFinder/App.cpp > CMakeFiles/NameSearch.dir/App.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/paul/Documents/programming/cpp/autoCorrect/App.cpp > CMakeFiles/NameSearch.dir/App.cpp.i
 
 CMakeFiles/NameSearch.dir/App.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NameSearch.dir/App.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/paul/Documents/wordFinder/App.cpp -o CMakeFiles/NameSearch.dir/App.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/paul/Documents/programming/cpp/autoCorrect/App.cpp -o CMakeFiles/NameSearch.dir/App.cpp.s
 
 CMakeFiles/NameSearch.dir/Scoring.cpp.o: CMakeFiles/NameSearch.dir/flags.make
-CMakeFiles/NameSearch.dir/Scoring.cpp.o: /Users/paul/Documents/wordFinder/Scoring.cpp
+CMakeFiles/NameSearch.dir/Scoring.cpp.o: /Users/paul/Documents/programming/cpp/autoCorrect/Scoring.cpp
 CMakeFiles/NameSearch.dir/Scoring.cpp.o: CMakeFiles/NameSearch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/paul/Documents/wordFinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/NameSearch.dir/Scoring.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NameSearch.dir/Scoring.cpp.o -MF CMakeFiles/NameSearch.dir/Scoring.cpp.o.d -o CMakeFiles/NameSearch.dir/Scoring.cpp.o -c /Users/paul/Documents/wordFinder/Scoring.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/paul/Documents/programming/cpp/autoCorrect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/NameSearch.dir/Scoring.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NameSearch.dir/Scoring.cpp.o -MF CMakeFiles/NameSearch.dir/Scoring.cpp.o.d -o CMakeFiles/NameSearch.dir/Scoring.cpp.o -c /Users/paul/Documents/programming/cpp/autoCorrect/Scoring.cpp
 
 CMakeFiles/NameSearch.dir/Scoring.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NameSearch.dir/Scoring.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/paul/Documents/wordFinder/Scoring.cpp > CMakeFiles/NameSearch.dir/Scoring.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/paul/Documents/programming/cpp/autoCorrect/Scoring.cpp > CMakeFiles/NameSearch.dir/Scoring.cpp.i
 
 CMakeFiles/NameSearch.dir/Scoring.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NameSearch.dir/Scoring.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/paul/Documents/wordFinder/Scoring.cpp -o CMakeFiles/NameSearch.dir/Scoring.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/paul/Documents/programming/cpp/autoCorrect/Scoring.cpp -o CMakeFiles/NameSearch.dir/Scoring.cpp.s
 
 # Object files for target NameSearch
 NameSearch_OBJECTS = \
@@ -148,10 +148,10 @@ NameSearch: /opt/homebrew/Cellar/openssl@3/3.6.2/lib/libcrypto.dylib
 NameSearch: _deps/ixwebsocket-build/libixwebsocket.a
 NameSearch: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libz.tbd
 NameSearch: CMakeFiles/NameSearch.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/paul/Documents/wordFinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable NameSearch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/paul/Documents/programming/cpp/autoCorrect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable NameSearch"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NameSearch.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Copying names.txt to output directory"
-	/opt/homebrew/bin/cmake -E copy_if_different /Users/paul/Documents/wordFinder/names.txt /Users/paul/Documents/wordFinder/build/names.txt
+	/opt/homebrew/bin/cmake -E copy_if_different /Users/paul/Documents/programming/cpp/autoCorrect/names.txt /Users/paul/Documents/programming/cpp/autoCorrect/build/names.txt
 
 # Rule to build all files generated by this target.
 CMakeFiles/NameSearch.dir/build: NameSearch
@@ -162,6 +162,6 @@ CMakeFiles/NameSearch.dir/clean:
 .PHONY : CMakeFiles/NameSearch.dir/clean
 
 CMakeFiles/NameSearch.dir/depend:
-	cd /Users/paul/Documents/wordFinder/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/paul/Documents/wordFinder /Users/paul/Documents/wordFinder /Users/paul/Documents/wordFinder/build /Users/paul/Documents/wordFinder/build /Users/paul/Documents/wordFinder/build/CMakeFiles/NameSearch.dir/DependInfo.cmake "--color=$(COLOR)" NameSearch
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/paul/Documents/programming/cpp/autoCorrect /Users/paul/Documents/programming/cpp/autoCorrect /Users/paul/Documents/programming/cpp/autoCorrect/build /Users/paul/Documents/programming/cpp/autoCorrect/build /Users/paul/Documents/programming/cpp/autoCorrect/build/CMakeFiles/NameSearch.dir/DependInfo.cmake "--color=$(COLOR)" NameSearch
 .PHONY : CMakeFiles/NameSearch.dir/depend
 

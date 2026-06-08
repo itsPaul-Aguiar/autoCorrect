@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/paul/Documents/wordFinder/build/_deps/malena-src/examples/UIShowcase/UIShowcaseApp.cpp" "_deps/malena-build/examples/UIShowcase/CMakeFiles/UIShowcase.dir/UIShowcaseApp.cpp.o" "gcc" "_deps/malena-build/examples/UIShowcase/CMakeFiles/UIShowcase.dir/UIShowcaseApp.cpp.o.d"
+  "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/examples/UIShowcase/UIShowcaseApp.cpp" "_deps/malena-build/examples/UIShowcase/CMakeFiles/UIShowcase.dir/UIShowcaseApp.cpp.o" "gcc" "_deps/malena-build/examples/UIShowcase/CMakeFiles/UIShowcase.dir/UIShowcaseApp.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

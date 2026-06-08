@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/paul/Documents/wordFinder/build/_deps/vorbis-src/lib -isystem /Users/paul/Documents/wordFinder/build/_deps/vorbis-src/include -isystem /Users/paul/Documents/wordFinder/build/_deps/ogg-src/include -isystem /Users/paul/Documents/wordFinder/build/_deps/ogg-build/include
+C_INCLUDES = -I/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/lib -isystem /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/vorbis-src/include -isystem /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ogg-src/include -isystem /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ogg-build/include
 
 C_FLAGSarm64 =  -arch arm64
 

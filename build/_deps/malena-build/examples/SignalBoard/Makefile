@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/paul/Documents/wordFinder
+CMAKE_SOURCE_DIR = /Users/paul/Documents/programming/cpp/autoCorrect
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/paul/Documents/wordFinder/build
+CMAKE_BINARY_DIR = /Users/paul/Documents/programming/cpp/autoCorrect/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /Users/paul/Documents/wordFinder/build
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool..."
-	cd /Users/paul/Documents/wordFinder/build && /opt/homebrew/bin/cpack --config ./CPackConfig.cmake
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && /opt/homebrew/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	cd /Users/paul/Documents/wordFinder/build && /opt/homebrew/bin/cpack --config ./CPackSourceConfig.cmake
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && /opt/homebrew/bin/cpack --config ./CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -152,14 +152,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/paul/Documents/wordFinder/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/paul/Documents/wordFinder/build/CMakeFiles /Users/paul/Documents/wordFinder/build/_deps/malena-build/examples/SignalBoard//CMakeFiles/progress.marks
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/examples/SignalBoard/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/paul/Documents/wordFinder/build/CMakeFiles 0
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/paul/Documents/programming/cpp/autoCorrect/build/CMakeFiles /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/examples/SignalBoard//CMakeFiles/progress.marks
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/examples/SignalBoard/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/paul/Documents/programming/cpp/autoCorrect/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/examples/SignalBoard/clean
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/examples/SignalBoard/clean
 .PHONY : clean
 
 # The main clean target
@@ -168,22 +168,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/examples/SignalBoard/preinstall
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/examples/SignalBoard/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/examples/SignalBoard/preinstall
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/examples/SignalBoard/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/paul/Documents/wordFinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/rule:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/rule
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/rule
 .PHONY : _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/rule
 
 # Convenience name for target.
@@ -192,7 +192,7 @@ SignalBoard: _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/
 
 # fast build rule for target.
 SignalBoard/fast:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/build.make _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/build
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/build.make _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/build
 .PHONY : SignalBoard/fast
 
 src/SignalBoard.o: src/SignalBoard.cpp.o
@@ -200,7 +200,7 @@ src/SignalBoard.o: src/SignalBoard.cpp.o
 
 # target to build an object file
 src/SignalBoard.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/build.make _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/SignalBoard.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/build.make _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/SignalBoard.cpp.o
 .PHONY : src/SignalBoard.cpp.o
 
 src/SignalBoard.i: src/SignalBoard.cpp.i
@@ -208,7 +208,7 @@ src/SignalBoard.i: src/SignalBoard.cpp.i
 
 # target to preprocess a source file
 src/SignalBoard.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/build.make _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/SignalBoard.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/build.make _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/SignalBoard.cpp.i
 .PHONY : src/SignalBoard.cpp.i
 
 src/SignalBoard.s: src/SignalBoard.cpp.s
@@ -216,7 +216,7 @@ src/SignalBoard.s: src/SignalBoard.cpp.s
 
 # target to generate assembly for a file
 src/SignalBoard.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/build.make _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/SignalBoard.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/build.make _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/SignalBoard.cpp.s
 .PHONY : src/SignalBoard.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -224,7 +224,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/build.make _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/main.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/build.make _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -232,7 +232,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/build.make _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/main.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/build.make _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -240,7 +240,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/build.make _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/main.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/build.make _deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -275,6 +275,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/paul/Documents/wordFinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

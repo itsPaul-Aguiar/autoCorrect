@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/paul/Documents/wordFinder
+CMAKE_SOURCE_DIR = /Users/paul/Documents/programming/cpp/autoCorrect
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/paul/Documents/wordFinder/build
+CMAKE_BINARY_DIR = /Users/paul/Documents/programming/cpp/autoCorrect/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /Users/paul/Documents/wordFinder/build
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool..."
-	cd /Users/paul/Documents/wordFinder/build && /opt/homebrew/bin/cpack --config ./CPackConfig.cmake
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && /opt/homebrew/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	cd /Users/paul/Documents/wordFinder/build && /opt/homebrew/bin/cpack --config ./CPackSourceConfig.cmake
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && /opt/homebrew/bin/cpack --config ./CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -152,14 +152,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/paul/Documents/wordFinder/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/paul/Documents/wordFinder/build/CMakeFiles /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-build//CMakeFiles/progress.marks
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ixwebsocket-build/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/paul/Documents/wordFinder/build/CMakeFiles 0
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/paul/Documents/programming/cpp/autoCorrect/build/CMakeFiles /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-build//CMakeFiles/progress.marks
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ixwebsocket-build/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/paul/Documents/programming/cpp/autoCorrect/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ixwebsocket-build/clean
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ixwebsocket-build/clean
 .PHONY : clean
 
 # The main clean target
@@ -168,22 +168,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ixwebsocket-build/preinstall
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ixwebsocket-build/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ixwebsocket-build/preinstall
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ixwebsocket-build/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/paul/Documents/wordFinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/rule:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/rule
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/rule
 .PHONY : _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/rule
 
 # Convenience name for target.
@@ -192,7 +192,7 @@ ixwebsocket: _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/rule
 
 # fast build rule for target.
 ixwebsocket/fast:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build
 .PHONY : ixwebsocket/fast
 
 ixwebsocket/IXBench.o: ixwebsocket/IXBench.cpp.o
@@ -200,7 +200,7 @@ ixwebsocket/IXBench.o: ixwebsocket/IXBench.cpp.o
 
 # target to build an object file
 ixwebsocket/IXBench.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXBench.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXBench.cpp.o
 .PHONY : ixwebsocket/IXBench.cpp.o
 
 ixwebsocket/IXBench.i: ixwebsocket/IXBench.cpp.i
@@ -208,7 +208,7 @@ ixwebsocket/IXBench.i: ixwebsocket/IXBench.cpp.i
 
 # target to preprocess a source file
 ixwebsocket/IXBench.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXBench.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXBench.cpp.i
 .PHONY : ixwebsocket/IXBench.cpp.i
 
 ixwebsocket/IXBench.s: ixwebsocket/IXBench.cpp.s
@@ -216,7 +216,7 @@ ixwebsocket/IXBench.s: ixwebsocket/IXBench.cpp.s
 
 # target to generate assembly for a file
 ixwebsocket/IXBench.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXBench.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXBench.cpp.s
 .PHONY : ixwebsocket/IXBench.cpp.s
 
 ixwebsocket/IXCancellationRequest.o: ixwebsocket/IXCancellationRequest.cpp.o
@@ -224,7 +224,7 @@ ixwebsocket/IXCancellationRequest.o: ixwebsocket/IXCancellationRequest.cpp.o
 
 # target to build an object file
 ixwebsocket/IXCancellationRequest.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXCancellationRequest.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXCancellationRequest.cpp.o
 .PHONY : ixwebsocket/IXCancellationRequest.cpp.o
 
 ixwebsocket/IXCancellationRequest.i: ixwebsocket/IXCancellationRequest.cpp.i
@@ -232,7 +232,7 @@ ixwebsocket/IXCancellationRequest.i: ixwebsocket/IXCancellationRequest.cpp.i
 
 # target to preprocess a source file
 ixwebsocket/IXCancellationRequest.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXCancellationRequest.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXCancellationRequest.cpp.i
 .PHONY : ixwebsocket/IXCancellationRequest.cpp.i
 
 ixwebsocket/IXCancellationRequest.s: ixwebsocket/IXCancellationRequest.cpp.s
@@ -240,7 +240,7 @@ ixwebsocket/IXCancellationRequest.s: ixwebsocket/IXCancellationRequest.cpp.s
 
 # target to generate assembly for a file
 ixwebsocket/IXCancellationRequest.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXCancellationRequest.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXCancellationRequest.cpp.s
 .PHONY : ixwebsocket/IXCancellationRequest.cpp.s
 
 ixwebsocket/IXConnectionState.o: ixwebsocket/IXConnectionState.cpp.o
@@ -248,7 +248,7 @@ ixwebsocket/IXConnectionState.o: ixwebsocket/IXConnectionState.cpp.o
 
 # target to build an object file
 ixwebsocket/IXConnectionState.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXConnectionState.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXConnectionState.cpp.o
 .PHONY : ixwebsocket/IXConnectionState.cpp.o
 
 ixwebsocket/IXConnectionState.i: ixwebsocket/IXConnectionState.cpp.i
@@ -256,7 +256,7 @@ ixwebsocket/IXConnectionState.i: ixwebsocket/IXConnectionState.cpp.i
 
 # target to preprocess a source file
 ixwebsocket/IXConnectionState.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXConnectionState.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXConnectionState.cpp.i
 .PHONY : ixwebsocket/IXConnectionState.cpp.i
 
 ixwebsocket/IXConnectionState.s: ixwebsocket/IXConnectionState.cpp.s
@@ -264,7 +264,7 @@ ixwebsocket/IXConnectionState.s: ixwebsocket/IXConnectionState.cpp.s
 
 # target to generate assembly for a file
 ixwebsocket/IXConnectionState.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXConnectionState.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXConnectionState.cpp.s
 .PHONY : ixwebsocket/IXConnectionState.cpp.s
 
 ixwebsocket/IXDNSLookup.o: ixwebsocket/IXDNSLookup.cpp.o
@@ -272,7 +272,7 @@ ixwebsocket/IXDNSLookup.o: ixwebsocket/IXDNSLookup.cpp.o
 
 # target to build an object file
 ixwebsocket/IXDNSLookup.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXDNSLookup.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXDNSLookup.cpp.o
 .PHONY : ixwebsocket/IXDNSLookup.cpp.o
 
 ixwebsocket/IXDNSLookup.i: ixwebsocket/IXDNSLookup.cpp.i
@@ -280,7 +280,7 @@ ixwebsocket/IXDNSLookup.i: ixwebsocket/IXDNSLookup.cpp.i
 
 # target to preprocess a source file
 ixwebsocket/IXDNSLookup.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXDNSLookup.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXDNSLookup.cpp.i
 .PHONY : ixwebsocket/IXDNSLookup.cpp.i
 
 ixwebsocket/IXDNSLookup.s: ixwebsocket/IXDNSLookup.cpp.s
@@ -288,7 +288,7 @@ ixwebsocket/IXDNSLookup.s: ixwebsocket/IXDNSLookup.cpp.s
 
 # target to generate assembly for a file
 ixwebsocket/IXDNSLookup.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXDNSLookup.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXDNSLookup.cpp.s
 .PHONY : ixwebsocket/IXDNSLookup.cpp.s
 
 ixwebsocket/IXExponentialBackoff.o: ixwebsocket/IXExponentialBackoff.cpp.o
@@ -296,7 +296,7 @@ ixwebsocket/IXExponentialBackoff.o: ixwebsocket/IXExponentialBackoff.cpp.o
 
 # target to build an object file
 ixwebsocket/IXExponentialBackoff.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXExponentialBackoff.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXExponentialBackoff.cpp.o
 .PHONY : ixwebsocket/IXExponentialBackoff.cpp.o
 
 ixwebsocket/IXExponentialBackoff.i: ixwebsocket/IXExponentialBackoff.cpp.i
@@ -304,7 +304,7 @@ ixwebsocket/IXExponentialBackoff.i: ixwebsocket/IXExponentialBackoff.cpp.i
 
 # target to preprocess a source file
 ixwebsocket/IXExponentialBackoff.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXExponentialBackoff.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXExponentialBackoff.cpp.i
 .PHONY : ixwebsocket/IXExponentialBackoff.cpp.i
 
 ixwebsocket/IXExponentialBackoff.s: ixwebsocket/IXExponentialBackoff.cpp.s
@@ -312,7 +312,7 @@ ixwebsocket/IXExponentialBackoff.s: ixwebsocket/IXExponentialBackoff.cpp.s
 
 # target to generate assembly for a file
 ixwebsocket/IXExponentialBackoff.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXExponentialBackoff.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXExponentialBackoff.cpp.s
 .PHONY : ixwebsocket/IXExponentialBackoff.cpp.s
 
 ixwebsocket/IXGetFreePort.o: ixwebsocket/IXGetFreePort.cpp.o
@@ -320,7 +320,7 @@ ixwebsocket/IXGetFreePort.o: ixwebsocket/IXGetFreePort.cpp.o
 
 # target to build an object file
 ixwebsocket/IXGetFreePort.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXGetFreePort.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXGetFreePort.cpp.o
 .PHONY : ixwebsocket/IXGetFreePort.cpp.o
 
 ixwebsocket/IXGetFreePort.i: ixwebsocket/IXGetFreePort.cpp.i
@@ -328,7 +328,7 @@ ixwebsocket/IXGetFreePort.i: ixwebsocket/IXGetFreePort.cpp.i
 
 # target to preprocess a source file
 ixwebsocket/IXGetFreePort.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXGetFreePort.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXGetFreePort.cpp.i
 .PHONY : ixwebsocket/IXGetFreePort.cpp.i
 
 ixwebsocket/IXGetFreePort.s: ixwebsocket/IXGetFreePort.cpp.s
@@ -336,7 +336,7 @@ ixwebsocket/IXGetFreePort.s: ixwebsocket/IXGetFreePort.cpp.s
 
 # target to generate assembly for a file
 ixwebsocket/IXGetFreePort.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXGetFreePort.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXGetFreePort.cpp.s
 .PHONY : ixwebsocket/IXGetFreePort.cpp.s
 
 ixwebsocket/IXGzipCodec.o: ixwebsocket/IXGzipCodec.cpp.o
@@ -344,7 +344,7 @@ ixwebsocket/IXGzipCodec.o: ixwebsocket/IXGzipCodec.cpp.o
 
 # target to build an object file
 ixwebsocket/IXGzipCodec.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXGzipCodec.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXGzipCodec.cpp.o
 .PHONY : ixwebsocket/IXGzipCodec.cpp.o
 
 ixwebsocket/IXGzipCodec.i: ixwebsocket/IXGzipCodec.cpp.i
@@ -352,7 +352,7 @@ ixwebsocket/IXGzipCodec.i: ixwebsocket/IXGzipCodec.cpp.i
 
 # target to preprocess a source file
 ixwebsocket/IXGzipCodec.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXGzipCodec.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXGzipCodec.cpp.i
 .PHONY : ixwebsocket/IXGzipCodec.cpp.i
 
 ixwebsocket/IXGzipCodec.s: ixwebsocket/IXGzipCodec.cpp.s
@@ -360,7 +360,7 @@ ixwebsocket/IXGzipCodec.s: ixwebsocket/IXGzipCodec.cpp.s
 
 # target to generate assembly for a file
 ixwebsocket/IXGzipCodec.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXGzipCodec.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXGzipCodec.cpp.s
 .PHONY : ixwebsocket/IXGzipCodec.cpp.s
 
 ixwebsocket/IXHttp.o: ixwebsocket/IXHttp.cpp.o
@@ -368,7 +368,7 @@ ixwebsocket/IXHttp.o: ixwebsocket/IXHttp.cpp.o
 
 # target to build an object file
 ixwebsocket/IXHttp.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXHttp.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXHttp.cpp.o
 .PHONY : ixwebsocket/IXHttp.cpp.o
 
 ixwebsocket/IXHttp.i: ixwebsocket/IXHttp.cpp.i
@@ -376,7 +376,7 @@ ixwebsocket/IXHttp.i: ixwebsocket/IXHttp.cpp.i
 
 # target to preprocess a source file
 ixwebsocket/IXHttp.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXHttp.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXHttp.cpp.i
 .PHONY : ixwebsocket/IXHttp.cpp.i
 
 ixwebsocket/IXHttp.s: ixwebsocket/IXHttp.cpp.s
@@ -384,7 +384,7 @@ ixwebsocket/IXHttp.s: ixwebsocket/IXHttp.cpp.s
 
 # target to generate assembly for a file
 ixwebsocket/IXHttp.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXHttp.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXHttp.cpp.s
 .PHONY : ixwebsocket/IXHttp.cpp.s
 
 ixwebsocket/IXHttpClient.o: ixwebsocket/IXHttpClient.cpp.o
@@ -392,7 +392,7 @@ ixwebsocket/IXHttpClient.o: ixwebsocket/IXHttpClient.cpp.o
 
 # target to build an object file
 ixwebsocket/IXHttpClient.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXHttpClient.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXHttpClient.cpp.o
 .PHONY : ixwebsocket/IXHttpClient.cpp.o
 
 ixwebsocket/IXHttpClient.i: ixwebsocket/IXHttpClient.cpp.i
@@ -400,7 +400,7 @@ ixwebsocket/IXHttpClient.i: ixwebsocket/IXHttpClient.cpp.i
 
 # target to preprocess a source file
 ixwebsocket/IXHttpClient.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXHttpClient.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXHttpClient.cpp.i
 .PHONY : ixwebsocket/IXHttpClient.cpp.i
 
 ixwebsocket/IXHttpClient.s: ixwebsocket/IXHttpClient.cpp.s
@@ -408,7 +408,7 @@ ixwebsocket/IXHttpClient.s: ixwebsocket/IXHttpClient.cpp.s
 
 # target to generate assembly for a file
 ixwebsocket/IXHttpClient.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXHttpClient.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXHttpClient.cpp.s
 .PHONY : ixwebsocket/IXHttpClient.cpp.s
 
 ixwebsocket/IXHttpServer.o: ixwebsocket/IXHttpServer.cpp.o
@@ -416,7 +416,7 @@ ixwebsocket/IXHttpServer.o: ixwebsocket/IXHttpServer.cpp.o
 
 # target to build an object file
 ixwebsocket/IXHttpServer.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXHttpServer.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXHttpServer.cpp.o
 .PHONY : ixwebsocket/IXHttpServer.cpp.o
 
 ixwebsocket/IXHttpServer.i: ixwebsocket/IXHttpServer.cpp.i
@@ -424,7 +424,7 @@ ixwebsocket/IXHttpServer.i: ixwebsocket/IXHttpServer.cpp.i
 
 # target to preprocess a source file
 ixwebsocket/IXHttpServer.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXHttpServer.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXHttpServer.cpp.i
 .PHONY : ixwebsocket/IXHttpServer.cpp.i
 
 ixwebsocket/IXHttpServer.s: ixwebsocket/IXHttpServer.cpp.s
@@ -432,7 +432,7 @@ ixwebsocket/IXHttpServer.s: ixwebsocket/IXHttpServer.cpp.s
 
 # target to generate assembly for a file
 ixwebsocket/IXHttpServer.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXHttpServer.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXHttpServer.cpp.s
 .PHONY : ixwebsocket/IXHttpServer.cpp.s
 
 ixwebsocket/IXNetSystem.o: ixwebsocket/IXNetSystem.cpp.o
@@ -440,7 +440,7 @@ ixwebsocket/IXNetSystem.o: ixwebsocket/IXNetSystem.cpp.o
 
 # target to build an object file
 ixwebsocket/IXNetSystem.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXNetSystem.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXNetSystem.cpp.o
 .PHONY : ixwebsocket/IXNetSystem.cpp.o
 
 ixwebsocket/IXNetSystem.i: ixwebsocket/IXNetSystem.cpp.i
@@ -448,7 +448,7 @@ ixwebsocket/IXNetSystem.i: ixwebsocket/IXNetSystem.cpp.i
 
 # target to preprocess a source file
 ixwebsocket/IXNetSystem.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXNetSystem.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXNetSystem.cpp.i
 .PHONY : ixwebsocket/IXNetSystem.cpp.i
 
 ixwebsocket/IXNetSystem.s: ixwebsocket/IXNetSystem.cpp.s
@@ -456,7 +456,7 @@ ixwebsocket/IXNetSystem.s: ixwebsocket/IXNetSystem.cpp.s
 
 # target to generate assembly for a file
 ixwebsocket/IXNetSystem.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXNetSystem.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXNetSystem.cpp.s
 .PHONY : ixwebsocket/IXNetSystem.cpp.s
 
 ixwebsocket/IXSelectInterrupt.o: ixwebsocket/IXSelectInterrupt.cpp.o
@@ -464,7 +464,7 @@ ixwebsocket/IXSelectInterrupt.o: ixwebsocket/IXSelectInterrupt.cpp.o
 
 # target to build an object file
 ixwebsocket/IXSelectInterrupt.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSelectInterrupt.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSelectInterrupt.cpp.o
 .PHONY : ixwebsocket/IXSelectInterrupt.cpp.o
 
 ixwebsocket/IXSelectInterrupt.i: ixwebsocket/IXSelectInterrupt.cpp.i
@@ -472,7 +472,7 @@ ixwebsocket/IXSelectInterrupt.i: ixwebsocket/IXSelectInterrupt.cpp.i
 
 # target to preprocess a source file
 ixwebsocket/IXSelectInterrupt.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSelectInterrupt.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSelectInterrupt.cpp.i
 .PHONY : ixwebsocket/IXSelectInterrupt.cpp.i
 
 ixwebsocket/IXSelectInterrupt.s: ixwebsocket/IXSelectInterrupt.cpp.s
@@ -480,7 +480,7 @@ ixwebsocket/IXSelectInterrupt.s: ixwebsocket/IXSelectInterrupt.cpp.s
 
 # target to generate assembly for a file
 ixwebsocket/IXSelectInterrupt.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSelectInterrupt.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSelectInterrupt.cpp.s
 .PHONY : ixwebsocket/IXSelectInterrupt.cpp.s
 
 ixwebsocket/IXSelectInterruptEvent.o: ixwebsocket/IXSelectInterruptEvent.cpp.o
@@ -488,7 +488,7 @@ ixwebsocket/IXSelectInterruptEvent.o: ixwebsocket/IXSelectInterruptEvent.cpp.o
 
 # target to build an object file
 ixwebsocket/IXSelectInterruptEvent.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSelectInterruptEvent.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSelectInterruptEvent.cpp.o
 .PHONY : ixwebsocket/IXSelectInterruptEvent.cpp.o
 
 ixwebsocket/IXSelectInterruptEvent.i: ixwebsocket/IXSelectInterruptEvent.cpp.i
@@ -496,7 +496,7 @@ ixwebsocket/IXSelectInterruptEvent.i: ixwebsocket/IXSelectInterruptEvent.cpp.i
 
 # target to preprocess a source file
 ixwebsocket/IXSelectInterruptEvent.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSelectInterruptEvent.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSelectInterruptEvent.cpp.i
 .PHONY : ixwebsocket/IXSelectInterruptEvent.cpp.i
 
 ixwebsocket/IXSelectInterruptEvent.s: ixwebsocket/IXSelectInterruptEvent.cpp.s
@@ -504,7 +504,7 @@ ixwebsocket/IXSelectInterruptEvent.s: ixwebsocket/IXSelectInterruptEvent.cpp.s
 
 # target to generate assembly for a file
 ixwebsocket/IXSelectInterruptEvent.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSelectInterruptEvent.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSelectInterruptEvent.cpp.s
 .PHONY : ixwebsocket/IXSelectInterruptEvent.cpp.s
 
 ixwebsocket/IXSelectInterruptFactory.o: ixwebsocket/IXSelectInterruptFactory.cpp.o
@@ -512,7 +512,7 @@ ixwebsocket/IXSelectInterruptFactory.o: ixwebsocket/IXSelectInterruptFactory.cpp
 
 # target to build an object file
 ixwebsocket/IXSelectInterruptFactory.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSelectInterruptFactory.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSelectInterruptFactory.cpp.o
 .PHONY : ixwebsocket/IXSelectInterruptFactory.cpp.o
 
 ixwebsocket/IXSelectInterruptFactory.i: ixwebsocket/IXSelectInterruptFactory.cpp.i
@@ -520,7 +520,7 @@ ixwebsocket/IXSelectInterruptFactory.i: ixwebsocket/IXSelectInterruptFactory.cpp
 
 # target to preprocess a source file
 ixwebsocket/IXSelectInterruptFactory.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSelectInterruptFactory.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSelectInterruptFactory.cpp.i
 .PHONY : ixwebsocket/IXSelectInterruptFactory.cpp.i
 
 ixwebsocket/IXSelectInterruptFactory.s: ixwebsocket/IXSelectInterruptFactory.cpp.s
@@ -528,7 +528,7 @@ ixwebsocket/IXSelectInterruptFactory.s: ixwebsocket/IXSelectInterruptFactory.cpp
 
 # target to generate assembly for a file
 ixwebsocket/IXSelectInterruptFactory.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSelectInterruptFactory.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSelectInterruptFactory.cpp.s
 .PHONY : ixwebsocket/IXSelectInterruptFactory.cpp.s
 
 ixwebsocket/IXSelectInterruptPipe.o: ixwebsocket/IXSelectInterruptPipe.cpp.o
@@ -536,7 +536,7 @@ ixwebsocket/IXSelectInterruptPipe.o: ixwebsocket/IXSelectInterruptPipe.cpp.o
 
 # target to build an object file
 ixwebsocket/IXSelectInterruptPipe.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSelectInterruptPipe.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSelectInterruptPipe.cpp.o
 .PHONY : ixwebsocket/IXSelectInterruptPipe.cpp.o
 
 ixwebsocket/IXSelectInterruptPipe.i: ixwebsocket/IXSelectInterruptPipe.cpp.i
@@ -544,7 +544,7 @@ ixwebsocket/IXSelectInterruptPipe.i: ixwebsocket/IXSelectInterruptPipe.cpp.i
 
 # target to preprocess a source file
 ixwebsocket/IXSelectInterruptPipe.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSelectInterruptPipe.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSelectInterruptPipe.cpp.i
 .PHONY : ixwebsocket/IXSelectInterruptPipe.cpp.i
 
 ixwebsocket/IXSelectInterruptPipe.s: ixwebsocket/IXSelectInterruptPipe.cpp.s
@@ -552,7 +552,7 @@ ixwebsocket/IXSelectInterruptPipe.s: ixwebsocket/IXSelectInterruptPipe.cpp.s
 
 # target to generate assembly for a file
 ixwebsocket/IXSelectInterruptPipe.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSelectInterruptPipe.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSelectInterruptPipe.cpp.s
 .PHONY : ixwebsocket/IXSelectInterruptPipe.cpp.s
 
 ixwebsocket/IXSetThreadName.o: ixwebsocket/IXSetThreadName.cpp.o
@@ -560,7 +560,7 @@ ixwebsocket/IXSetThreadName.o: ixwebsocket/IXSetThreadName.cpp.o
 
 # target to build an object file
 ixwebsocket/IXSetThreadName.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSetThreadName.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSetThreadName.cpp.o
 .PHONY : ixwebsocket/IXSetThreadName.cpp.o
 
 ixwebsocket/IXSetThreadName.i: ixwebsocket/IXSetThreadName.cpp.i
@@ -568,7 +568,7 @@ ixwebsocket/IXSetThreadName.i: ixwebsocket/IXSetThreadName.cpp.i
 
 # target to preprocess a source file
 ixwebsocket/IXSetThreadName.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSetThreadName.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSetThreadName.cpp.i
 .PHONY : ixwebsocket/IXSetThreadName.cpp.i
 
 ixwebsocket/IXSetThreadName.s: ixwebsocket/IXSetThreadName.cpp.s
@@ -576,7 +576,7 @@ ixwebsocket/IXSetThreadName.s: ixwebsocket/IXSetThreadName.cpp.s
 
 # target to generate assembly for a file
 ixwebsocket/IXSetThreadName.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSetThreadName.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSetThreadName.cpp.s
 .PHONY : ixwebsocket/IXSetThreadName.cpp.s
 
 ixwebsocket/IXSocket.o: ixwebsocket/IXSocket.cpp.o
@@ -584,7 +584,7 @@ ixwebsocket/IXSocket.o: ixwebsocket/IXSocket.cpp.o
 
 # target to build an object file
 ixwebsocket/IXSocket.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocket.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocket.cpp.o
 .PHONY : ixwebsocket/IXSocket.cpp.o
 
 ixwebsocket/IXSocket.i: ixwebsocket/IXSocket.cpp.i
@@ -592,7 +592,7 @@ ixwebsocket/IXSocket.i: ixwebsocket/IXSocket.cpp.i
 
 # target to preprocess a source file
 ixwebsocket/IXSocket.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocket.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocket.cpp.i
 .PHONY : ixwebsocket/IXSocket.cpp.i
 
 ixwebsocket/IXSocket.s: ixwebsocket/IXSocket.cpp.s
@@ -600,7 +600,7 @@ ixwebsocket/IXSocket.s: ixwebsocket/IXSocket.cpp.s
 
 # target to generate assembly for a file
 ixwebsocket/IXSocket.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocket.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocket.cpp.s
 .PHONY : ixwebsocket/IXSocket.cpp.s
 
 ixwebsocket/IXSocketConnect.o: ixwebsocket/IXSocketConnect.cpp.o
@@ -608,7 +608,7 @@ ixwebsocket/IXSocketConnect.o: ixwebsocket/IXSocketConnect.cpp.o
 
 # target to build an object file
 ixwebsocket/IXSocketConnect.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocketConnect.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocketConnect.cpp.o
 .PHONY : ixwebsocket/IXSocketConnect.cpp.o
 
 ixwebsocket/IXSocketConnect.i: ixwebsocket/IXSocketConnect.cpp.i
@@ -616,7 +616,7 @@ ixwebsocket/IXSocketConnect.i: ixwebsocket/IXSocketConnect.cpp.i
 
 # target to preprocess a source file
 ixwebsocket/IXSocketConnect.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocketConnect.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocketConnect.cpp.i
 .PHONY : ixwebsocket/IXSocketConnect.cpp.i
 
 ixwebsocket/IXSocketConnect.s: ixwebsocket/IXSocketConnect.cpp.s
@@ -624,7 +624,7 @@ ixwebsocket/IXSocketConnect.s: ixwebsocket/IXSocketConnect.cpp.s
 
 # target to generate assembly for a file
 ixwebsocket/IXSocketConnect.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocketConnect.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocketConnect.cpp.s
 .PHONY : ixwebsocket/IXSocketConnect.cpp.s
 
 ixwebsocket/IXSocketFactory.o: ixwebsocket/IXSocketFactory.cpp.o
@@ -632,7 +632,7 @@ ixwebsocket/IXSocketFactory.o: ixwebsocket/IXSocketFactory.cpp.o
 
 # target to build an object file
 ixwebsocket/IXSocketFactory.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocketFactory.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocketFactory.cpp.o
 .PHONY : ixwebsocket/IXSocketFactory.cpp.o
 
 ixwebsocket/IXSocketFactory.i: ixwebsocket/IXSocketFactory.cpp.i
@@ -640,7 +640,7 @@ ixwebsocket/IXSocketFactory.i: ixwebsocket/IXSocketFactory.cpp.i
 
 # target to preprocess a source file
 ixwebsocket/IXSocketFactory.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocketFactory.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocketFactory.cpp.i
 .PHONY : ixwebsocket/IXSocketFactory.cpp.i
 
 ixwebsocket/IXSocketFactory.s: ixwebsocket/IXSocketFactory.cpp.s
@@ -648,7 +648,7 @@ ixwebsocket/IXSocketFactory.s: ixwebsocket/IXSocketFactory.cpp.s
 
 # target to generate assembly for a file
 ixwebsocket/IXSocketFactory.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocketFactory.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocketFactory.cpp.s
 .PHONY : ixwebsocket/IXSocketFactory.cpp.s
 
 ixwebsocket/IXSocketServer.o: ixwebsocket/IXSocketServer.cpp.o
@@ -656,7 +656,7 @@ ixwebsocket/IXSocketServer.o: ixwebsocket/IXSocketServer.cpp.o
 
 # target to build an object file
 ixwebsocket/IXSocketServer.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocketServer.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocketServer.cpp.o
 .PHONY : ixwebsocket/IXSocketServer.cpp.o
 
 ixwebsocket/IXSocketServer.i: ixwebsocket/IXSocketServer.cpp.i
@@ -664,7 +664,7 @@ ixwebsocket/IXSocketServer.i: ixwebsocket/IXSocketServer.cpp.i
 
 # target to preprocess a source file
 ixwebsocket/IXSocketServer.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocketServer.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocketServer.cpp.i
 .PHONY : ixwebsocket/IXSocketServer.cpp.i
 
 ixwebsocket/IXSocketServer.s: ixwebsocket/IXSocketServer.cpp.s
@@ -672,7 +672,7 @@ ixwebsocket/IXSocketServer.s: ixwebsocket/IXSocketServer.cpp.s
 
 # target to generate assembly for a file
 ixwebsocket/IXSocketServer.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocketServer.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocketServer.cpp.s
 .PHONY : ixwebsocket/IXSocketServer.cpp.s
 
 ixwebsocket/IXSocketTLSOptions.o: ixwebsocket/IXSocketTLSOptions.cpp.o
@@ -680,7 +680,7 @@ ixwebsocket/IXSocketTLSOptions.o: ixwebsocket/IXSocketTLSOptions.cpp.o
 
 # target to build an object file
 ixwebsocket/IXSocketTLSOptions.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocketTLSOptions.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocketTLSOptions.cpp.o
 .PHONY : ixwebsocket/IXSocketTLSOptions.cpp.o
 
 ixwebsocket/IXSocketTLSOptions.i: ixwebsocket/IXSocketTLSOptions.cpp.i
@@ -688,7 +688,7 @@ ixwebsocket/IXSocketTLSOptions.i: ixwebsocket/IXSocketTLSOptions.cpp.i
 
 # target to preprocess a source file
 ixwebsocket/IXSocketTLSOptions.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocketTLSOptions.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocketTLSOptions.cpp.i
 .PHONY : ixwebsocket/IXSocketTLSOptions.cpp.i
 
 ixwebsocket/IXSocketTLSOptions.s: ixwebsocket/IXSocketTLSOptions.cpp.s
@@ -696,7 +696,7 @@ ixwebsocket/IXSocketTLSOptions.s: ixwebsocket/IXSocketTLSOptions.cpp.s
 
 # target to generate assembly for a file
 ixwebsocket/IXSocketTLSOptions.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocketTLSOptions.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocketTLSOptions.cpp.s
 .PHONY : ixwebsocket/IXSocketTLSOptions.cpp.s
 
 ixwebsocket/IXStrCaseCompare.o: ixwebsocket/IXStrCaseCompare.cpp.o
@@ -704,7 +704,7 @@ ixwebsocket/IXStrCaseCompare.o: ixwebsocket/IXStrCaseCompare.cpp.o
 
 # target to build an object file
 ixwebsocket/IXStrCaseCompare.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXStrCaseCompare.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXStrCaseCompare.cpp.o
 .PHONY : ixwebsocket/IXStrCaseCompare.cpp.o
 
 ixwebsocket/IXStrCaseCompare.i: ixwebsocket/IXStrCaseCompare.cpp.i
@@ -712,7 +712,7 @@ ixwebsocket/IXStrCaseCompare.i: ixwebsocket/IXStrCaseCompare.cpp.i
 
 # target to preprocess a source file
 ixwebsocket/IXStrCaseCompare.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXStrCaseCompare.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXStrCaseCompare.cpp.i
 .PHONY : ixwebsocket/IXStrCaseCompare.cpp.i
 
 ixwebsocket/IXStrCaseCompare.s: ixwebsocket/IXStrCaseCompare.cpp.s
@@ -720,7 +720,7 @@ ixwebsocket/IXStrCaseCompare.s: ixwebsocket/IXStrCaseCompare.cpp.s
 
 # target to generate assembly for a file
 ixwebsocket/IXStrCaseCompare.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXStrCaseCompare.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXStrCaseCompare.cpp.s
 .PHONY : ixwebsocket/IXStrCaseCompare.cpp.s
 
 ixwebsocket/IXUdpSocket.o: ixwebsocket/IXUdpSocket.cpp.o
@@ -728,7 +728,7 @@ ixwebsocket/IXUdpSocket.o: ixwebsocket/IXUdpSocket.cpp.o
 
 # target to build an object file
 ixwebsocket/IXUdpSocket.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXUdpSocket.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXUdpSocket.cpp.o
 .PHONY : ixwebsocket/IXUdpSocket.cpp.o
 
 ixwebsocket/IXUdpSocket.i: ixwebsocket/IXUdpSocket.cpp.i
@@ -736,7 +736,7 @@ ixwebsocket/IXUdpSocket.i: ixwebsocket/IXUdpSocket.cpp.i
 
 # target to preprocess a source file
 ixwebsocket/IXUdpSocket.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXUdpSocket.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXUdpSocket.cpp.i
 .PHONY : ixwebsocket/IXUdpSocket.cpp.i
 
 ixwebsocket/IXUdpSocket.s: ixwebsocket/IXUdpSocket.cpp.s
@@ -744,7 +744,7 @@ ixwebsocket/IXUdpSocket.s: ixwebsocket/IXUdpSocket.cpp.s
 
 # target to generate assembly for a file
 ixwebsocket/IXUdpSocket.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXUdpSocket.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXUdpSocket.cpp.s
 .PHONY : ixwebsocket/IXUdpSocket.cpp.s
 
 ixwebsocket/IXUrlParser.o: ixwebsocket/IXUrlParser.cpp.o
@@ -752,7 +752,7 @@ ixwebsocket/IXUrlParser.o: ixwebsocket/IXUrlParser.cpp.o
 
 # target to build an object file
 ixwebsocket/IXUrlParser.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXUrlParser.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXUrlParser.cpp.o
 .PHONY : ixwebsocket/IXUrlParser.cpp.o
 
 ixwebsocket/IXUrlParser.i: ixwebsocket/IXUrlParser.cpp.i
@@ -760,7 +760,7 @@ ixwebsocket/IXUrlParser.i: ixwebsocket/IXUrlParser.cpp.i
 
 # target to preprocess a source file
 ixwebsocket/IXUrlParser.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXUrlParser.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXUrlParser.cpp.i
 .PHONY : ixwebsocket/IXUrlParser.cpp.i
 
 ixwebsocket/IXUrlParser.s: ixwebsocket/IXUrlParser.cpp.s
@@ -768,7 +768,7 @@ ixwebsocket/IXUrlParser.s: ixwebsocket/IXUrlParser.cpp.s
 
 # target to generate assembly for a file
 ixwebsocket/IXUrlParser.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXUrlParser.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXUrlParser.cpp.s
 .PHONY : ixwebsocket/IXUrlParser.cpp.s
 
 ixwebsocket/IXUserAgent.o: ixwebsocket/IXUserAgent.cpp.o
@@ -776,7 +776,7 @@ ixwebsocket/IXUserAgent.o: ixwebsocket/IXUserAgent.cpp.o
 
 # target to build an object file
 ixwebsocket/IXUserAgent.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXUserAgent.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXUserAgent.cpp.o
 .PHONY : ixwebsocket/IXUserAgent.cpp.o
 
 ixwebsocket/IXUserAgent.i: ixwebsocket/IXUserAgent.cpp.i
@@ -784,7 +784,7 @@ ixwebsocket/IXUserAgent.i: ixwebsocket/IXUserAgent.cpp.i
 
 # target to preprocess a source file
 ixwebsocket/IXUserAgent.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXUserAgent.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXUserAgent.cpp.i
 .PHONY : ixwebsocket/IXUserAgent.cpp.i
 
 ixwebsocket/IXUserAgent.s: ixwebsocket/IXUserAgent.cpp.s
@@ -792,7 +792,7 @@ ixwebsocket/IXUserAgent.s: ixwebsocket/IXUserAgent.cpp.s
 
 # target to generate assembly for a file
 ixwebsocket/IXUserAgent.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXUserAgent.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXUserAgent.cpp.s
 .PHONY : ixwebsocket/IXUserAgent.cpp.s
 
 ixwebsocket/IXUuid.o: ixwebsocket/IXUuid.cpp.o
@@ -800,7 +800,7 @@ ixwebsocket/IXUuid.o: ixwebsocket/IXUuid.cpp.o
 
 # target to build an object file
 ixwebsocket/IXUuid.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXUuid.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXUuid.cpp.o
 .PHONY : ixwebsocket/IXUuid.cpp.o
 
 ixwebsocket/IXUuid.i: ixwebsocket/IXUuid.cpp.i
@@ -808,7 +808,7 @@ ixwebsocket/IXUuid.i: ixwebsocket/IXUuid.cpp.i
 
 # target to preprocess a source file
 ixwebsocket/IXUuid.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXUuid.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXUuid.cpp.i
 .PHONY : ixwebsocket/IXUuid.cpp.i
 
 ixwebsocket/IXUuid.s: ixwebsocket/IXUuid.cpp.s
@@ -816,7 +816,7 @@ ixwebsocket/IXUuid.s: ixwebsocket/IXUuid.cpp.s
 
 # target to generate assembly for a file
 ixwebsocket/IXUuid.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXUuid.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXUuid.cpp.s
 .PHONY : ixwebsocket/IXUuid.cpp.s
 
 ixwebsocket/IXWebSocket.o: ixwebsocket/IXWebSocket.cpp.o
@@ -824,7 +824,7 @@ ixwebsocket/IXWebSocket.o: ixwebsocket/IXWebSocket.cpp.o
 
 # target to build an object file
 ixwebsocket/IXWebSocket.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocket.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocket.cpp.o
 .PHONY : ixwebsocket/IXWebSocket.cpp.o
 
 ixwebsocket/IXWebSocket.i: ixwebsocket/IXWebSocket.cpp.i
@@ -832,7 +832,7 @@ ixwebsocket/IXWebSocket.i: ixwebsocket/IXWebSocket.cpp.i
 
 # target to preprocess a source file
 ixwebsocket/IXWebSocket.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocket.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocket.cpp.i
 .PHONY : ixwebsocket/IXWebSocket.cpp.i
 
 ixwebsocket/IXWebSocket.s: ixwebsocket/IXWebSocket.cpp.s
@@ -840,7 +840,7 @@ ixwebsocket/IXWebSocket.s: ixwebsocket/IXWebSocket.cpp.s
 
 # target to generate assembly for a file
 ixwebsocket/IXWebSocket.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocket.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocket.cpp.s
 .PHONY : ixwebsocket/IXWebSocket.cpp.s
 
 ixwebsocket/IXWebSocketCloseConstants.o: ixwebsocket/IXWebSocketCloseConstants.cpp.o
@@ -848,7 +848,7 @@ ixwebsocket/IXWebSocketCloseConstants.o: ixwebsocket/IXWebSocketCloseConstants.c
 
 # target to build an object file
 ixwebsocket/IXWebSocketCloseConstants.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketCloseConstants.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketCloseConstants.cpp.o
 .PHONY : ixwebsocket/IXWebSocketCloseConstants.cpp.o
 
 ixwebsocket/IXWebSocketCloseConstants.i: ixwebsocket/IXWebSocketCloseConstants.cpp.i
@@ -856,7 +856,7 @@ ixwebsocket/IXWebSocketCloseConstants.i: ixwebsocket/IXWebSocketCloseConstants.c
 
 # target to preprocess a source file
 ixwebsocket/IXWebSocketCloseConstants.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketCloseConstants.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketCloseConstants.cpp.i
 .PHONY : ixwebsocket/IXWebSocketCloseConstants.cpp.i
 
 ixwebsocket/IXWebSocketCloseConstants.s: ixwebsocket/IXWebSocketCloseConstants.cpp.s
@@ -864,7 +864,7 @@ ixwebsocket/IXWebSocketCloseConstants.s: ixwebsocket/IXWebSocketCloseConstants.c
 
 # target to generate assembly for a file
 ixwebsocket/IXWebSocketCloseConstants.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketCloseConstants.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketCloseConstants.cpp.s
 .PHONY : ixwebsocket/IXWebSocketCloseConstants.cpp.s
 
 ixwebsocket/IXWebSocketHandshake.o: ixwebsocket/IXWebSocketHandshake.cpp.o
@@ -872,7 +872,7 @@ ixwebsocket/IXWebSocketHandshake.o: ixwebsocket/IXWebSocketHandshake.cpp.o
 
 # target to build an object file
 ixwebsocket/IXWebSocketHandshake.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketHandshake.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketHandshake.cpp.o
 .PHONY : ixwebsocket/IXWebSocketHandshake.cpp.o
 
 ixwebsocket/IXWebSocketHandshake.i: ixwebsocket/IXWebSocketHandshake.cpp.i
@@ -880,7 +880,7 @@ ixwebsocket/IXWebSocketHandshake.i: ixwebsocket/IXWebSocketHandshake.cpp.i
 
 # target to preprocess a source file
 ixwebsocket/IXWebSocketHandshake.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketHandshake.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketHandshake.cpp.i
 .PHONY : ixwebsocket/IXWebSocketHandshake.cpp.i
 
 ixwebsocket/IXWebSocketHandshake.s: ixwebsocket/IXWebSocketHandshake.cpp.s
@@ -888,7 +888,7 @@ ixwebsocket/IXWebSocketHandshake.s: ixwebsocket/IXWebSocketHandshake.cpp.s
 
 # target to generate assembly for a file
 ixwebsocket/IXWebSocketHandshake.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketHandshake.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketHandshake.cpp.s
 .PHONY : ixwebsocket/IXWebSocketHandshake.cpp.s
 
 ixwebsocket/IXWebSocketHttpHeaders.o: ixwebsocket/IXWebSocketHttpHeaders.cpp.o
@@ -896,7 +896,7 @@ ixwebsocket/IXWebSocketHttpHeaders.o: ixwebsocket/IXWebSocketHttpHeaders.cpp.o
 
 # target to build an object file
 ixwebsocket/IXWebSocketHttpHeaders.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketHttpHeaders.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketHttpHeaders.cpp.o
 .PHONY : ixwebsocket/IXWebSocketHttpHeaders.cpp.o
 
 ixwebsocket/IXWebSocketHttpHeaders.i: ixwebsocket/IXWebSocketHttpHeaders.cpp.i
@@ -904,7 +904,7 @@ ixwebsocket/IXWebSocketHttpHeaders.i: ixwebsocket/IXWebSocketHttpHeaders.cpp.i
 
 # target to preprocess a source file
 ixwebsocket/IXWebSocketHttpHeaders.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketHttpHeaders.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketHttpHeaders.cpp.i
 .PHONY : ixwebsocket/IXWebSocketHttpHeaders.cpp.i
 
 ixwebsocket/IXWebSocketHttpHeaders.s: ixwebsocket/IXWebSocketHttpHeaders.cpp.s
@@ -912,7 +912,7 @@ ixwebsocket/IXWebSocketHttpHeaders.s: ixwebsocket/IXWebSocketHttpHeaders.cpp.s
 
 # target to generate assembly for a file
 ixwebsocket/IXWebSocketHttpHeaders.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketHttpHeaders.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketHttpHeaders.cpp.s
 .PHONY : ixwebsocket/IXWebSocketHttpHeaders.cpp.s
 
 ixwebsocket/IXWebSocketPerMessageDeflate.o: ixwebsocket/IXWebSocketPerMessageDeflate.cpp.o
@@ -920,7 +920,7 @@ ixwebsocket/IXWebSocketPerMessageDeflate.o: ixwebsocket/IXWebSocketPerMessageDef
 
 # target to build an object file
 ixwebsocket/IXWebSocketPerMessageDeflate.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketPerMessageDeflate.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketPerMessageDeflate.cpp.o
 .PHONY : ixwebsocket/IXWebSocketPerMessageDeflate.cpp.o
 
 ixwebsocket/IXWebSocketPerMessageDeflate.i: ixwebsocket/IXWebSocketPerMessageDeflate.cpp.i
@@ -928,7 +928,7 @@ ixwebsocket/IXWebSocketPerMessageDeflate.i: ixwebsocket/IXWebSocketPerMessageDef
 
 # target to preprocess a source file
 ixwebsocket/IXWebSocketPerMessageDeflate.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketPerMessageDeflate.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketPerMessageDeflate.cpp.i
 .PHONY : ixwebsocket/IXWebSocketPerMessageDeflate.cpp.i
 
 ixwebsocket/IXWebSocketPerMessageDeflate.s: ixwebsocket/IXWebSocketPerMessageDeflate.cpp.s
@@ -936,7 +936,7 @@ ixwebsocket/IXWebSocketPerMessageDeflate.s: ixwebsocket/IXWebSocketPerMessageDef
 
 # target to generate assembly for a file
 ixwebsocket/IXWebSocketPerMessageDeflate.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketPerMessageDeflate.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketPerMessageDeflate.cpp.s
 .PHONY : ixwebsocket/IXWebSocketPerMessageDeflate.cpp.s
 
 ixwebsocket/IXWebSocketPerMessageDeflateCodec.o: ixwebsocket/IXWebSocketPerMessageDeflateCodec.cpp.o
@@ -944,7 +944,7 @@ ixwebsocket/IXWebSocketPerMessageDeflateCodec.o: ixwebsocket/IXWebSocketPerMessa
 
 # target to build an object file
 ixwebsocket/IXWebSocketPerMessageDeflateCodec.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketPerMessageDeflateCodec.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketPerMessageDeflateCodec.cpp.o
 .PHONY : ixwebsocket/IXWebSocketPerMessageDeflateCodec.cpp.o
 
 ixwebsocket/IXWebSocketPerMessageDeflateCodec.i: ixwebsocket/IXWebSocketPerMessageDeflateCodec.cpp.i
@@ -952,7 +952,7 @@ ixwebsocket/IXWebSocketPerMessageDeflateCodec.i: ixwebsocket/IXWebSocketPerMessa
 
 # target to preprocess a source file
 ixwebsocket/IXWebSocketPerMessageDeflateCodec.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketPerMessageDeflateCodec.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketPerMessageDeflateCodec.cpp.i
 .PHONY : ixwebsocket/IXWebSocketPerMessageDeflateCodec.cpp.i
 
 ixwebsocket/IXWebSocketPerMessageDeflateCodec.s: ixwebsocket/IXWebSocketPerMessageDeflateCodec.cpp.s
@@ -960,7 +960,7 @@ ixwebsocket/IXWebSocketPerMessageDeflateCodec.s: ixwebsocket/IXWebSocketPerMessa
 
 # target to generate assembly for a file
 ixwebsocket/IXWebSocketPerMessageDeflateCodec.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketPerMessageDeflateCodec.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketPerMessageDeflateCodec.cpp.s
 .PHONY : ixwebsocket/IXWebSocketPerMessageDeflateCodec.cpp.s
 
 ixwebsocket/IXWebSocketPerMessageDeflateOptions.o: ixwebsocket/IXWebSocketPerMessageDeflateOptions.cpp.o
@@ -968,7 +968,7 @@ ixwebsocket/IXWebSocketPerMessageDeflateOptions.o: ixwebsocket/IXWebSocketPerMes
 
 # target to build an object file
 ixwebsocket/IXWebSocketPerMessageDeflateOptions.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketPerMessageDeflateOptions.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketPerMessageDeflateOptions.cpp.o
 .PHONY : ixwebsocket/IXWebSocketPerMessageDeflateOptions.cpp.o
 
 ixwebsocket/IXWebSocketPerMessageDeflateOptions.i: ixwebsocket/IXWebSocketPerMessageDeflateOptions.cpp.i
@@ -976,7 +976,7 @@ ixwebsocket/IXWebSocketPerMessageDeflateOptions.i: ixwebsocket/IXWebSocketPerMes
 
 # target to preprocess a source file
 ixwebsocket/IXWebSocketPerMessageDeflateOptions.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketPerMessageDeflateOptions.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketPerMessageDeflateOptions.cpp.i
 .PHONY : ixwebsocket/IXWebSocketPerMessageDeflateOptions.cpp.i
 
 ixwebsocket/IXWebSocketPerMessageDeflateOptions.s: ixwebsocket/IXWebSocketPerMessageDeflateOptions.cpp.s
@@ -984,7 +984,7 @@ ixwebsocket/IXWebSocketPerMessageDeflateOptions.s: ixwebsocket/IXWebSocketPerMes
 
 # target to generate assembly for a file
 ixwebsocket/IXWebSocketPerMessageDeflateOptions.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketPerMessageDeflateOptions.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketPerMessageDeflateOptions.cpp.s
 .PHONY : ixwebsocket/IXWebSocketPerMessageDeflateOptions.cpp.s
 
 ixwebsocket/IXWebSocketProxyServer.o: ixwebsocket/IXWebSocketProxyServer.cpp.o
@@ -992,7 +992,7 @@ ixwebsocket/IXWebSocketProxyServer.o: ixwebsocket/IXWebSocketProxyServer.cpp.o
 
 # target to build an object file
 ixwebsocket/IXWebSocketProxyServer.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketProxyServer.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketProxyServer.cpp.o
 .PHONY : ixwebsocket/IXWebSocketProxyServer.cpp.o
 
 ixwebsocket/IXWebSocketProxyServer.i: ixwebsocket/IXWebSocketProxyServer.cpp.i
@@ -1000,7 +1000,7 @@ ixwebsocket/IXWebSocketProxyServer.i: ixwebsocket/IXWebSocketProxyServer.cpp.i
 
 # target to preprocess a source file
 ixwebsocket/IXWebSocketProxyServer.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketProxyServer.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketProxyServer.cpp.i
 .PHONY : ixwebsocket/IXWebSocketProxyServer.cpp.i
 
 ixwebsocket/IXWebSocketProxyServer.s: ixwebsocket/IXWebSocketProxyServer.cpp.s
@@ -1008,7 +1008,7 @@ ixwebsocket/IXWebSocketProxyServer.s: ixwebsocket/IXWebSocketProxyServer.cpp.s
 
 # target to generate assembly for a file
 ixwebsocket/IXWebSocketProxyServer.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketProxyServer.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketProxyServer.cpp.s
 .PHONY : ixwebsocket/IXWebSocketProxyServer.cpp.s
 
 ixwebsocket/IXWebSocketServer.o: ixwebsocket/IXWebSocketServer.cpp.o
@@ -1016,7 +1016,7 @@ ixwebsocket/IXWebSocketServer.o: ixwebsocket/IXWebSocketServer.cpp.o
 
 # target to build an object file
 ixwebsocket/IXWebSocketServer.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketServer.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketServer.cpp.o
 .PHONY : ixwebsocket/IXWebSocketServer.cpp.o
 
 ixwebsocket/IXWebSocketServer.i: ixwebsocket/IXWebSocketServer.cpp.i
@@ -1024,7 +1024,7 @@ ixwebsocket/IXWebSocketServer.i: ixwebsocket/IXWebSocketServer.cpp.i
 
 # target to preprocess a source file
 ixwebsocket/IXWebSocketServer.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketServer.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketServer.cpp.i
 .PHONY : ixwebsocket/IXWebSocketServer.cpp.i
 
 ixwebsocket/IXWebSocketServer.s: ixwebsocket/IXWebSocketServer.cpp.s
@@ -1032,7 +1032,7 @@ ixwebsocket/IXWebSocketServer.s: ixwebsocket/IXWebSocketServer.cpp.s
 
 # target to generate assembly for a file
 ixwebsocket/IXWebSocketServer.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketServer.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketServer.cpp.s
 .PHONY : ixwebsocket/IXWebSocketServer.cpp.s
 
 ixwebsocket/IXWebSocketTransport.o: ixwebsocket/IXWebSocketTransport.cpp.o
@@ -1040,7 +1040,7 @@ ixwebsocket/IXWebSocketTransport.o: ixwebsocket/IXWebSocketTransport.cpp.o
 
 # target to build an object file
 ixwebsocket/IXWebSocketTransport.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketTransport.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketTransport.cpp.o
 .PHONY : ixwebsocket/IXWebSocketTransport.cpp.o
 
 ixwebsocket/IXWebSocketTransport.i: ixwebsocket/IXWebSocketTransport.cpp.i
@@ -1048,7 +1048,7 @@ ixwebsocket/IXWebSocketTransport.i: ixwebsocket/IXWebSocketTransport.cpp.i
 
 # target to preprocess a source file
 ixwebsocket/IXWebSocketTransport.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketTransport.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketTransport.cpp.i
 .PHONY : ixwebsocket/IXWebSocketTransport.cpp.i
 
 ixwebsocket/IXWebSocketTransport.s: ixwebsocket/IXWebSocketTransport.cpp.s
@@ -1056,7 +1056,7 @@ ixwebsocket/IXWebSocketTransport.s: ixwebsocket/IXWebSocketTransport.cpp.s
 
 # target to generate assembly for a file
 ixwebsocket/IXWebSocketTransport.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketTransport.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketTransport.cpp.s
 .PHONY : ixwebsocket/IXWebSocketTransport.cpp.s
 
 # Help Target
@@ -1193,6 +1193,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/paul/Documents/wordFinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

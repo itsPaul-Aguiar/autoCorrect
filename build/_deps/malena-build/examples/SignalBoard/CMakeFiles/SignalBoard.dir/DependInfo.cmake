@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/paul/Documents/wordFinder/build/_deps/malena-src/examples/SignalBoard/src/SignalBoard.cpp" "_deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/SignalBoard.cpp.o" "gcc" "_deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/SignalBoard.cpp.o.d"
-  "/Users/paul/Documents/wordFinder/build/_deps/malena-src/examples/SignalBoard/src/main.cpp" "_deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/main.cpp.o" "gcc" "_deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/main.cpp.o.d"
+  "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/examples/SignalBoard/src/SignalBoard.cpp" "_deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/SignalBoard.cpp.o" "gcc" "_deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/SignalBoard.cpp.o.d"
+  "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/examples/SignalBoard/src/main.cpp" "_deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/main.cpp.o" "gcc" "_deps/malena-build/examples/SignalBoard/CMakeFiles/SignalBoard.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

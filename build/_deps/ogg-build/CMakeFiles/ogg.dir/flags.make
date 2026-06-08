@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/paul/Documents/wordFinder/build/_deps/ogg-src/include -I/Users/paul/Documents/wordFinder/build/_deps/ogg-build/include
+C_INCLUDES = -I/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ogg-src/include -I/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ogg-build/include
 
 C_FLAGSarm64 =  -arch arm64
 

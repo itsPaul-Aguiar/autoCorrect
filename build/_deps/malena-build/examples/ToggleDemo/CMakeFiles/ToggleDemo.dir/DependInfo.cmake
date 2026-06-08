@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/paul/Documents/wordFinder/build/_deps/malena-src/examples/ToggleDemo/ToggleDemoApp.cpp" "_deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/ToggleDemoApp.cpp.o" "gcc" "_deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/ToggleDemoApp.cpp.o.d"
+  "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/examples/ToggleDemo/ToggleDemoApp.cpp" "_deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/ToggleDemoApp.cpp.o" "gcc" "_deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/ToggleDemoApp.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

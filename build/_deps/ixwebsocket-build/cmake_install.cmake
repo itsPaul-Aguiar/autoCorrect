@@ -1,4 +1,4 @@
-# Install script for directory: /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src
+# Install script for directory: /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-build/libixwebsocket.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-build/libixwebsocket.a")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libixwebsocket.a" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libixwebsocket.a")
     execute_process(COMMAND "/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libixwebsocket.a")
@@ -47,72 +47,72 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ixwebsocket" TYPE FILE FILES
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXBase64.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXBench.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXCancellationRequest.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXConnectionState.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXDNSLookup.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXExponentialBackoff.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXGetFreePort.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXGzipCodec.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXHttp.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXHttpClient.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXHttpServer.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXNetSystem.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXProgressCallback.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXSelectInterrupt.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXSelectInterruptFactory.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXSelectInterruptPipe.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXSelectInterruptEvent.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXSetThreadName.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXSocket.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXSocketConnect.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXSocketFactory.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXSocketServer.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXSocketTLSOptions.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXStrCaseCompare.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXUdpSocket.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXUniquePtr.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXUrlParser.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXUuid.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXUtf8Validator.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXUserAgent.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocket.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketCloseConstants.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketCloseInfo.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketErrorInfo.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketHandshake.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketHandshakeKeyGen.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketHttpHeaders.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketInitResult.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketMessage.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketMessageType.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketOpenInfo.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketPerMessageDeflate.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketPerMessageDeflateCodec.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketPerMessageDeflateOptions.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketProxyServer.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketSendData.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketSendInfo.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketServer.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketTransport.h"
-    "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketVersion.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXBase64.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXBench.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXCancellationRequest.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXConnectionState.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXDNSLookup.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXExponentialBackoff.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXGetFreePort.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXGzipCodec.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXHttp.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXHttpClient.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXHttpServer.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXNetSystem.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXProgressCallback.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXSelectInterrupt.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXSelectInterruptFactory.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXSelectInterruptPipe.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXSelectInterruptEvent.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXSetThreadName.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXSocket.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXSocketConnect.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXSocketFactory.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXSocketServer.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXSocketTLSOptions.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXStrCaseCompare.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXUdpSocket.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXUniquePtr.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXUrlParser.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXUuid.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXUtf8Validator.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXUserAgent.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocket.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketCloseConstants.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketCloseInfo.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketErrorInfo.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketHandshake.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketHandshakeKeyGen.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketHttpHeaders.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketInitResult.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketMessage.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketMessageType.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketOpenInfo.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketPerMessageDeflate.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketPerMessageDeflateCodec.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketPerMessageDeflateOptions.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketProxyServer.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketSendData.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketSendInfo.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketServer.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketTransport.h"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketVersion.h"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ixwebsocket" TYPE FILE FILES "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-build/ixwebsocket-config.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ixwebsocket" TYPE FILE FILES "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-build/ixwebsocket-config.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-build/ixwebsocket.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-build/ixwebsocket.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/ixwebsocket/ixwebsocket-targets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/ixwebsocket/ixwebsocket-targets.cmake"
-         "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-build/CMakeFiles/Export/dbc99e06a99e696141dafd40631f8060/ixwebsocket-targets.cmake")
+         "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-build/CMakeFiles/Export/dbc99e06a99e696141dafd40631f8060/ixwebsocket-targets.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/ixwebsocket/ixwebsocket-targets-*.cmake")
       if(_cmake_old_config_files)
@@ -125,15 +125,15 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ixwebsocket" TYPE FILE FILES "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-build/CMakeFiles/Export/dbc99e06a99e696141dafd40631f8060/ixwebsocket-targets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ixwebsocket" TYPE FILE FILES "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-build/CMakeFiles/Export/dbc99e06a99e696141dafd40631f8060/ixwebsocket-targets.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ixwebsocket" TYPE FILE FILES "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-build/CMakeFiles/Export/dbc99e06a99e696141dafd40631f8060/ixwebsocket-targets-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ixwebsocket" TYPE FILE FILES "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-build/CMakeFiles/Export/dbc99e06a99e696141dafd40631f8060/ixwebsocket-targets-noconfig.cmake")
   endif()
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-build/install_local_manifest.txt"
+  file(WRITE "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

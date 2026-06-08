@@ -1,11 +1,11 @@
 _deps/malena-build/src/CMakeFiles/Malena.dir/Providers/WebSocketProvider.cpp.o: \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/src/Providers/WebSocketProvider.cpp \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Providers/WebSocketProvider.h \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Providers/NetworkDispatcher.h \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Core/malena_export.h \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Traits/Communication/Messenger.h \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Engine/Messaging/MessageManager.h \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Core/DeferredOperationsManager.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/src/Providers/WebSocketProvider.cpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Providers/WebSocketProvider.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Providers/NetworkDispatcher.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Core/malena_export.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Traits/Communication/Messenger.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Engine/Messaging/MessageManager.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Core/DeferredOperationsManager.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -781,45 +781,45 @@ _deps/malena-build/src/CMakeFiles/Malena.dir/Providers/WebSocketProvider.cpp.o: 
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Core/../../../src/Core/DeferredOperationsManager.tpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Core/../../../src/Core/DeferredOperationsManager.tpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/typeindex \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Engine/Messaging/../../../../src/Engine/Messaging/MessageManager.tpp \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Traits/Base/Trait.h \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Traits/Base/Customizable.h \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Resources/StateManager.h \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Resources/../../../src/Resources/StateManager.tpp \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Utilities/TypeExtraction.h \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Traits/Communication/../../../../src/Traits/Communication/Messenger.tpp \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Utilities/Json.h \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/json.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/adl_serializer.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/abi_macros.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/conversions/from_json.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Engine/Messaging/../../../../src/Engine/Messaging/MessageManager.tpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Traits/Base/Trait.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Traits/Base/Customizable.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Resources/StateManager.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Resources/../../../src/Resources/StateManager.tpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Utilities/TypeExtraction.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Traits/Communication/../../../../src/Traits/Communication/Messenger.tpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Utilities/Json.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/json.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/adl_serializer.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/abi_macros.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/conversions/from_json.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/valarray \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/exceptions.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/value_t.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/macro_scope.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/meta/detected.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/meta/void_t.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/thirdparty/hedley/hedley.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/exceptions.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/value_t.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/macro_scope.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/meta/detected.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/meta/void_t.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/thirdparty/hedley/hedley.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/string_escape.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/input/position_t.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/meta/cpp_future.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/meta/type_traits.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/iterators/iterator_traits.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/meta/call_std/begin.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/meta/call_std/end.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/json_fwd.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/string_concat.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/meta/identity_tag.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/meta/std_fs.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/string_escape.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/input/position_t.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/meta/cpp_future.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/meta/type_traits.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/iterators/iterator_traits.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/meta/call_std/begin.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/meta/call_std/end.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/json_fwd.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/string_concat.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/meta/identity_tag.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/meta/std_fs.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
@@ -854,12 +854,12 @@ _deps/malena-build/src/CMakeFiles/Malena.dir/Providers/WebSocketProvider.cpp.o: 
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/conversions/to_json.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/iterators/iteration_proxy.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/byte_container_with_subtype.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/hash.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/input/binary_reader.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/input/input_adapters.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/conversions/to_json.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/iterators/iteration_proxy.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/byte_container_with_subtype.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/hash.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/input/binary_reader.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/input/input_adapters.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/numeric \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/accumulate.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h \
@@ -875,25 +875,25 @@ _deps/malena-build/src/CMakeFiles/Malena.dir/Providers/WebSocketProvider.cpp.o: 
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_reduce.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/execution \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_execution_policy.h \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/input/json_sax.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/input/lexer.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/meta/is_sax.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/input/parser.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/iterators/internal_iterator.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/iterators/primitive_iterator.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/iterators/iter_impl.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/json_custom_base_class.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/json_pointer.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/json_ref.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/output/binary_writer.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/output/output_adapters.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/output/serializer.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/conversions/to_chars.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/ordered_map.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/input/json_sax.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/input/lexer.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/meta/is_sax.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/input/parser.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/iterators/internal_iterator.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/iterators/primitive_iterator.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/iterators/iter_impl.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/json_custom_base_class.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/json_pointer.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/json_ref.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/output/binary_writer.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/output/output_adapters.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/output/serializer.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/conversions/to_chars.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/ordered_map.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/any \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/detail/macro_unscope.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-src/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Engine/Networking/WebSocketClient.h \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Engine/Networking/NetworkManager.h
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/detail/macro_unscope.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-src/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Engine/Networking/WebSocketClient.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Engine/Networking/NetworkManager.h

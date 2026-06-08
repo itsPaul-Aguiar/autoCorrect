@@ -1,4 +1,4 @@
-# Install script for directory: /Users/paul/Documents/wordFinder/build/_deps/malena-src
+# Install script for directory: /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,43 +39,43 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/paul/Documents/wordFinder/build/_deps/httplib-build/cmake_install.cmake")
+  include("/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/httplib-build/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-build/cmake_install.cmake")
+  include("/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-build/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/paul/Documents/wordFinder/build/_deps/nlohmann_json-build/cmake_install.cmake")
+  include("/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/nlohmann_json-build/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/paul/Documents/wordFinder/build/_deps/malena-build/src/cmake_install.cmake")
+  include("/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/src/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/paul/Documents/wordFinder/build/_deps/malena-build/examples/cmake_install.cmake")
+  include("/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/examples/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Malena" TYPE FILE FILES
-    "/Users/paul/Documents/wordFinder/build/_deps/malena-build/Malena-config.cmake"
-    "/Users/paul/Documents/wordFinder/build/_deps/malena-build/Malena-config-version.cmake"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/Malena-config.cmake"
+    "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/Malena-config-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/Users/paul/Documents/wordFinder/build/_deps/malena-src/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/paul/Documents/wordFinder/build/_deps/malena-build/install_local_manifest.txt"
+  file(WRITE "/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

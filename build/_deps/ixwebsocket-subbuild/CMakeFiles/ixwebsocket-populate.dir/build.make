@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-subbuild
+CMAKE_SOURCE_DIR = /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-subbuild
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-subbuild
+CMAKE_BINARY_DIR = /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-subbuild
 
 # Utility rule file for ixwebsocket-populate.
 
@@ -77,60 +77,60 @@ CMakeFiles/ixwebsocket-populate-complete: ixwebsocket-populate-prefix/src/ixwebs
 CMakeFiles/ixwebsocket-populate-complete: ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-build
 CMakeFiles/ixwebsocket-populate-complete: ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-install
 CMakeFiles/ixwebsocket-populate-complete: ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-test
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'ixwebsocket-populate'"
-	/opt/homebrew/bin/cmake -E make_directory /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-subbuild/CMakeFiles
-	/opt/homebrew/bin/cmake -E touch /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-subbuild/CMakeFiles/ixwebsocket-populate-complete
-	/opt/homebrew/bin/cmake -E touch /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'ixwebsocket-populate'"
+	/opt/homebrew/bin/cmake -E make_directory /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-subbuild/CMakeFiles
+	/opt/homebrew/bin/cmake -E touch /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-subbuild/CMakeFiles/ixwebsocket-populate-complete
+	/opt/homebrew/bin/cmake -E touch /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-done
 
 ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-update:
 .PHONY : ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-update
 
 ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-build: ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'ixwebsocket-populate'"
-	cd /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-build && /opt/homebrew/bin/cmake -E echo_append
-	cd /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-build && /opt/homebrew/bin/cmake -E touch /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'ixwebsocket-populate'"
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-build && /opt/homebrew/bin/cmake -E echo_append
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-build && /opt/homebrew/bin/cmake -E touch /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-build
 
 ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-configure: ixwebsocket-populate-prefix/tmp/ixwebsocket-populate-cfgcmd.txt
 ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-configure: ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'ixwebsocket-populate'"
-	cd /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-build && /opt/homebrew/bin/cmake -E echo_append
-	cd /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-build && /opt/homebrew/bin/cmake -E touch /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'ixwebsocket-populate'"
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-build && /opt/homebrew/bin/cmake -E echo_append
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-build && /opt/homebrew/bin/cmake -E touch /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-configure
 
 ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-download: ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-gitinfo.txt
 ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-download: ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'ixwebsocket-populate'"
-	cd /Users/paul/Documents/wordFinder/build/_deps && /opt/homebrew/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/tmp/ixwebsocket-populate-gitclone.cmake
-	cd /Users/paul/Documents/wordFinder/build/_deps && /opt/homebrew/bin/cmake -E touch /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'ixwebsocket-populate'"
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps && /opt/homebrew/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/tmp/ixwebsocket-populate-gitclone.cmake
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps && /opt/homebrew/bin/cmake -E touch /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-download
 
 ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-install: ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'ixwebsocket-populate'"
-	cd /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-build && /opt/homebrew/bin/cmake -E echo_append
-	cd /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-build && /opt/homebrew/bin/cmake -E touch /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'ixwebsocket-populate'"
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-build && /opt/homebrew/bin/cmake -E echo_append
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-build && /opt/homebrew/bin/cmake -E touch /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-install
 
 ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'ixwebsocket-populate'"
-	/opt/homebrew/bin/cmake -Dcfgdir= -P /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/tmp/ixwebsocket-populate-mkdirs.cmake
-	/opt/homebrew/bin/cmake -E touch /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'ixwebsocket-populate'"
+	/opt/homebrew/bin/cmake -Dcfgdir= -P /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/tmp/ixwebsocket-populate-mkdirs.cmake
+	/opt/homebrew/bin/cmake -E touch /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-mkdir
 
 ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-patch: ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-patch-info.txt
 ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-patch: ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'ixwebsocket-populate'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'ixwebsocket-populate'"
 	/opt/homebrew/bin/cmake -E echo_append
-	/opt/homebrew/bin/cmake -E touch /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-patch
+	/opt/homebrew/bin/cmake -E touch /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-patch
 
 ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-update:
 .PHONY : ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-update
 
 ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-test: ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'ixwebsocket-populate'"
-	cd /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-build && /opt/homebrew/bin/cmake -E echo_append
-	cd /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-build && /opt/homebrew/bin/cmake -E touch /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-test
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'ixwebsocket-populate'"
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-build && /opt/homebrew/bin/cmake -E echo_append
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-build && /opt/homebrew/bin/cmake -E touch /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-test
 
 ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-update: ixwebsocket-populate-prefix/tmp/ixwebsocket-populate-gitupdate.cmake
 ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-update: ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-update-info.txt
 ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-update: ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Performing update step for 'ixwebsocket-populate'"
-	cd /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src && /opt/homebrew/bin/cmake -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/tmp/ixwebsocket-populate-gitupdate.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Performing update step for 'ixwebsocket-populate'"
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src && /opt/homebrew/bin/cmake -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/tmp/ixwebsocket-populate-gitupdate.cmake
 
 CMakeFiles/ixwebsocket-populate.dir/codegen:
 .PHONY : CMakeFiles/ixwebsocket-populate.dir/codegen
@@ -157,6 +157,6 @@ CMakeFiles/ixwebsocket-populate.dir/clean:
 .PHONY : CMakeFiles/ixwebsocket-populate.dir/clean
 
 CMakeFiles/ixwebsocket-populate.dir/depend:
-	cd /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-subbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-subbuild /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-subbuild /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-subbuild /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-subbuild /Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-subbuild/CMakeFiles/ixwebsocket-populate.dir/DependInfo.cmake "--color=$(COLOR)" ixwebsocket-populate
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-subbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-subbuild /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-subbuild /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-subbuild /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-subbuild /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-subbuild/CMakeFiles/ixwebsocket-populate.dir/DependInfo.cmake "--color=$(COLOR)" ixwebsocket-populate
 .PHONY : CMakeFiles/ixwebsocket-populate.dir/depend
 

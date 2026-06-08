@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/paul/Documents/wordFinder
+CMAKE_SOURCE_DIR = /Users/paul/Documents/programming/cpp/autoCorrect
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/paul/Documents/wordFinder/build
+CMAKE_BINARY_DIR = /Users/paul/Documents/programming/cpp/autoCorrect/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /Users/paul/Documents/wordFinder/build
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool..."
-	cd /Users/paul/Documents/wordFinder/build && /opt/homebrew/bin/cpack --config ./CPackConfig.cmake
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && /opt/homebrew/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	cd /Users/paul/Documents/wordFinder/build && /opt/homebrew/bin/cpack --config ./CPackSourceConfig.cmake
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && /opt/homebrew/bin/cpack --config ./CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -152,14 +152,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/paul/Documents/wordFinder/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/paul/Documents/wordFinder/build/CMakeFiles /Users/paul/Documents/wordFinder/build/_deps/malena-build/examples/ToggleDemo//CMakeFiles/progress.marks
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/examples/ToggleDemo/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/paul/Documents/wordFinder/build/CMakeFiles 0
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/paul/Documents/programming/cpp/autoCorrect/build/CMakeFiles /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-build/examples/ToggleDemo//CMakeFiles/progress.marks
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/examples/ToggleDemo/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/paul/Documents/programming/cpp/autoCorrect/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/examples/ToggleDemo/clean
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/examples/ToggleDemo/clean
 .PHONY : clean
 
 # The main clean target
@@ -168,22 +168,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/examples/ToggleDemo/preinstall
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/examples/ToggleDemo/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/examples/ToggleDemo/preinstall
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/examples/ToggleDemo/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/paul/Documents/wordFinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/rule:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/rule
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/rule
 .PHONY : _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/rule
 
 # Convenience name for target.
@@ -192,7 +192,7 @@ ToggleDemo: _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/rul
 
 # fast build rule for target.
 ToggleDemo/fast:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/build.make _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/build
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/build.make _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/build
 .PHONY : ToggleDemo/fast
 
 ToggleDemoApp.o: ToggleDemoApp.cpp.o
@@ -200,7 +200,7 @@ ToggleDemoApp.o: ToggleDemoApp.cpp.o
 
 # target to build an object file
 ToggleDemoApp.cpp.o:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/build.make _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/ToggleDemoApp.cpp.o
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/build.make _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/ToggleDemoApp.cpp.o
 .PHONY : ToggleDemoApp.cpp.o
 
 ToggleDemoApp.i: ToggleDemoApp.cpp.i
@@ -208,7 +208,7 @@ ToggleDemoApp.i: ToggleDemoApp.cpp.i
 
 # target to preprocess a source file
 ToggleDemoApp.cpp.i:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/build.make _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/ToggleDemoApp.cpp.i
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/build.make _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/ToggleDemoApp.cpp.i
 .PHONY : ToggleDemoApp.cpp.i
 
 ToggleDemoApp.s: ToggleDemoApp.cpp.s
@@ -216,7 +216,7 @@ ToggleDemoApp.s: ToggleDemoApp.cpp.s
 
 # target to generate assembly for a file
 ToggleDemoApp.cpp.s:
-	cd /Users/paul/Documents/wordFinder/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/build.make _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/ToggleDemoApp.cpp.s
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(MAKE) $(MAKESILENT) -f _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/build.make _deps/malena-build/examples/ToggleDemo/CMakeFiles/ToggleDemo.dir/ToggleDemoApp.cpp.s
 .PHONY : ToggleDemoApp.cpp.s
 
 # Help Target
@@ -248,6 +248,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/paul/Documents/wordFinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/paul/Documents/programming/cpp/autoCorrect/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

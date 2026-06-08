@@ -1,7 +1,7 @@
 _deps/malena-build/src/CMakeFiles/Malena.dir/Engine/Networking/NetworkResponse.cpp.o: \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/src/Engine/Networking/NetworkResponse.cpp \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Engine/Networking/NetworkResponse.h \
-  /Users/paul/Documents/wordFinder/build/_deps/malena-src/include/Malena/Core/malena_export.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/src/Engine/Networking/NetworkResponse.cpp \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Engine/Networking/NetworkResponse.h \
+  /Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/malena-src/include/Malena/Core/malena_export.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h \

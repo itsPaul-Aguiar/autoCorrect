@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DIXWEBSOCKET_USE_ZLIB
 
-CXX_INCLUDES = -I/Users/paul/Documents/wordFinder/build/_deps/ixwebsocket-src
+CXX_INCLUDES = -I/Users/paul/Documents/programming/cpp/autoCorrect/build/_deps/ixwebsocket-src
 
 CXX_FLAGSarm64 =  -Wall -Wextra -pedantic -Wshorten-64-to-32 -std=c++11 -arch arm64
 
